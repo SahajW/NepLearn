@@ -1,0 +1,35 @@
+body {
+    background: url("../Assets/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}

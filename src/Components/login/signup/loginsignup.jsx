@@ -1,16 +1,14 @@
-import React from 'react'
-import './loginsetup.css'
+import React from "react";
+import "../loginsignup.css";
 
+import user_icon from "../../Assets/user.png";
+import email_icon from "../../Assets/email.png";
+import lock_icon from "../../Assets/padlock.png";
 
-import user_icon from '../Assets/user.png'
-import email_icon from 'email.png'
-import lock_icon from '../Assets/padlock.png'
-
-export const loginsignup = () => {
+export const Loginsignup = () => {
   return (
-
-    <div className='container'>
-      <div className='header'>
+    <div className="container">
+      <div className="header">
         <div className="text">Sign Up</div>
         <div className="underline"></div>
       </div>
@@ -29,6 +27,5 @@ export const loginsignup = () => {
         </div>
       </div>
     </div>
-
-  )
-}
+  );
+};
