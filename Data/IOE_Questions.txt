@@ -1,0 +1,959 @@
+
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2082 Shrawan
+
+Subject: ~ Computer Programming 
+
+
+
+1. a) Define instruction and program. Discuss in brief about different generation of programming languages. [1+3]
+   b) Explain the importance of problem analysis in software development. Write an algorithm and draw a flowchart to test whether a number entered by user is even or not. [1+3]
+
+2. a) What is an expression? What are the types of expression? [2+2]
+   b) Explain about input and output function available in C with syntax and example of each part. [2+2+2]
+
+3. a) Compare nested if with else if ladder structure along with their flowchart. [4]
+   b) Write a program to check whether a number entered by the user is prime or composite. [4]
+
+4. a) What do you mean by "call by value and call by reference"? Explain it with suitable example. [4]
+   b) Write a program to display the factorial of an integer entered by the user using the concept of recursive function. [4]
+
+5. a) Write a program to reverse a string without using string handling function. [4]
+   b) Write a program to display the largest and smallest number among 10 numbers entered by the user. [6]
+
+6. What is structure? Why is it necessary? Write a program to add two distances given in
+   feet and inch format using structure. [1+1+6]
+
+7. a) Explain pointer arithmetic with suitable example. [4]
+   b) Write a program to display sum, difference, and product of two numbers using the concept of pointer. [4]
+
+
+
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2082 Baishak
+
+Subject: ~ Computer Programming 
+
+1. a) Differentiate between system software and application software. [2]
+   b) Why C programming language is most commonly used in simulation? [2]
+
+2. a) What do you understand by testing and debugging? [2]
+   b) Write an algorithm and draw a flowchart to find the sum of first n natural numbers where the value of n is entered by the user. [4]
+
+3. a) Define precedence and associativity of operators with examples. [2]
+   b) Define keywords. List down the rules for writing identifiers in C. [2]
+
+4. Differentiate between unformatted and formatted input/output in C.  [4]
+
+5. a) Write a program in C to check whether a number entered by the user is prime or composite. [5]
+   b) Write a program in C to display the following pattern: [5]
+				*
+                             *  *  *
+                          *  *  *  *  *
+                       *  *  *  *  *  *  *
+
+6. a) Define functions and classify it. List down the advantages of using functions in the program. [2]
+
+b) Write a program in C to display nᵗʰ term of a Fibonacci sequence using recursive function. The value of n is entered by the user. [6]
+
+7. a) Define 1D and 2D array. Write a program in C to display the transpose of a m x n matrix entered by the user. (2+4]
+
+b) Write a program in C to calculate the length of a string entered by the user without using the library function. [4]
+
+8. Define nested structure. Write a program in C to input the name, roll, marks and address of n students from the user and display the entered details in the order of marks. [2+6]
+
+9. a) Define pointers. List out the importance of pointer in C Programming. [1+2]
+
+b) Write a program in C to sort n numbers entered by the user in ascending order using the concept of pointer. [5]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2082 Shrawan
+
+Subject: ~ Computer Programming 
+
+
+1. Differentiate between system software and application software. What are the basic steps needed to be followed for developing a software? Explain. [2+4]
+
+2. Define operator and keyword in C. Write an algorithm and draw the flowchart to calculate the factorial of a positive integer. [2+6]
+
+3. Write syntax and example of the following. [6]
+	i) getch()
+	ii) gets ()
+	iii) printf ()
+	iv) scanf ()
+
+4. Differentiate between do loop and while loop in C. Write a program to check whether a given N-digit positive number is Armstrong or not. [Hint: Number that is equal to the sum of its own digits each raised to the power. E.g. 1634=1⁴+6⁴+3⁴+4⁴=1634] [3+5]
+
+5. Explain how array can be passed to the function. Write a program to read and sort the N elements of a 1-D array in ascending order and display the sorted elements. [2+5]
+
+6. Write a program to find the length of a string without using string handling function. [3]
+
+7. Explain function prototyping. Write a program to find the Fibonacci series up to n terms using concept of recursive function. (2+5]
+
+8. What do you mean by nested structure? Explain. Write a program to demonstrate the use of ‘.’ and ‘->’ operator in structure. [3+5]
+
+9. Write a program to illustrate the concept of pointer arithmetic. [4]
+
+10. Write shore notes on: [2x4]
+i) Call by value vs call by reference method in functions
+ii) break vs continue in loop termination
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2081 Baishak
+
+Subject: ~ Computer Programming 
+
+
+1. Discuss about compilation process in C. Draw a flowchart to calculate the sum of digits contained in a number entered by the user. [4+4]
+
+
+2. Write a syntax to use else-if ladder and do-while in C. Write a program in C to generate the given pattern using concept of loop control. [2+4]
+                  1
+                2 4
+              3 6 9
+          4 8 12 16
+
+3. Write a program using recursive function to compute xʸ and explain how this program works. [4+4]
+
+4. Explain about “toupper ()” and “tolower ()” function used in C. Write a C program to read the name of N countries and display the name of these countries in alphabetical order. [2+6]
+
+5. Discuss about the initialization and declaration of pointers with examples. Write down about pointer arithmetic. [2+6]
+
+6. Write a program in C (16-bit compiler) to create a structure name “Karmachari” with members: ID_ Number (6-digit), Name and salary of 40,000 employees. Create a function name “search ()”. Where, the user inputs a value of salary within the records, if found display the records. [8]
+
+7. Compare switch statement with user defined function. Write a program in C to find the transpose of NXN matrix. [3+5]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2080 Bhadra
+
+1. Write about generation of Computer Programming with example. Draw a flowchart to calculate the area of triangle, where the values of three sides are read from the user. [Hint: Area = √(s(s— a)(s — b)(s— 0)) ands = (a+b +c)/2 [4+4]
+
+2. a) What are the fundamental data types in C? Explain about precedence and associativity of an operator with examples. [2+2]
+
+   b) Write down the output of following segment of a C program Void main () [4]
+	{
+	int n=90;
+	printf(“%10d \n”,n);
+	printf(“%-2d \n”,n);
+	printf(“%c \n”,’A’);
+	printf(“%-10d \n”,n);
+	getch();
+	}
+
+3. Compare else-if ladder with switch statement. Write a program to check whether the entered number is palindrome or not.(Hint: Palindrome number for example is 12321, this number is same when reversed] [4+4]
+
+4. Write the syntax of function prototypes for passing 1D and 2D array into user defined function in C. Write a program in C to read the elements of 2D array of any dimension. Add all the columns of that array using user defined function. Store the result in 1D array and display the same. [2+6]
+
+5. Write a C program (16-bit compiler) to read name, roll-number (must be a six-digit number) and marks obtained in five subjects of N students using structure. Where, N is the input provided by the user. Display the details of all students as well as the total marks and percentage obtained by each student. [8]
+
+6. a) Compare call by value and call by reference with example. [4]
+   
+   b) Write the output of the program shown below [4]
+	# include <stdio.h>
+	int main ()
+	{ 
+	int a= 10, *ptr1, **ptr2;
+	ptr1 = &a; 
+	ptr2 = &ptrl;
+	printf ("%d\t %d \n", a,&a); 
+	printf ("%d\t %d \n",&ptr1, ptr1);
+	printf ("%d\t %d \n", *ptr1, *ptr2); 
+	**ptr2 =20;
+	printf ("%d", a);
+	return 0;
+	}
+
+7. Write the concept of string handling functions. Write a program in C to concatenate two strings without using string handling functions. [2+6]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2080 Baishak
+
+
+1. a) How is an application software different from system software? Explain with examples. [4]
+
+   b) How is code in source file is converted to the executable file? Explain with key steps involved. [4]
+
+2. a) How is constant different than a variable?
+
+   b) Write a C program to read an integer 'd' from the user. If 'd' is the radius of a circular ground in meters, then this program should calculate and display the area of the circle in square meter. [6]
+
+3. What are formatted input/ output functions? Explain each in detail with examples. [2+4]
+4. a) Differentiate between library function and user.defined functions. Provide relevant examples. [3]
+
+   b) What is a function prototype? Write a C program to find sum of first 10 natural numbers using recursion. [1+4]
+
+5. a) Write a program to read marks of 48 students in a class and display the second highest mark. [5]
+
+
+   b) How can we copy one string to another string without using any string handling function? [5]
+
+6. What do you mean by array of structure? Write a program to create a structure named "Student" having members Roll, Name, Address and Marks. Use this structure to read the information of 48 students in a class and display the information of only those students whose marks is between 50 and 70. [2+8]
+
+7. What are pointer arithmetic? Explain with example. Write a C program that uses pointer to read mxn matrix from user. Pass it to function that finds the transpose of the matrix. [4+4]
+
+8 .Write short notes on: [2 * 3]
+
+a) While and do-while statement
+b) String manipulation in C.
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2079 Bhadra
+
+
+1. a) Differentiate between system software and application software. Provide relevant examples for each of them. [4]
+
+   b) List the steps involved in solving a problem using a computer. Why do we need an algorithm before writing program code? (2+2]
+
+2. a) Define tokens in C programming language. How are variables declared as constant? Explain with example. [2+2]
+
+   b) Write the output of the following: [6]
+
+	# include < stdio.h >
+	int main ()
+	{
+	char str1 [50], str2 [50] ={'N','E','P','A','L'} ;
+	scanf ("% [A-Z]", str1 ) ;
+	printf ("%s\n" , str1) ;
+	printf ("% 0.5 s\n" , str2) ;
+	printf ("% 5.3 s\n", str2) ;
+	printf ("% -0.3 s" , str2) ;
+	return 0;
+	}
+	Input string: KATHmanDU
+
+3. How are break and continue statements used to jump out from the loop? Write a program to evaluate the following series until the term value becomes less than (10^{-6}:\cos (x)=1-{x^{2}}/{2!}+{x^{4}}/{4!}-{x^{6}}/{6!}+x^{8}}/{8!}... [4+6]
+
+4. a) Write a syntax of function declaration, function definition and function call in C programming. Can a main function be called recursively in C? Justify your opinion. [3+1]
+
+   b) Explain the use of recursive function with a suitable example. [4]
+
+5. a) Differentiate between array and string. Explain how to declare and use multi-dimensional arrays in C. [3+2]
+
+   b) Write a C program to read a string from the user. Pass the string to a function and sort the alphabets in descending order. For example, if the user entered "exam" then the program should display "xmea". [5]
+
+6. a) What is the meaning of data type used in pointer declaration? Define a function in your program to swap two integers using pass by reference. [1+3]
+
+   b) Write a program to find the frequency of a number in array. Explain the relation of pointer and array using this program. [4]
+
+
+7. Write short notes on: [2x4]
+
+a) Associativity in C
+b) Entry and exit control loop
+ 
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2079 Bhadra
+
+1. a) What is a program? Explain different types of programming language in brief. [1+3]
+
+   b) What is an algorithm? Explain how does algorithm and flowchart helps in computer programming. [1+3]
+
+2. a) Explain Ternary operator in C with an example. Define following terms. [2+2]
+	(i) Preprocessor directives (ii) Keywords
+    
+   b) Write the output of the following C program. [4]
+	int a,b; :
+	double c = 123.55667788
+	char str[] = "I enjoy programming";
+	scanf(" %3d%2d", &a, &b);
+	printf('a = %5\n b=%-7d",a,b);
+	printf("\n%10.7s",str);
+	printf("\n%0.3f",c);
+	printf("\n%-10.6f",c);
+
+	input:123456     789
+
+3. Write the difference between formatted I/O and unformatted I/O functions in C-programming. Write the syntax for following functions. [2+4]
+	(i) getche() (ii) getchar() ii) scanf()
+
+4. a) What do you mean by iteration? Explain the operation of break and continue statement with a suitable example. : [1+3]
+
+   b) Write a C program to check whether an entered word is a palindrome or not without using library function. [6]
+
+5 a) What do you mean by a function header? Explain the function parameters and its types. [1+3]
+
+  b) Write a C program to calculate the sum of digits of a given number unless the sum becomes a single digit using recursion. [Hint: 9785 => 29 => 11 => 2] [4]
+
+6. a) What is an array? Why is it necessary in c programming? [1+2]
+   b) Write a program which display following pattern. [5]
+	HE
+	HEL
+	HELL
+	HELLO
+	HELL
+	HEL
+	HE
+	H
+
+
+7. Is there any relation between array and pointer? If yes, show the relation between array and pointer with a suitable example. [1+3]
+
+8. What is structure? Write a program to read a structure named "Faculty" having StaffID, Name, Address and ServiceYear as member. Where ServiceYear is another structure having DurationInYear as member. Now display the details of those faculties whose service duration is more than 10 and less than 30 years, [1+7]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2078 Kartik
+
+1. a) Discuss the recent software trends. Explain in details about the features that 4 software should include. [2+2]
+
+   b) List out the general rules for flowcharting. What are the errors that might occur during debugging? [2+2]
+
+2. a) What are pre-processor directives? Explain compilation process with suitable block diagram. [1+3]
+
+   b) Why do we need to analyse the problem before solving it? Define tokens, expression and identifiers. [1+3]
+
+3. a) What is the control statement? Write down the classification of control statements. [1+2]
+   
+   b) Write down the syntax of a given function. [4x1]
+	(i) printf
+	(ii) scanf()
+	(iii)getchar()
+	(iv) getch()
+
+4. a) Write the output of following program: [3]
+	int main)
+	{
+	char ch='G';
+	int g=10;
+	float gravity = 9.81;
+	printf("%%d%%fn");
+	printf("%10d\n", g);
+	printf("%3c\n", ch);
+	printf("%.3f\n", gravity);
+	printf("%-10.1f%d\n", gravity, 2);
+	return 0;
+	} 
+   b) Define and write syntax of the following: [3 * 1]
+	(i) gets()
+	(ii) putchar()
+	(iii)scanf()
+5. Why do we need loop for programming? Write a program to evaluate the following series. [2+4]
+	cos(x) = 1- {x^{2}/{2!}+{x^{4}}/{4!}-{x^{6}}/{6!}.......+n terms
+
+6. Why do we need to declare a function? Define formal parameter and actual parameter. Evaluate following series using recursive function. [2+2+4]
+	1,11, 111, 1111, 11111...... n terms
+ 
+7. a) Define an array of string with an example. Distinguish between an array and a pointer. [2+2]
+
+   b) Write a C program to insert an element to a desired position to an array using function. The new element to be inserted and desired position should be given by user. [6]
+
+8. a) Define a void pointer with an appropriate example. [2]
+
+   b) Write a C program that uses pointer to represent two 2-D array of size of mxn and pxq respectively. Find the product of these two matrices if possible otherwise display a message "Calculation cannot be performed" using function. [6]
+
+9. Discuss about nested structure with a suitable example. Create a structure called “student” with data member name, address and id.pass structure to function and sort the information of student on the basis of alphabetical order of "name" and display the result in main() function. [2+6]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2076 Chaitra
+
+1. What are different types of computer software? What do you mean by high level and low level programming languages? A long with the block diagram explain the steps involved during compilation of a source code. [2+2+4]
+
+2. Explain different types of error that usually appears during the programming. Define preprocessing directive and explain its type with example. Write the algorithm and draw the flowchart to find the reverse of given number. [2+2+4]
+
+3. Why are formatted output important in C language? Write a program to print all the roots (Even imaginary roots) of quadratic equation.  [3+5]
+
+4. Explain the importance of a switch case statement. Compare switch-case with if-else ladder. Write a program to find sum of numbers from 1 to 100 which are exactly divisible by 5 and not by 3. [2+2+4]
+
+5. How is function declared? Why is function prototype necessary? Write recursive function segment that returns the sum of numbers from 1 ton given by the user. [2+1+5]
+
+6. How can you pass one dimensional array to function and what does name of an array in function call represents? Write a program to find the largest and smallest element of an array using a single function and display the result in calling function. [3+5]
+
+7. Explain how a structure can be defined and structure variables can be declared in C. Write a program that reads name, roll numbers, program and marks obtained in five subjects by students until the user enters 'e' and display the student detail and total marks obtained by each student. [3+5]
+
+8. What is pointer? Discuss its relationship with an array. Write a function program that behaves strcpy() function using pointer as argument. [1+2+5]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2076 Ashwin
+
+1 a) Define a language processor. Explain the main types of language processor in detail. [2+3]
+
+  b) List the basic step of problem solving using computer. Write an algorithm and draw a flowchart to find the sum of N natural number. [1+4]
+
+2. a) Define formatted and unformatted I/O functions. Write the operations of following functions: [2+3]
+	(i) getch()
+	(ii) getche()
+	(iii)getchar()
+
+   b) What is an expression? Write a program to display the smallest number between three integers entered from user using conditional operator. [1+4]
+
+3. a) Differentiate between while and Do-while looping statement with example. [4]
+
+   b) Write a program to evaluate the following series up n term. Prompt the user to input value of n and x. f(x) = 1-{x^{2}}/{2!} + {x^{4}}/{4!} - {x^{6}}/{6!} + {x^{8}}/{8!} up to n terms. [6]
+
+4. a) What are the different types of functions available in C? What do you mean by pass by reference and pass by value. (2+3]
+
+b) What are the similarities and difference between iteration and recursive function? Give suitable example. [5]
+
+5. How do you initialize a 2D array? Explain with an example. Write a program to input two matrices of size mxn and pxq respectively. Pass these matrices to the function to calculate the product matrix. Display the product matrix in the main () function. [2+8]
+6. a) What is a structure? When do we use structure? [2+2]
+   
+   b) Write a program using pointer to swap the value of two variable where the swapping operation is performed in separate function. [6]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2075 Chaitra
+
+1. a) What is computer programming and computer software? Explain about types of programming languages and software. [2+2]
+
+   b) What do you mean by compiler? Explain in brief the steps involved during compilation process along with block diagram. [2+4]
+
+2. a) What is expression? What kind of information is represented by expression? [2+2]
+   b) What is the purpose of the putchar function? How is it used within a C program?  Compare with the getchar function with example. [6]
+
+3. a) Compare nested-if control structure with else-if ladder structure along with flowchart. [4]
+    
+   b) Write a program to read a number from user, count the number of even digits contained in it and display whether the resulting count is prime or not. [6]
+
+4. a) Write a program to generate the following output. [6]
+                    1 2 3 4 5 4 3 2 1
+                      1 2 3 4 3 2 1
+                        1 2 3 2 1
+                          1 2 1
+                            1
+
+   b) What is a function? What type is the main () function? Explain actual parameter and formal parameter with example. [1+1+2]
+
+5. a) Write a program to read one dimensional array of n elements, pass it to a function for processing so that, the program should display the largest and smallest element of an array from the main function. [6]
+
+b) How can we initialize 2D array of character data type during compilation? Illustrate with suitable example. [4]
+
+6. a) What is a structure? Explain nested structure with an example. {1+2]
+
+b) Write a program to define a structure named Person with Name, address, salary as its member. Enter values for five persons, Pass the structure to a function which increases the salary by 15% each. Display the updated information in the main () function. [7]
+
+7. a) Write the output of the following. [6]
+
+	int a=10,*b, **c;
+	b=&a;
+	c=&b;
+	printf(“%d\t%d\n”,b, *c);
+	prinif(“%d\t%d\n", c, **c);
+	printh(“%d\t%d”, *b+5, &c+2);
+
+   b) What do you mean by Generic pointer, Null pointer and File pointer? [4]
+
+8. Write a program to print the Fibonacci series until the term is less than 500. [4]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2075 Ashwin
+
+1. a) What is computer program? Discuss in brief about different generation of programming languages.  [1+4]
+
+   b) Why is algorithm and flow chart development important in problem solving? Write an algorithm and draw flow chart to test a number entered by user whether it is even or not. [2+3]
+
+2. a) What is the identifier? What are the ways to give value to variable? Explain with example? [1+2+1]
+
+   b) Explain about input and output function available in C with syntax and example of each part. [2+2+2]
+3. a) Write algorithm, draw flow chart and program to input a number check it is Armstrong or not. [2+2+2]
+
+   b) What do you mean by selective and repetive statement? Why do we need break and continue statement? (2+2]
+
+4. a) What do you mean by "call by value and call by reference"? Explain it, with suitable example. [4]
+
+   b) Can we pass whole array element from the function? Write the program to pass an array to function and sort them. [6]
+
+5. a) Write a program that finds the largest word in a given sentence. [4]
+    
+   b) Differentiate between the methods of passing argument to function with example. What are their advantages and disadvantages? [6]
+
+6. What is structure? Why is it necessary? Write a program to add two distances given in feet and inch format using structure. [1+1+6]
+
+7. a) What is null pointer? What will be the output of following program, explain. [1+3]
+	#include<stdio.h>
+	int main() {
+	if( ! NULL )}
+	printf("C programming is easy");
+	else 
+	printf("C programming is not easy");
+	return 0;
+	}
+
+   b) Write a program to calculate the length of string without using string handling function. [4]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2074 Ashwin
+
+1. What are computer programs and computer programming? Explain the steps that are required to build a computer program for solving a certain problem. [2+6]
+
+2. Explain with an example the role that precedence and associativity play in the execution of an expression. Rewrite the following program by correcting any errors, if present and also write down the output of the corrected code.
+
+	Define MAX ‘5’
+	int main ()
+	{
+	int case[MAX]={2,3,5,4,10},i,sum=0;
+	for{i=0,i<MAX,i+=1)
+	{
+	printf("Case %d = %3.2d\n",i,case[i]);
+	sum +=* case+i; .
+	};
+	average = sum/MAX;
+	printf("%06.2f average); 
+	return 1;
+	}
+
+3. a) Compare if-else-if ladder and switch construct with example and flowchart. [5]
+
+   b) Write a program in C to generate following pattern using unformatted input/output functions only. [5]
+                              N
+                            e e e
+                          P P P P P
+                        a a a a a a a
+                      L L L L L L L L L 
+
+4. Write a program in C to find out whether the nth term of the Fibonacci series is a prime number or not. Read the value of n from the user and display the result in the main function. Use separate user-defined functions to generate the nth Fibonacci term and to check whether a number is prime or not. [8]
+
+
+5. a) How two dimensional arrays are created in C programming? Write a program to read square matrix of size NxN and find sum of both diagonals.
+
+b) Write a program in C to check whether a given string is palindrome or not using user defined function.
+
+6. What are the advantages of using pointer in C programming? Write a program in C to find, second largest elements from an array containing N elements using concept of pointer. [2+4]
+ 
+7. Explain structures and nested structures? Create a structure to hold any complex number x+iy. Write a program that uses the structure to read two complex numbers and display a third complex number which is the multiplication of the entered complex numbers.[3+5}
+
+
+8.  When can we use recursive functions? Why do we need control statements in computer programs? [2+2]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2074 Chaitra 
+
+1. a) What is a programming language? What is the difference between source code and object code. [2+2]
+
+   b) What is debugging and testing? What are the step that need to be followed for developing the application-software. [2+2]
+
+2. What is the difference between variable declaration and variable definition? Explain with example. [4]
+
+3. What are functions used for formatted and unformatted output? Write down its syntax. Write down the output of printf() function for the following sections of statements. [4+4]
+	float a = 5.7891;
+	int b = 6789;
+
+	printf("a=%4f and b=%-7d from first line", a,b);
+	printf("a=%-7.2f and b=%07d from second line", a,b);
+	printf("a=%.2f and b=%2d from third line", a,b);
+
+4. a) Explain about while loop with its syntax and flowchart. [4]
+   
+   b) Write a program to convert a decimal number into binary number. [6]
+
+5. a) Can function return an array to the calling function? Explain with example. 4]
+
+   b) Write a program to read a mxn matrix of integers and to find the largest elements of each row. Store the largest elements of the row in a one-dimensional array of m integers before displaying them. [6]
+
+6. a) How does a structure differ from an array? What are the different ways to access structure member? [4]
+
+   b) Create a structure named student that has name, roll and marks as members. Assume appropriate types and size of members. Use this structure to read and display records of 10 students. Crete two functions: One is to read information of students and other to display the information. [6]
+
+7. a) Define following term: [5]
+	i) int*p;
+	ii) int p(char*a)
+	iii) int(*p(char*a))
+	iv) int *p(void)
+	v) int*(*p[10])char a)
+
+   b) Write the advantages of using pointer in C- programming. [3]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2073 Shrawan
+
+1. a) What do you mean by Programming Language? Explain about the evolution of programming languages. [1+3]
+
+   b) What are the advantages of a Flowchart design? Write down the guidelines to be followed to draw a flowchart. [2+2]
+
+2. a) What is the purpose of the semicolon that appears at the end of most assignment statement in C? Explain the program compilation, linking and loading process with example. [2+4]
+
+   b) Discuss the types of errors in programming. How do you debug a C-program? [244]
+
+3. a) Explain relational and logical operators. [4]
+
+   b) Write a C program to display following pattern without using formatted input/output statements. [4]
+	Programming
+	rogrammin
+	ogrammi
+	gramm
+	ram
+	a
+	
+4. a) Why do we need control statements? Compare switch and if-else-if ladder with example. [4]
+
+   b) Write a C program to display all characters between a given ranges. [6]
+
+5. a) What are the advantages of using functions? Differentiate between Library functions and User-defined functions with suitable example. [5]
+
+   b) Write a program to check whether a given number is Armstrong number or not using. recursive function.  [5]
+
+6. a) Write a C program to read two strings in main and compare them using user-defined function. Display appropriate message from main. [4]
+
+   b) What are overflow and underflow errors in context of array? Write a program to add corresponding elements of two arrays. The results should form anew array. [2+4]
+
+7. a) Why should we prefer structure over array? Explain nested structure with example. (2+4]
+
+   b) Write a program to read name and roll number of 48 students from user and store them in file. If the file already contains data, your program should add new data at the end of the file. [6]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2073 Chaitra 
+
+1. Explain the generations of programming language. Distinguish between High level and Low level programming language. [3+3]
+
+2. What is an algorithm and how it differs from pseudo-code? Develop algorithm and draw flowchart to find the largest of N numbers. (2+3+3]
+
+3. a) What are identifiers? List the rules to define valid C identifiers. [2+3]
+
+   b) What is operator? Describe the conditional operator in C with syntax and example. [2+3]
+
+4. What are the differences between global and local function, variables and data types, & (Ampersand) operator and * operators used in c-programming language? Explain with example. [4+4]
+
+5. a) Differentiate between pass by value and pass by reference. [3]
+
+   b) Explain the significance of user defined functions with example. [5]
+
+6. a) Write a program to read a string and check whether it consists of Alphabet or not. Use user defined function to accomplish the task. [5]
+
+   b) Explain how 2D array is passed to a function. Write a C program to display largest and smallest elements of a 2D array. [5}
+
+7. What is nested structure? Write a program in C to read name, age and salary of 10 different employees as the three members of a structure named as “employee”. Sort this data in salary basis using user defined function and display sorted data from main function. [2+8]
+
+8. Write a program in C-programming language to compute the cosine series.
+ 	(hints:cos(x) = 1- {x^{2}/{2!}+{x^{4}}/{4!}-{x^{6}}/{6!}.......+n terms) [6]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2073 Chaitra 
+
+
+1. a) Explain different generation of programming languages. [4]
+
+   b) Why do we need analysis and design before coding a program?. [4]
+
+2. a) What do you mean by precedence and associativity of an operator? Explain with suitable example. [3]
+
+   b) What are the differences between formatted and unformatted Input / Output. Give suitable example with sample output for the following: %10i, %3c, %-10.3f and %x. [1+4]
+
+3. a) What are the purpose of the continue statement? Within which control statements can continue statement be included? Compare with the break statement. [1+2+2]
+  
+   b) Write a program to find the sum of series Sn = ∑1/{n^(2)} up to N term. [5]
+
+4. What is the meaning of function prototyping? Write a program to calculate the sum of the series 1+11+111+....+up to N terms using recursive function. If N is read as 5, the series is: 1+11+111+1111+11111. [2+6]
+
+5. a) Explain with an example for compile time initialization of 2D array. Describe how compiler manages according to the number of initializers and size of an array given by a user in case of 1D array. [2+3]
+
+   b) Write a program to read a word from a main function, pass it into a function that will convert all of its characters into upper case if the first character is in lower case and into lower case if the first character is in upper case. Display the converted string from main function. [5]
+
+6. a) Explain need of structures. How can we create and use a structure within another. [2+3]
+   
+   b) Explain dot and arrow operators for accessing the members of a structure. [3]
+
+7. a) If Ptr is a pointer to user defined type or basic type, by how many bytes is Ptr incremented when the statement Ptr++ is executed? ; [2]
+
+   b) Write a C program that calls reverse array () to reverse the array and return the array and display the element of reversed array using pointer. [6]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2072 Chaitra 
+
+
+1. a) What is a flow chart? Use the various commonly used flow chart symbols. How does a flow chart help computer programming? [2+2+2]
+   
+   b) What is a program? Briefly describe types of computer software. [2+2]
+
+2. a) What is an operator, datatype, constant and variable? Define. [6]
+
+   b) Define and write syntax of the following: [4]
+	i) gets()
+	ii) putchar()
+	iii) scanf()
+	iv) strlen()
+
+3. a) How is the switch statement used in decision making? Explain with a suitable example [4]
+
+   b) Write a program to check whether a given integer is a triangular number or not. (Any number is a triangular number if the sum of natural number from 1 to any number I is exactly equal to that number. For e.g 1,3,6,10,15 etc are triangular number as, 1+2=3, 1+2+3=6, 1+2+3+4=10, 1+2+3+4+5=15) [6]
+
+4. a) Briefly explain the passing by value and passing by reference in function with example. [6]
+
+   b) Write a program to calculate sum of digits of a given 5-digits number entered by the user using recursive function. [4]
+5. What is a string? Write a program to read a 3*3 square matrix, find minimum integer value of a matrix, replace the diagonal elements by the minimum element and display it using pointer. [2+8]
+
+6. a) What is the principal difference between a structure and an array? {2]
+   b) Write a program to read structure "college" having name, estDate and location where estDate is an another Structure having day, month and year as members: Display the records of 10 colleges. [8]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2071 Sharwan
+
+
+1. a) Categorise programming languages on the basic of their uses and applications. Among them which programming language is C programming? [4]
+
+b) List and define different steps to solve the problem in computer system. [4]
+
+2. a) Differentiate between declaration and definition. Explain structure of C program with an appropriate example. [4]
+
+b) Write syntax, example and use of following:  [1x4]
+	i) printf()
+	ii) scanf( )
+	iii) getche( )
+ 	iv) getch( ) 
+
+3. Write the difference between do and do..... while loop and write the program “to find whether a year is leap or not’.  [3+7]
+
+4. What is recursive function? How does it work? Find out sum of digit of number until the. number becomes one digit number.[891>18>9]. [2+2+4]
+
+5. a) Write a program to read a string.and rewrite its characters in alphabetical order. [4]
+
+   b) A multinational company has hired 3 sales persons for marketing/selling its 3 different products in Kathmandu. Each sales person sells each of these products. Write a program to read number of each product sold by all-sales-persons. Calculate total sells of each item and the total sells of each sales-person. Use arrays. [6]
+
+6. a) Explain about “Arrays within structures” along with programming example. [4]
+
+   b) Write the program “to understand how structure members are sent to a function”. [4]
+
+
+7. Write down advantages of pointer. Write a Program using pointer to swap the value of two variables where the swapping operation: is percents in separate function. [2+6]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2071 Chaitra
+
+
+1. a) What is mean by compilation? What is mean by interpretation? How do these two processes differ? [4]
+
+   b) Define programming language? What are the features of good computer program? [1+3]
+
+2. a) What are preprocessor directives? Explain constants and variables. [2+2]
+   
+   b) Write syntax and example of following statements/functions: [1x4]
+
+	i) printf 
+	ii) getch
+	iii) scanf
+	iv) long
+
+3. What are control statements? Illustrate nested IF statement with its flowchart. Write a program to calculate the series: 1x10+3x20+6x30+((N(N+1))/2)*10N, where N is an integer term read from the keyboard. [2+2+6]
+
+4. a) Write a program to display Armstrong numbers between the range entered by. a user and also display their counts. You must use a function to check for Armstrong numbers and display them from main. [4]
+
+   b) What do you mean by nested function and recursive function? Give an example of recursive function. [2+2]
+
+5. a) Write a c program to read a string and display its reverse. Use user defined function to count number of characters in it and to reverse it. (4]
+
+   b) Write an algorithm to insert a value in an array at a position given by user. [4]
+
+6. a) What is a tag? Must a tag be included in a structure type definition? Must a tag be included in a structure variable declaration? Explain. . [1+1+2]
+
+   b) Write a C program that reads several different names and address using structure computer, rearrange the names into alphabetical order and write out alphabetical list. [4]
+
+7. Illustrate with- example that "Array is indirectly a pointer". Write program.to calculate sum and average of integer numbers between M and N (where value of M and N are read from keyboard) using pointer.  [4+4]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2070 Ashad
+
+1. a) Define software. Explain its types. [3]
+   
+   b) What are the steps required to develop a computer program? Explain. [5]
+
+2. a) What are relational Operators and assignment operators? Explain with examples. [3]
+   
+   b) Rewrite the following program by correcting any syntactical errors, if present. Also show the output of the corrected code. [3+2]
+
+	#include <stdio.h>
+	int main ()
+	{
+	float root, int i= 1;
+	do { sum = 2i— 1;
+	print ("\t%d\n”, sum):
+	i *= 5/3, :
+	} while (sum <= 15)
+	root = pow (i, 1/2);
+	print (\n%.3f’, root);
+	return void;
+	}
+
+3. a) Write a program to read the number until - 1 is encountered, Also count the number of even number and odd numbers entered by the user. [6]
+
+   b) Distinguish between break and continue statement with example. [4]
+
+4. a) Explain how function is defined in C? Differentiate call by value and call by reference. [1+2]
+
+   b) Write a program using a function that returns the largest number from an array of numbers that is passed to the function. [5]
+
+5. a) How are one dimensional and two dimensional arrays created in C? Explain with examples. [2+2]
+
+   b) Write a C program to read two matrices from user, add them and display the result in matrix form. [6]
+
+6. What do you mean by nested structures? Give suitable example. Write a program to read the heights of two students and display the difference between their heights. Use feet and inches as members of a structure to define height. [2+6]
+
+7. a) Compare array and pointer with example. [3]
+
+   b) Write a program to read a string from user and use a user defined function to copy the content of the read string into another character array changing lower case letter to upper if any. Use pointer to process the string.  [5]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2070 Chaitra
+
+
+1. a) What do you mean by software and explain about generation of programing Languages. [4]
+
+   b) Define the term “Flowchart”. Discuss about different symbols used in Flowchart [4]
+
+2. a)Find out final value of a, b and c where following expressions are executed sequentially: [4]
+	int a=2,b=3,c;
+	a=(b++) + (++b) + a;
+	c=a>b ? a : b;
+	b= (a++) + (b--) +a;
+	c=c++ * b--;
+
+   b) What are the difference between formatted and unformatted I/O statements? Describe with proper example. [4]
+
+3. a) Explain importance of break and default statements in switch statements. [3]
+
+   b) Write a C program to display following pattern using unformatted output statements: [7]
+
+	P
+	Pu
+	PuL
+	PULC
+	PuLcH
+	PULCHO
+	puLcHoW
+	PULCHOWK
+
+4. a) Define “function definition” and write the program to find the sum of two numbers
+using user-defined functions. [4]
+
+   b) What do you mean by “call by value and call by reference” along with suitable example? [4]
+
+5. Can we pass whole array element from function? Write a program to display only those Students information which are passed. Use separate function to check the result of student. The information of students like Name, Roll No, Address and Marks are Passed from main functions and pass to functions using array type arguments.   [2+8]
+
+6. a) Explain the use of typedef of keyboard in structures [2]
+
+   b) Explain the need of nested structure. Write a C program to convert data in BS to data in AD using structure. Use the data difference of current data. [1+5]
+
+7 a) A pointer variable is used to store address of Some other "Variables, however, we need to specify datatype while declaring a pointer variable. Why? [3]
+  
+  b) Briefly explain array of pointers. How are array and pointer related? Give example [5]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2069 Ashad
+
+
+1. Differentiate between high level and low level. Explain the steps of solving a problem using computer. [4+4]
+
+2. Consider a statement
+	scanf (“%s”",str);
+Where str is a string variable. In above statement, why ‘&’ symbol is not used? Can we input string with space in this statement? If not, why? [4]
+
+3. Write a program in C to find all possible roots of a quadratic equation ax^2*+bx+c=0. [8]
+
+4. Write down significance of main( ) function in C. Differentiate between pass by value and pass by reference arguments. Describe both with meaningful example. [2+6]
+
+5. Explain how array can be passed to functions. Write a program that passes an array to a function and print the largest and smallest element. [2+6]
+
+6. How are structures different from arrays? Create a structure in C to store the name of a batsman, runs scored and no of times the batsman in dismissed. In the program, read the data of five players and display the batting average of the player whose name is entered by the user. Batting average is given by total _runs/total_dismissals. [2+6]
+
+7. Write down advantages of pointer. What type of arithmetic operations can be implemented in pointer? Also describe the relationship between array and pointer with  appropriate syntax and examples. [2+3+3]
+
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2069 Chaitra 
+
+
+1. a) Write down the difference between Compiler and interpreter. Explain the role of linker. [2+2]
+
+   b) Explain the importance of flowchart. Also draw a flowchart to find reverse of an integer number. For example, 12345 is an integer number and its reverse is 54321. [1+3]
+
+2) a) Why do we include <stdio.h> in our program? Can we write aC program without using any header file? (2+1]
+
+   b) Give the output of the following program and justify your answer with reason. [3]
+	#include<stdio.h>
+	int main()
+	{
+	int x=3,y=5 z=7:
+	int a,b;
+	a=x*2+y/5-z*y;
+	b=++x*9y-3)/2-z++*y;
+	printf("a=%d",a);
+	printf("b=%d",b);
+	return 0;
+	}
+
+   c) Write a program that prints the floating point value with following specification. [2]
+	i) Correct up to two decimal places
+	ii) Correct up to four decimal places
+
+3) a) Write a program to read the number until -1 is encountered. Also count the number of prime number and composite numbers entered by the user [6]
+
+   b) Explain why goto statement should be avoided? Distinguish between break and continue statement with example source code. [1+3]
+
+4) a) Write a program to calculate the exp(x,y) using recursive function without using  pow() function. [Example: exp(2,3)=2^3 ie. 2*2*2=8] [4]
+
+   b) Differentiate between call by reference and call by value with example. [4]
+
+5) Explain how array can he passed to a function. Write a program to transpose a 3*3 matrix. Two matrix are input from the main () function and pass to a user defined function with argument as array. The result is displayed from the main function. [2+6]
+
+6) What is advantage of using structure? Create an array of structure name Employee with: name and salary as structure member and the array of structure is passed to a function which sorts in ascending order on the basis of salary and display the sorted array from main(). [2+6]
+
+7) a) Compare array and pointer with example [3]
+
+   b) Write a program reads a string from user and use a user defined function to copy the — content of the read string into another character array changing lower case letter to upper if any. Use pointer to process the string [5]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2068 Sharwan
+
+
+1. Define algorithm. Write an algorithm for finding largest and smallest values from a list. [2+6]
+
+2. Draw a flowchart and algorithm to find roots of a quadratic equation (ax^2 + bx + c = 0). Include all three conditions of the determinant. [10]
+
+3. Write a program to read values from user and find sum until user types 0, also display sum and average. [8]
+
+4. Why programmers prefer using user defined functions? What is merits and demerits of using functions in program? Differentiate actual and formal parameters used in function[3+2+3]
+
+5. Write a program to take a list of values from user into an array. Pass the list to a function which sorts the values in ascending order. Display the sorted list from main program. [3+5]
+
+6. Write a program to represent complex number by a structure with real and members. Take 2 complex numbers as input from user into structure variables.Pass the complex numbers to a function which calculates sum and returns it. Display the sum from another function display(). [10]
+
+7. What is the role of pointers in passing parameters to functions by reference? Give example, how 2 dimensional array can be accessed by a pointer. [4+4]
+
+TRIBHUVAN UNIVERSITY
+Institute of engineering 
+2068 Chaitra 
+
+1. a) How high level programming languages are similar to natural language? Describe. [3]
+
+   b) Does Algorithm and Flowchart design makes programming faster and easier? Describe with strong supporting points. Also draw flowchart to check whether a number is Armstrong or not. (2+3)
+
+2. a) What are unary operators in C? Why are they named so? [2]
+
+   b) What are preprocessor directives in C? Why are they needed? [2]
+
+   c) How formatted input/output can be performed in C? Explain with example. [4]
+ 
+3. Differentiate between, conditional operator and if-else statement. write a program in C that calculates the sum of digits entered by the user successively until the sum reduces to a single digit number.For example, 12345 => 1+2+3+4+5 => 1+5 = 6 [2+6]
+ 
+4. Write a program in C to read a string and-display it in reverse order. Use user defined functions to count-the number of characters in it and reverse it. [8]
+
+5. Write down the significance of array in C. Write a program to multiply tWo 3x3 matrix. Two matrix are input from main ( ) function and pass to a user defined function with argument with array. The result is also displayed from main () function.[2+6]
+
+6. Why structure variable differs from array? Write a program to input name, post and salary of ten employees from main () function and pass to structure type user defined function (arguments of this function should also a structure type). This function returns structure variable which keeps the record of only those employees whose salary is greater. than 10,000. This modified record is also displayed from main () function. [2+6]
+
+7. Explain how pointers can be used in C. How can you access array elements using pointer. Write a C Program that reeds a String. from user and use a user defined function to copy the contents of the read string into another character array. changing lower cage letters to upper if any. Use pointer to process string. [1+1+6]
+
