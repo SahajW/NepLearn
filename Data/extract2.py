@@ -1,123 +1,78 @@
-import pytesseract
-from pdf2image import convert_from_path
 import re
 import json
-import os
 
+with open("exam_questions.txt", "r", encoding="utf-8") as f:
+    raw_text = f.read()
 
-PDF_PATH = "C:\\Users\\ACER\\Desktop\\Python\\Project\\Data\\ExtractQ.pdf"
-OUTPUT_JSON = "text_questions.json"
+subject = "C Programming"
+source = "End Semester Examination"
 
-# Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+questions = []
+question_counter = 1
 
+# Split by year headings (2013, 2014, ..., 2024)
+year_blocks = re.split(r"\n\s*(20\d{2})\s*\n", raw_text)
 
-# CLEAN TEXT
-def clean_text(text):
-    text = (text.replace("“", '"')
-                 .replace("”", '"')
-                 .replace("×", "x")
-                 .replace("‘", "'")
-                 .replace("’", "'"))
+for i in range(1, len(year_blocks), 2):
+    year = int(year_blocks[i])
+    block_text = year_blocks[i + 1]
 
-    # remove camscanner watermark
-    text = re.sub(r'scanned\s+with\s+camscanner.*', '', text, flags=re.IGNORECASE)
-    return text
+    # Extract Year / Semester (flexible)
+    sem_match = re.search(
+        r"Year:\s*([IV]+)\s*Semester:\s*([IV]+)",
+        block_text,
+        flags=re.I
+    )
+    year_semester = f"{sem_match.group(1)}/{sem_match.group(2)}" if sem_match else None
 
-# OCR
-pages = convert_from_path(PDF_PATH)
-page_texts = []
+    # Extract sections B and C safely
+    sections = re.split(r"\n\s*SECTION\s+[\"“]?([BC])[\"”]?\s*\n", block_text)
 
-for pg in pages:
-    w, h = pg.size
-    pg = pg.crop((0, 0, w, int(h * 0.92)))   # remove watermark area
-    text = pytesseract.image_to_string(pg, config="--psm 6")
-    page_texts.append(text)
+    for j in range(1, len(sections), 2):
+        section = sections[j]
+        section_text = sections[j + 1]
 
-text = clean_text("\n".join(page_texts))
+        marks = 4 if section == "B" else 8
 
+        # Split questions ONLY on main numbers (1., 2., 3.)
+        q_blocks = re.split(r"\n\s*(?=\d+\.\s)", section_text)
 
-# MAIN QUESTION REGEX
-# Matches: 1. , 2. , 10. , 3.1. 
-question_matches = list(re.finditer(
-    r'^\s*(\d+(?:\.\d+)*)\.\s+',
-    text,
-    flags=re.MULTILINE
-))
+        for q in q_blocks:
+            q = q.strip()
+            if not re.match(r"\d+\.\s", q):
+                continue
 
-question_blocks = []
-for i, m in enumerate(question_matches):
-    start = m.start()
-    end = question_matches[i + 1].start() if i + 1 < len(question_matches) else len(text)
-    question_blocks.append({
-        "qnum": m.group(1),
-        "block": text[start:end].strip()
-    })
+            # Remove leading question number but keep text intact
+            q_text = re.sub(r"^\d+\.\s*", "", q, count=1).strip()
 
+            questions.append({
+                "id": f"KU_Q{question_counter}",
+                "year": year,
+                "year_semester": year_semester,
+                "section": section,
+                "marks": marks,
+                "raw_text": q_text,
+                "cleaned_text": None,
+                "embedding": None,
+                "cluster_important": None,
+                "cluster_conceptual": None,
+                "features": {
+                    "frequency": None,
+                    "last_seen_year": None,
+                    "similarity_score": None,
+                    "transition_probability": None
+                }
+            })
 
+            question_counter += 1
 
-# SUB-QUESTION REGEX
-# Supports (a), (b), (i), (ii), (1), (2)
-SUBQ_REGEX = re.compile(
-    r'\(\s*([a-z]|[ivxlcdm]+|\d+)\s*\)\s*(.*?)'
-    r'(?=(\(\s*[a-z]|'
-    r'\(\s*[ivxlcdm]+|'
-    r'\(\s*\d+|$))',
-    re.IGNORECASE | re.DOTALL
-)
+output = {
+    "subject": subject,
+    "source": source,
+    "questions": questions
+}
 
-# PARSE QUESTIONS + SUB QUESTIONS
-final_questions = []
+with open("KUexam_questions.json", "w", encoding="utf-8") as f:
+    json.dump(output, f, indent=4, ensure_ascii=False)
 
-for qb in question_blocks:
-    qnum = qb["qnum"]
-    block = qb["block"]
-
-    # Remove "1. " from start
-    content = re.sub(r'^\s*\d+(?:\.\d+)*\.\s*', '', block).strip()
-
-    subs = list(SUBQ_REGEX.finditer(content))
-
-    # Extract main question 
-    if subs:
-        main_question = content[:subs[0].start()].strip().rstrip(':')
-    else:
-        main_question = content.strip()
-
-    # If NO sub-questions, just store single question
-    if not subs:
-        final_questions.append({
-            "question_number": qnum,
-            "question_text": main_question,
-            "sub_question_number": None,
-            "sub_question_text": None
-        })
-        continue
-
-    # If sub-questions exist
-    for sm in subs:
-        sub_num = sm.group(1)
-        sub_text = sm.group(2).strip()
-
-        final_questions.append({
-            "question_number": qnum,
-            "question_text": main_question,
-            "sub_question_number": sub_num,
-            "sub_question_text": sub_text
-        })
-
-# SAVE JSON
-if os.path.exists(OUTPUT_JSON):
-    try:
-        old_data = json.load(open(OUTPUT_JSON, "r", encoding="utf-8"))
-    except:
-        old_data = []
-else:
-    old_data = []
-
-old_data.extend(final_questions)
-
-with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-    json.dump(old_data, f, indent=4, ensure_ascii=False)
-
-print(f"Extracted {len(final_questions)} questions successfully.")
+print(f"Processed {len(questions)} questions successfully.")
