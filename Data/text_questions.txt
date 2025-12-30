@@ -1,0 +1,340 @@
+1)Draw the block diagram of a computer and explain the functions of the various blocks.
+2)What are the various types of memory? How do they differ from each other?
+3)Compare the use and working of primary memory and secondary memory.
+4)What is the need for an operating system? What are its responsibilities?
+5)What are the various types of operating systems? Compare their features and working.
+6)Explain the tree structure of a storage system. Differentiate between absolute addressing and relative addressing of files.
+7)Write an algorithm, pseudocode, and flowchart for finding:
+ (a) Minimum of three numbers
+ (b) Maximum of four numbers
+ (c) Factorial of a number
+ (d) Smallest of n numbers
+8)List the various phases of software development and briefly describe each phase.
+9)How is structured programming carried out? What problems might arise if programs are not developed in a structured manner?
+10)What is machine language? How does machine language differ from high-level languages?
+11)Name some commonly used high-level languages. What are the advantages of using high-level languages?
+12)What is meant by compilation? What is meant by interpretation? How do these two processes differ?
+13)What are the major components of a C program? What significance is attached to the function name main?
+14)How can comments be included in a C program? Where can comments be placed?
+15)Are C programs required to be typed in lowercase? Is uppercase ever used in a C program? Explain.
+16)Why are some statements within a C program indented? Why are empty lines included in a typical C program?
+17)Summarize the rules for naming identifiers. Are uppercase letters equivalent to lowercase letters? Can digits be included in an identifier name? Can any special characters be included?
+18)What are the keywords in C? What restrictions apply to their use?
+19)Name and describe the four basic data types in C.
+20)Name and describe the four data-type qualifiers. To which data types can each qualifier be applied?
+21)Summarize the rules that apply to all numeric-type constants.
+22)When writing integer constants, how are decimal, octal, and hexadecimal constants distinguished from one another?
+23)Typically, what is the largest permissible magnitude of an integer constant? State your answer in decimal, octal, and hexadecimal.
+24)What are unsigned integer constants? What are long integer constants? How do these constants differ from ordinary integer constants? How can they be written and identified?
+25)Describe two different ways in which floating-point constants can be written. What special rules apply in each case?
+26)What is the purpose of the (optional) exponent in a floating-point constant?
+27)Typically, what is the largest permissible magnitude of a floating-point constant? Compare this with an integer constant.
+28)How can single-precision and long floating-point constants be written and identified?
+29)Describe the differences in accuracy between integer and floating-point constants. Under what circumstances should each type of constant be used?
+30)What is a character constant? How do character constants differ from numeric-type constants? Do character constants represent numerical values?
+31)What is the ASCII character set? How common is its use?
+32)What is an escape sequence? What is its purpose?
+33)Summarize the standard escape sequences in C. Describe other commonly available nonstandard escape sequences.
+34)What is a string constant? How do string constants differ from character constants? Do string constants represent numerical values?
+35)Can escape sequences be included in a string constant? Explain.
+36)What is a variable? How can variables be characterized?
+37)What is an array variable? How does an array variable differ from an ordinary variable?
+38)How can individual array elements be distinguished from one another?
+39)What is a subscript? What range of values is permitted for the subscript of a one-dimensional n-element array?
+40)What is the purpose of a type declaration? What does a type declaration consist of?
+41)How are initial values assigned to variables within a type declaration? How are strings assigned to one-dimensional character-type arrays?
+42)What is an expression? What kind of information is represented by an expression?
+43)What is an operator? Describe several different types of operators included in the C language.
+44)Can statements be embedded within other statements? Explain.
+45)What is a symbolic constant? How is a symbolic constant defined? How is the definition written? Where must a symbolic constant definition be placed within a C program?
+46)During the compilation process, what happens to symbolic constants that appear within a C program?
+47)What are unary operators? Name the unary operators included in the C language.
+48)What are binary operators? Name the binary operators included in the C language.
+49)What are arithmetic operators? Describe the arithmetic operators included in C.
+50)What is the modulus operator? What restrictions apply to its operands?
+51)Describe the use of increment (++) and decrement (--) operators.
+52)What is meant by operator precedence? Why is it important?
+53)What is associativity of operators? How does associativity affect the evaluation of expressions?
+54)What are relational operators? List the relational operators available in C.
+55)What are logical operators? List the logical operators available in C.
+56)What is the conditional operator? How does it work?
+57)What is an assignment operator? Describe the different assignment operators available in C.
+58)What is an expression? How does an expression differ from a statement?
+59)What is a type conversion? When does type conversion occur in C?
+60)What is implicit type conversion? Give examples.
+61)What is explicit type conversion? How is it performed in C?
+62)What is type casting? How does type casting differ from automatic type conversion?
+63)What is the comma operator? Where is it commonly used?
+64)What is the size-of (sizeof) operator? What is its purpose?
+65)What is a control statement? Why are control statements required in programming?
+66)What is meant by sequential execution of statements?
+67)What is decision making? How is it implemented in C?
+68)What is the if statement? Explain its syntax and working.
+69)What is the if–else statement? Explain its syntax with an example.
+70)What is the nested if statement? Explain with an example.
+71)What is the else if ladder? When is it preferred over nested if statements?
+72)What is the switch statement? Explain its syntax and working.
+73)What are case labels? What is the purpose of the break statement in a switch construct?
+74)What is the default label in a switch statement? When is it executed?
+75)Compare the switch statement with the if–else ladder.
+76)What is an iterative statement? Why are loops needed?
+77)What is the while loop? Explain its syntax and working.
+78)What is the do–while loop? How does it differ from the while loop?
+79)What is the for loop? Explain its syntax and working.
+80)Compare the while, do–while, and for loops.
+81)What is a nested loop? Give an example.
+82)What is an infinite loop? How can infinite loops be avoided?
+83)What is the break statement? How does it work inside loops?
+84)What is the continue statement? How does it differ from the break statement?
+85)What is the goto statement? Why is it generally avoided?
+86)What is the return statement? What is its purpose?
+87)What is a null statement? When is it used?
+88)What is a conditional expression? How does it differ from an if statement?
+89)Write a program to check whether a given number is even or odd.
+90)Write a program to find the largest of three numbers.
+91)Write a program to display the first n terms of the Fibonacci series.
+92)Write a program to check whether a given number is prime.
+93)Write a program to calculate the factorial of a given number.
+94)What is a function? Why are functions needed in C programming?
+95)What are the advantages of using functions?
+96)Differentiate between a function declaration, function definition, and function call.
+97)What is a function prototype? Why is it required?
+98)What is the purpose of a return statement? Can a function return more than one value?
+99)What is meant by actual arguments and formal parameters? How do they differ?
+100)Explain the concept of call by value.
+101)Explain the concept of call by reference. How is it implemented in C?
+102)What is recursion? How does it differ from iteration?
+103)State the advantages and disadvantages of recursion.
+104)What is a nested function call? Explain with an example.
+105)What is a library function? Give examples.
+106)What is a user-defined function? Give examples.
+107)What is function overloading? Is it supported in C? Explain.
+108)What is a variable scope? Explain local and global variables.
+109)What is the lifetime of a variable? How is it related to scope?
+110)Write a program to find the sum of two numbers using a function.
+111)Write a program to find the factorial of a number using a recursive function.
+112)Write a program to calculate the nth Fibonacci number using recursion.
+113)Write a program to find the greatest of three numbers using a function.
+114)Write a program to check whether a number is prime using a function.
+115)Write a program to check whether a number is a palindrome using a function.
+116)Write a program to find the sum of digits of a number using a function.
+117)Write a program to reverse a given number using a function.
+118)Write a program to find the GCD and LCM of two numbers using functions.
+119)Write a program to calculate the power of a number using recursion.
+120)Write a program to swap two numbers using call by value.
+121)Write a program to swap two numbers using call by reference.
+122)Write a program to find the average of n numbers using a function.
+123)Write a program to display all Armstrong numbers between two given numbers.
+124)What is a storage class? Why are storage classes needed in C?
+125)Name the different storage classes available in C.
+126)Explain the auto storage class with an example.
+127)Explain the register storage class. What are its advantages and limitations?
+128)Explain the static storage class. How does it differ from the auto storage class?
+129)Explain the extern storage class. When is it used?
+130)What is the scope of variables declared with different storage classes?
+131)What is the lifetime of variables declared with different storage classes?
+132)Compare auto, register, static, and extern storage classes.
+133)Write a program to demonstrate the use of the static storage class.
+134)What is an array? Why are arrays needed in C programming?
+135)How are arrays declared in C? Explain the general syntax.
+136)How are array elements stored in memory?
+137)How are array elements accessed in C?
+138)What are one-dimensional arrays? Give an example.
+139)What are two-dimensional arrays? Give an example.
+140)How are two-dimensional arrays declared and initialized?
+141)What is a multidimensional array? How is it declared?
+142)What is array initialization? Explain different methods of initializing arrays.
+143)What is the difference between compile-time and run-time initialization of arrays?
+144)How can arrays be passed to functions?
+145)What is a character array? How does it differ from a string?
+146)How are strings stored in character arrays?
+147)What are the advantages and disadvantages of using arrays?
+148)Write a program to read and display n elements of a one-dimensional array.
+149)Write a program to find the sum and average of array elements.
+150)Write a program to find the largest and smallest elements in an array.
+151)Write a program to sort array elements in ascending order.
+152)Write a program to search for an element in an array.
+153)Write a program to perform matrix addition.
+154)Write a program to perform matrix multiplication.
+155)What is a string? How does a string differ from a character array?
+156)How are strings represented and stored in C?
+157)What is the null character ('\0')? Why is it important in strings?
+158)How are strings declared and initialized in C?
+159)What are string-handling functions? Name some commonly used string functions.
+160)Explain the use of the following string functions: strlen(), strcpy(), strcat(), strcmp()
+161)What is the difference between gets() and fgets()? Why is gets() unsafe?
+162)What is the difference between puts() and printf() when displaying strings?
+163)How can strings be passed to functions?
+164)What are arrays of strings? How are they declared?
+165)What are the advantages and disadvantages of using strings in C?
+166)Write a program to find the length of a string without using library functions.
+167)Write a program to copy one string into another.
+168)Write a program to concatenate two strings.
+169)Write a program to compare two strings.
+170)Write a program to reverse a string.
+171)Write a program to check whether a given string is a palindrome.
+172)What is a pointer? How is it different from a normal variable?
+173)How is a pointer declared? Explain the syntax.
+174)How is the address of a variable obtained? Which operator is used?
+175)What is the indirection operator ()? How does it work?
+176)How is a pointer initialized? Can it be assigned NULL?
+177)Explain pointer arithmetic. How do addition and subtraction work with pointers?
+178)How can a pointer be incremented or decremented?
+179)What are arrays of pointers? Give an example.
+180)How are pointers used to access elements of an array?
+181)Difference between passing by value and passing by reference. How do pointers enable passing by reference?
+182)Can changes to an array inside a function using a pointer affect the original array? Explain.
+183)How is a multi-dimensional array represented using pointers?
+184)How can a pointer be returned from a function?
+185)Difference between a pointer to an array and an array of pointers.
+186)How can a pointer to a function be declared and used?
+187)Advantages of using pointers in C programming.
+188)Write a C program to generate a table of values using pointer functions.
+189)Write a C program using pointers to calculate deviations about the average.
+190)Write a C program to reverse a string using pointers.
+191)Write a C program to encode and decode a line of text using pointer arithmetic.
+192)Write a C program to demonstrate pointer arithmetic with arrays.
+193)Write a C program to pass arrays to functions using pointers.
+194)Write a C program to pass multi-dimensional arrays to functions using pointers.
+195)What is a pointer? How does it differ from a normal variable?
+196)How is a pointer declared and initialized?
+197)What is the purpose of the indirection () operator?
+198)What is the purpose of the address-of (&) operator?
+199)How are pointer expressions evaluated?
+200)What is pointer arithmetic? How can pointers be incremented or decremented?
+201)How are pointers used to access array elements?
+202)What are the rules for passing arrays to functions using pointers?
+203)Explain the difference between passing by value and passing by reference.
+204)How can a function return a pointer?
+205)How are multi-dimensional arrays accessed using pointers?
+206)How can the elements of a pointer-to-pointer array be accessed?
+207)Describe pointer-to-function usage. How are function pointers declared and used?
+208)What is dynamic memory allocation? Name the standard functions used.
+209)How is memory allocated using malloc(), calloc(), and realloc()? How is it freed?
+210)Write a program to generate a table of values for y = 2e^(-t) * sin(0.5*t) for t from 0 to 60. Allow user input for increment.
+211)Write an interactive C program to encode or decode a line of text using a random ASCII shift.
+212)Modify a C program to process exam scores for a group of students using arrays and pointers.
+213)Write a C program to generate a table of compound interest factors, F/P = (1 + i/100)^n, for multiple values of n and interest rates.
+214)Write a menu-driven currency conversion program using pointers and arrays.
+215)Write a program to reverse a string using pointer notation.
+216)Write a program to find the last occurrence of a substring in a string using pointers.
+217)Write a program to separate a string into two strings: odd-positioned and even-positioned characters.
+218)Write a program to count vowels, consonants, digits, and symbols in a string using pointers.
+219)Write a program to replace a substring with another in a string using pointer arithmetic.
+220)Write a program to display the elements of a multi-dimensional array using pointers.
+221)Write a program to implement piglatin encoding with punctuation handling using pointers.
+222)How do strings differ from other arrays?
+223)How does gets() differ from scanf("%s") for reading strings?
+224)List four methods to read a line of text containing blanks.
+225)How can ASCII codes of letters a–z and A–Z be determined?
+226)What is the return value of strstr()? Provide an example.
+227)What is a null character ('\0')? What are its advantages in strings?
+228)Compare strncmp(), strcmp(), and strcpy().
+229)Describe assigning an initial string constant to a one-dimensional character array. Can a similar method be used for numerical arrays?
+230)When a one-dimensional character array is assigned an initial string, which character is automatically added at the end?
+231)How can a list of strings be stored in a two-dimensional array? How are individual strings processed?
+232)Write a program to search the last occurrence of a substring in a given string.
+233)Write a program to split a string into two: odd-positioned characters in the first string and even-positioned characters in the second string.
+234)Write a program that counts vowels, consonants, digits, and symbols in a string.
+235)Write a program to replace a substring with another in a given string. Example: Replace "banana" with "apple" in "There are 30 bananas on a banana tree." → "There are 30 apples on an apple tree."
+236)Write a program to reverse a string without using strrev(). The source string should be modified in place.
+237)Write an interactive program for country-capital lookup: Input a country → Output its capital; Input a capital → Output its country; Loop until the input is "End".
+238)For your C compiler, how many memory cells are required to store: a char, an int, a long int, a float, a double?
+239)What is meant by the address of a memory cell? How are addresses usually numbered?
+240)How is a variable’s address determined?
+241)What is the purpose of the indirection operator ()? To what type of operand must it be applied?
+242)What precedence is assigned to unary operators compared to multiplication, division, and remainder operators?
+243)Can the address operator (&) act upon an arithmetic expression like 2 * (u + v)? Explain.
+244)Can an expression with the indirection operator appear on the left-hand side of an assignment?
+245)How is a pointer variable declared? What is the purpose of specifying its data type?
+246)How can a pointer variable be assigned an initial value?
+247)Why might it be desirable to pass a pointer to a function as an argument?
+248)How is a pointer argument represented in a function prototype?
+249)What is the relationship between an array name and a pointer?
+250)Suppose a formal argument is an array. How can the array be declared within the function?
+251)How can a portion of an array be passed to a function?
+252)How can a function return a pointer to its calling routine?
+253)Describe two ways to specify the address of an array element and two ways to access an array element.
+254)Can an address be assigned to an array name or an array element?
+255)Complete C program using pointer notation to generate a table of values: Columns: t, ae^(sin ct), ae^(cos ct); Functions: f1 (ae^(sin ct)), f2 (a*e^(cos ct)), main calls table_gen passing f1 and f2.
+256)What is meant by dynamic memory allocation? Which library function allocates memory dynamically? How is size specified?
+257)What happens if an integer is added to or subtracted from a pointer variable?
+258)Under what conditions can one pointer be subtracted from another?
+259)Under what conditions can two pointers be compared?
+260)How is a multidimensional array defined in terms of a pointer to contiguous lower-dimensional arrays?
+261)How can the indirection operator access a multidimensional array element?
+262)How is a multidimensional array defined in terms of an array of pointers? How does it differ from contiguous arrays?
+263)If several strings are stored in a one-dimensional array of pointers, how can an individual string be accessed?
+264)If strings in a pointer array are reordered, are they moved in memory?
+265)Under what conditions can elements of a multidimensional array (array of pointers) be initialized?
+266)Pointer to function as argument: declaration and usage in host and guest functions.
+267)Applications where passing one function to another is useful.
+268)What is a structure? How is it different from an array?
+269)Give the syntax for declaring a structure type.
+270)How is a structure variable defined? How are its members accessed?
+271)Can a structure contain an array? Can an array contain structures?
+272)What is the difference between a structure definition and a structure declaration?
+273)How are structure variables initialized at the time of declaration?
+274)Can a structure be passed to a function? If yes, by what methods?
+275)How is a pointer to a structure declared and used?
+276)What is the purpose of the arrow operator (->)? How is it different from the dot operator (.)?
+277)Can a structure contain a pointer as a member? How is memory allocated dynamically for it?
+278)How can structures be nested within other structures?
+279)What is a union? How does it differ from a structure?
+280)How is a union declared and initialized?
+281)How is memory allocated for a union? How does the size compare to a structure?
+282)Can a union contain arrays or structures as members?
+283)How are members of a union accessed? What happens when multiple members are assigned values?
+284)Can a union be passed to a function? How?
+285)Compare the use of structures and unions in terms of memory efficiency.
+286)What is the difference between typedef struct and a normal structure declaration?
+287)How are bit fields declared in structures? Give an example for storing flags efficiently.
+288)Write a program to define a structure for a student record (name, roll no, marks) and: Input details for 5 students; Display the student with the highest marks.
+289)Write a program to define a union for a bank transaction (deposit, withdraw, balance) and demonstrate memory sharing.
+290)Explain how a pointer to a structure can be used to pass large data to a function efficiently.
+291)Demonstrate dynamic allocation of an array of structures using malloc.
+292)Difference between structure pointer and pointer to structure array.
+293)What is dynamic memory allocation? How does it differ from static memory allocation?
+294)Explain the purpose of the following C library functions: malloc(), calloc(), realloc(), free().
+295)How do you allocate memory for an array of integers dynamically using malloc()? Give an example.
+296)How does calloc() differ from malloc()? When would you prefer one over the other?
+297)What precautions must you take when using realloc()?
+298)Why is it important to free dynamically allocated memory? What can happen if you don’t?
+299)How can you check if a memory allocation was successful?
+300)Explain memory leaks. How can they be detected and prevented?
+301)Write a C program to dynamically allocate memory for n integers, read values from the user, and then display them.
+302)Write a C program to expand an array using realloc() and display the new array.
+303)What is recursion in programming? Give an example.
+304)Explain the difference between direct and indirect recursion.
+305)What are the advantages and disadvantages of recursion compared to iteration?
+306)Write a C program to calculate the factorial of a number using recursion.
+307)Write a C program to compute Fibonacci numbers using recursion.
+308)Explain the concept of the base case in recursion. Why is it important?
+309)What are stack overflows in recursion? How can they occur?
+310)Write a recursive C program to reverse a string.
+311)Write a recursive C program to find the greatest common divisor (GCD) of two numbers.
+312)What is meant by low-level programming?
+313)What are registers? In general, what are registers used for?
+314)What is the purpose of the register storage class? What benefits are obtained from it? Which types of variables can be assigned this class? What is the scope of register variables?
+315)Why might a register declaration not be honored? How can a programmer tell if it is honored? How are unhonored register variables treated?
+316)What is the purpose of the one's complement operator (~)? To what types of operands does it apply? What precedence and associativity does it have?
+317)Describe the three logical bitwise operators (&, |, ^). What is the purpose of each?
+318)What types of operands are required by each bitwise operator?
+319)Describe the precedence and associativity of the bitwise operators.
+320)What is a masking operation? What is the purpose of each operand? Which operand is the mask, and how is it chosen?
+321)Describe a masking operation in which a portion of a bit pattern is copied while the remaining bits are set to 0. Which bitwise operator is used? How is the mask selected?
+322)Describe a masking operation in which a portion of a bit pattern is copied while the remaining bits are set to 1. Which bitwise operator is used? How is the mask defined? Compare with the previous question.
+323)Describe a masking operation in which a portion of a bit pattern is copied while the remaining bits are inverted. Which bitwise operator is used? How is the mask defined? Compare with the previous two questions.
+324)Why is the one's complement operator sometimes used in masking operations? Under what conditions?
+325)How can bitwise operations be used to set, clear, or toggle individual bits within a byte? Give examples.
+326)How can bitwise operations be used to test the value of a specific bit?
+327)How can left and right shift operators (<<, >>) be used to manipulate data?
+328)What precautions should be taken when using shift operators on signed integers?
+329)Explain how masks can be combined with shift operations for efficient bit-level programming.
+330)How can bitwise operations improve efficiency in embedded or low-level applications?
+331)Write a C program to invert the bits of a given byte.
+332)Write a C program to count the number of 1’s in the binary representation of an integer.
+333)Write a C program to toggle the n-th bit of a given integer.
+334)Write a C program to check whether the n-th bit of an integer is set or not.
+335)Write a C program to set the n-th bit of an integer.
+336)Write a C program to clear the n-th bit of an integer.
