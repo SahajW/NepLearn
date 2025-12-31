@@ -1,11 +1,13 @@
 import React from "react";
 import "../loginsignup.css";
+import { useNavigate } from 'react-router-dom';
 
 import user_icon from "../../Assets/user.png";
 import email_icon from "../../Assets/email.png";
 import lock_icon from "../../Assets/padlock.png";
 
 export const Loginsignup = () => {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <div className="header">
@@ -25,7 +27,16 @@ export const Loginsignup = () => {
           <img src={lock_icon} alt="" />
           <input type="password" />
         </div>
+        <div className="submit-container">
+          <div
+            className="submit"
+            onClick={() => { navigate('/home'); }} /* This takes user to Home */
+          >
+            Sign Up
+          </div>
+        </div>
       </div>
     </div>
   );
 };
+

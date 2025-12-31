@@ -1,0 +1,173 @@
+/* =========================================
+   1. GLOBAL VARIABLES (The Color Palette)
+   ========================================= */
+:root {
+  --bg-dark: #0a0a0a;
+  /* Very dark gray (Background) */
+  --bg-card: #1e1e1e;
+  /* Slightly lighter (Cards/Navbar) */
+  --accent-primary: #619acf;
+  /* Vivid Violet (Main Accent) */
+  --accent-glow: rgba(81, 126, 193, 0.709);
+  /* Glow effect color */
+  --text-main: #ffffff;
+  /* Pure White text */
+  --text-muted: #a1a1aa;
+  /* Gray text for secondary info */
+  --nav-height: 50px;
+}
+
+/*2. MAIN LAYOUT*/
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: hidden;
+}
+
+/*3. NAVIGATION BAR*/
+.navbar {
+  height: var(--nav-height);
+  background-color: var(--bg-dark);
+  /* Matches background for clean look */
+  border-bottom: 1px solid #333;
+  /* Subtle separation line */
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  /* Soft shadow */
+  z-index: 10;
+}
+
+.nav-text {
+  font-size: 24px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ffffff, #a1a1aa);
+  /* Gradient Text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.5px;
+}
+
+/*4. MAIN CONTENT (The Cards)*/
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
+  /* Subtle vignette */
+}
+
+.box-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* The Cards */
+.box {
+  width: 220px;
+  height: 240px;
+  background-color: var(--bg-card);
+  border: 2px solid #333;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Effect: Glow and Lift */
+.box:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 30px var(--accent-glow);
+}
+
+
+.box h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-muted);
+  transition: 0.3s;
+}
+
+.box:hover h2 {
+  color: var(--text-main);
+}
+
+
+.footer {
+  height: 40px;
+  background-color: var(--accent-primary);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/*fading effect on left/right of footer so text disappears smoothly */
+.footer::before,
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 2;
+}
+
+.footer::before {
+  left: 0;
+  background: linear-gradient(to right, var(--accent-primary), transparent);
+}
+
+.footer::after {
+  right: 0;
+  background: linear-gradient(to left, var(--accent-primary), transparent);
+}
+
+.sliding-text {
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+  animation: slide-left 20s linear infinite;
+  padding-left: 100%;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .box-wrapper {
+    flex-direction: column;
+    /* Stack boxes vertically on phone */
+  }
+
+  .box {
+    width: 280px;
+    height: 160px;
+    flex-direction: row;
+    /* Horizontal layout inside card for mobile */
+    gap: 20px;
+  }
+}
