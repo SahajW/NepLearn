@@ -1,0 +1,4341 @@
+[
+    {
+        "id": "KU_Q1",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe different steps for the development of a C program.",
+        "raw_subquestion": "Describe different steps for the development of a C program.",
+        "cleaned_text": "describe different steps for the development of a c program",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q1"
+    },
+    {
+        "id": "KU_Q2",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "With example, describe any four types of operators used in C programming.",
+        "raw_subquestion": "With example, describe any four types of operators used in C programming.",
+        "cleaned_text": "with example describe any four types of operators used in c programming",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q2"
+    },
+    {
+        "id": "KU_Q3_1",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is the importance of loop structure? With example, describe do-while loop, while loop, and for loop.",
+        "raw_subquestion": "What is the importance of loop structure?",
+        "cleaned_text": "what is the importance of loop structure",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q3"
+    },
+    {
+        "id": "KU_Q3_2",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is the importance of loop structure? With example, describe do-while loop, while loop, and for loop.",
+        "raw_subquestion": "With example, describe do-while loop, while loop, and for loop.",
+        "cleaned_text": "with example describe dowhile loop while loop and for loop",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q3"
+    },
+    {
+        "id": "KU_Q4_1",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program to check whether a given number is Armstrong or not.  \n   [Hint: XYZ is an Armstrong number because X³ + Y³ + Z³ = XYZ]",
+        "raw_subquestion": "Write a program to check whether a given number is Armstrong or not.[Hint:XYZ is an Armstrong number because X³ + Y³ + Z³ = XYZ]",
+        "cleaned_text": "write a program to check whether a given number is armstrong or not hint",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q4"
+    },
+    {
+        "id": "KU_Q5_1",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define a string. With example, describe any six string manipulating functions.",
+        "raw_subquestion": "Define a string.",
+        "cleaned_text": "define a string",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q5"
+    },
+    {
+        "id": "KU_Q5_2",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define a string. With example, describe any six string manipulating functions.",
+        "raw_subquestion": "With example, describe any six string manipulating functions.",
+        "cleaned_text": "with example describe any six string manipulating functions",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q5"
+    },
+    {
+        "id": "KU_Q6",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Using pointer, write a program to calculate the average of user-given number of array elements.  \n   Ensure that the average function returns a floating point value.",
+        "raw_subquestion": "Using pointer, write a program to calculate the average of user-given number of array elements. Ensure that the average function returns a floating point value.",
+        "cleaned_text": "using pointer write a program to calculate the average of usergiven number of array elements ensure that the average function returns a floating point value",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q6"
+    },
+    {
+        "id": "KU_Q7",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to swap (interchange) values of two variables with the help of function and pointer.",
+        "raw_subquestion": "Write a C program to swap (interchange) values of two variables with the help of function and pointer.",
+        "cleaned_text": "write a c program to swap interchange values of two variables with the help of function and pointer",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q7"
+    },
+    {
+        "id": "KU_Q8",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Write a C program that illustrates how an array of structures is passed to a function, and how a pointer to a particular structure is returned.",
+        "raw_subquestion": "Write a C program that illustrates how an array of structures is passed to a function, and how a pointer to a particular structure is returned.",
+        "cleaned_text": "write a c program that illustrates how an array of structures is passed to a function and how a pointer to a particular structure is returned",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q8"
+    },
+    {
+        "id": "KU_Q9_1",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate pass by value with pass by reference. Write a program to illustrate three library functions related to dynamic memory allocation in C programming.",
+        "raw_subquestion": "Differentiate pass by value with pass by reference.",
+        "cleaned_text": "differentiate pass by value with pass by reference",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q9"
+    },
+    {
+        "id": "KU_Q9_2",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate pass by value with pass by reference. Write a program to illustrate three library functions related to dynamic memory allocation in C programming.",
+        "raw_subquestion": "Write a program to illustrate three library functions related to dynamic memory allocation in C programming.",
+        "cleaned_text": "write a program to illustrate three library functions related to dynamic memory allocation in c programming",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q9"
+    },
+    {
+        "id": "KU_Q10_1",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Briefly explain different types of storage class specifiers that are used in C programming language.  \n    Write a C program to copy and compare structure variables.",
+        "raw_subquestion": "Briefly explain different types of storage class specifiers that are used in C programming language.",
+        "cleaned_text": "briefly explain different types of storage class specifiers that are used in c programming language",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q10"
+    },
+    {
+        "id": "KU_Q10_2",
+        "year": 2013,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Briefly explain different types of storage class specifiers that are used in C programming language.  \n    Write a C program to copy and compare structure variables.",
+        "raw_subquestion": "Write a C program to copy and compare structure variables.",
+        "cleaned_text": "write a c program to copy and compare structure variables",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q10"
+    },
+    {
+        "id": "KU_Q11_1",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Summarize the rules for naming identifiers. Are uppercase letters equivalent to lowercase letters? Name the different classes of statements in C. Describe the composition of each.",
+        "raw_subquestion": "Summarize the rules for naming identifiers. Are uppercase letters equivalent to lowercase letters?",
+        "cleaned_text": "summarize the rules for naming identifiers are uppercase letters equivalent to lowercase letters",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q11"
+    },
+    {
+        "id": "KU_Q11_2",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Summarize the rules for naming identifiers. Are uppercase letters equivalent to lowercase letters? Name the different classes of statements in C. Describe the composition of each.",
+        "raw_subquestion": "Name the different classes of statements in C. Describe the composition of each.",
+        "cleaned_text": "name the different classes of statements in c describe the composition of each",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q11"
+    },
+    {
+        "id": "KU_Q12",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe the output that will be generated by each of the following C programs:  \n\n   a.  #include <stdio.h>\n   int main() {\n       int i, j, x = 0;\n       for(i = 0; i < 5; ++i)\n           for(j = 0; j < i; ++j) {\n               x += (i + j - 1);\n               printf(\"%d\", x);\n           }\n       printf(\"\\nx = %d\", x);\n       return 0;\n   }\n   b.#include <stdio.h>\nint funct1(int n) {\n    if(n > 0) return n + funct1(n - 1);\n    else return 0;\n}\nint main() {\n    int n = 10;\n    printf(\"%d\", funct1(n));\n    return 0;\n}",
+        "raw_subquestion": "Describe the output that will be generated by each of the following C programs:  \n\n   a.  #include <stdio.h>\n   int main() {\n       int i, j, x = 0;\n       for(i = 0; i < 5; ++i)\n           for(j = 0; j < i; ++j) {\n               x += (i + j - 1);\n               printf(\"%d\", x);\n           }\n       printf(\"\\nx = %d\", x);\n       return 0;\n   }\n   b.#include <stdio.h>\nint funct1(int n) {\n    if(n > 0) return n + funct1(n - 1);\n    else return 0;\n}\nint main() {\n    int n = 10;\n    printf(\"%d\", funct1(n));\n    return 0;\n}",
+        "cleaned_text": "describe the output that will be generated by each of the following c programs",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q12"
+    },
+    {
+        "id": "KU_Q13_1",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is meant by branching? Suppose a break statement is included within the innermost of several nested control statements. What happens when the break statement is executed?",
+        "raw_subquestion": "What is meant by branching?",
+        "cleaned_text": "what is meant by branching",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q13"
+    },
+    {
+        "id": "KU_Q13_2",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is meant by branching? Suppose a break statement is included within the innermost of several nested control statements. What happens when the break statement is executed?",
+        "raw_subquestion": "Suppose a break statement is included within the innermost of several nested control statements. What happens when the break statement is executed?",
+        "cleaned_text": "suppose a break statement is included within the innermost of several nested control statements what happens when the break statement is executed",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q13"
+    },
+    {
+        "id": "KU_Q14",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a loop that will generate every fourth integer, beginning with variable i = 3 and containing all integers less than 150. Calculate the sum of those integers that are divisible by 7.",
+        "raw_subquestion": "Write a loop that will generate every fourth integer, beginning with variable i = 3 and containing all integers less than 150. Calculate the sum of those integers that are divisible by 7.",
+        "cleaned_text": "write a loop that will generate every fourth integer beginning with variable i 3 and containing all integers less than 150 calculate the sum of those integers that are divisible by 7",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q14"
+    },
+    {
+        "id": "KU_Q15",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program to swap values of two variables using a function. Pass the arguments to the function by reference.",
+        "raw_subquestion": "Write a program to swap values of two variables using a function. Pass the arguments to the function by reference",
+        "cleaned_text": "write a program to swap values of two variables using a function pass the arguments to the function by reference",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q15"
+    },
+    {
+        "id": "KU_Q16",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program to read integers n1 and n2 and display all odd numbers between those two numbers.",
+        "raw_subquestion": "Write a program to read integers n1 and n2 and display all odd numbers between those two numbers.",
+        "cleaned_text": "write a program to read integers n1 and n2 and display all odd numbers between those two numbers",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q16"
+    },
+    {
+        "id": "KU_Q17_1",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is the purpose of the keyword void? Where is this keyword used? Why might a return statement be included in a function that does not return any value?",
+        "raw_subquestion": "What is the purpose of the keyword void? Where is this keyword used?",
+        "cleaned_text": "what is the purpose of the keyword void where is this keyword used",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q17"
+    },
+    {
+        "id": "KU_Q17_2",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is the purpose of the keyword void? Where is this keyword used? Why might a return statement be included in a function that does not return any value?",
+        "raw_subquestion": "Why might a return statement be included in a function that does not return any value?",
+        "cleaned_text": "why might a return statement be included in a function that does not return any value",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q17"
+    },
+    {
+        "id": "KU_Q18_1",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the keywords in C? What restrictions apply to their use? Compare the use of the switch statement with nested if-else statements. What is a function? Are functions required when writing a C program? State three advantages of using functions. Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "raw_subquestion": "What are the keywords in C?",
+        "cleaned_text": "what are the keywords in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q18"
+    },
+    {
+        "id": "KU_Q18_2",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the keywords in C? What restrictions apply to their use? Compare the use of the switch statement with nested if-else statements. What is a function? Are functions required when writing a C program? State three advantages of using functions. Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "raw_subquestion": "What restrictions are applied using keywaords?",
+        "cleaned_text": "what restrictions are applied using keywaords",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q18"
+    },
+    {
+        "id": "KU_Q18_3",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the keywords in C? What restrictions apply to their use? Compare the use of the switch statement with nested if-else statements. What is a function? Are functions required when writing a C program? State three advantages of using functions. Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "raw_subquestion": "Compare the use of the switch statement with nested if-else statements.",
+        "cleaned_text": "compare the use of the switch statement with nested ifelse statements",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q18"
+    },
+    {
+        "id": "KU_Q18_4",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the keywords in C? What restrictions apply to their use? Compare the use of the switch statement with nested if-else statements. What is a function? Are functions required when writing a C program? State three advantages of using functions. Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "raw_subquestion": "What is a function?",
+        "cleaned_text": "what is a function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q18"
+    },
+    {
+        "id": "KU_Q18_5",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the keywords in C? What restrictions apply to their use? Compare the use of the switch statement with nested if-else statements. What is a function? Are functions required when writing a C program? State three advantages of using functions. Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "raw_subquestion": "Are functions required when writing a C program?",
+        "cleaned_text": "are functions required when writing a c program",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q18"
+    },
+    {
+        "id": "KU_Q18_6",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the keywords in C? What restrictions apply to their use? Compare the use of the switch statement with nested if-else statements. What is a function? Are functions required when writing a C program? State three advantages of using functions. Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "raw_subquestion": "State three advantages of using functions.",
+        "cleaned_text": "state three advantages of using functions",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q18"
+    },
+    {
+        "id": "KU_Q18_7",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the keywords in C? What restrictions apply to their use? Compare the use of the switch statement with nested if-else statements. What is a function? Are functions required when writing a C program? State three advantages of using functions. Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "raw_subquestion": "Can the names of formal arguments within a function coincide with the names of other variables defined outside of the function? Explain.",
+        "cleaned_text": "can the names of formal arguments within a function coincide with the names of other variables defined outside of the function explain",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q18"
+    },
+    {
+        "id": "KU_Q19_1",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "In what way does an array differ from an ordinary variable? How are individual array elements identified? What advantages are there in defining an array size in terms of a symbolic constant rather than a fixed integer? What value is automatically assigned to array elements that are not explicitly initialized? Write a program that reads two matrices of order m x n and p x q respectively using a function readMatrix(). The program should contain a function processMatrix() that multiplies the matrices. Display the result using a function showMatrix().",
+        "raw_subquestion": "In what way does an array differ from an ordinary variable?",
+        "cleaned_text": "in what way does an array differ from an ordinary variable",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q19"
+    },
+    {
+        "id": "KU_Q19_2",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "In what way does an array differ from an ordinary variable? How are individual array elements identified? What advantages are there in defining an array size in terms of a symbolic constant rather than a fixed integer? What value is automatically assigned to array elements that are not explicitly initialized? Write a program that reads two matrices of order m x n and p x q respectively using a function readMatrix(). The program should contain a function processMatrix() that multiplies the matrices. Display the result using a function showMatrix().",
+        "raw_subquestion": "How are individual array elements identified?",
+        "cleaned_text": "how are individual array elements identified",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q19"
+    },
+    {
+        "id": "KU_Q19_3",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "In what way does an array differ from an ordinary variable? How are individual array elements identified? What advantages are there in defining an array size in terms of a symbolic constant rather than a fixed integer? What value is automatically assigned to array elements that are not explicitly initialized? Write a program that reads two matrices of order m x n and p x q respectively using a function readMatrix(). The program should contain a function processMatrix() that multiplies the matrices. Display the result using a function showMatrix().",
+        "raw_subquestion": "What advantages are there in defining an array size in terms of a symbolic constant rather than a fixed integer?",
+        "cleaned_text": "what advantages are there in defining an array size in terms of a symbolic constant rather than a fixed integer",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q19"
+    },
+    {
+        "id": "KU_Q19_4",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "In what way does an array differ from an ordinary variable? How are individual array elements identified? What advantages are there in defining an array size in terms of a symbolic constant rather than a fixed integer? What value is automatically assigned to array elements that are not explicitly initialized? Write a program that reads two matrices of order m x n and p x q respectively using a function readMatrix(). The program should contain a function processMatrix() that multiplies the matrices. Display the result using a function showMatrix().",
+        "raw_subquestion": "What value is automatically assigned to array elements that are not explicitly initialized?",
+        "cleaned_text": "what value is automatically assigned to array elements that are not explicitly initialized",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q19"
+    },
+    {
+        "id": "KU_Q19_5",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "In what way does an array differ from an ordinary variable? How are individual array elements identified? What advantages are there in defining an array size in terms of a symbolic constant rather than a fixed integer? What value is automatically assigned to array elements that are not explicitly initialized? Write a program that reads two matrices of order m x n and p x q respectively using a function readMatrix(). The program should contain a function processMatrix() that multiplies the matrices. Display the result using a function showMatrix().",
+        "raw_subquestion": "Write a program that reads two matrices of order m x n and p x q respectively using a function readMatrix(). The program should contain a function processMatrix() that multiplies the matrices. Display the result using a function showMatrix().",
+        "cleaned_text": "write a program that reads two matrices of order m x n and p x q respectively using a function readmatrix the program should contain a function processmatrix that multiplies the matrices display the result using a function showmatrix",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q19"
+    },
+    {
+        "id": "KU_Q20",
+        "year": 2014,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Write a program that defines a structure STUDENT containing name, symbol number, marks of six subjects, total mark, and percentage as members. Read the data for ten students. Display the records in descending order according to the percentage obtained by the students.",
+        "raw_subquestion": "Write a program that defines a structure STUDENT containing name, symbol number, marks of six subjects, total mark, and percentage as members. Read the data for ten students. Display the records in descending order according to the percentage obtained by the students.",
+        "cleaned_text": "write a program that defines a structure student containing name symbol number marks of six subjects total mark and percentage as members read the data for ten students display the records in descending order according to the percentage obtained by the students",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q20"
+    },
+    {
+        "id": "KU_Q21_1",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define structured programming language. Describe the general structure of a C program.",
+        "raw_subquestion": "Define structured programming language.",
+        "cleaned_text": "define structured programming language",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q21"
+    },
+    {
+        "id": "KU_Q21_2",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define structured programming language. Describe the general structure of a C program.",
+        "raw_subquestion": "Describe the general structure of a C program.",
+        "cleaned_text": "describe the general structure of a c program",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q21"
+    },
+    {
+        "id": "KU_Q22_1",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by data type? With example, describe three classes of data types.",
+        "raw_subquestion": "What do you mean by data type?",
+        "cleaned_text": "what do you mean by data type",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q22"
+    },
+    {
+        "id": "KU_Q22_2",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by data type? With example, describe three classes of data types.",
+        "raw_subquestion": "With example, describe three classes of data types.",
+        "cleaned_text": "with example describe three classes of data types",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q22"
+    },
+    {
+        "id": "KU_Q23_1",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define decision structure. Write a program to illustrate switch-case, continue, and break statements.",
+        "raw_subquestion": "Define decision structure.",
+        "cleaned_text": "define decision structure",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q23"
+    },
+    {
+        "id": "KU_Q23_2",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define decision structure. Write a program to illustrate switch-case, continue, and break statements.",
+        "raw_subquestion": "Write a program to illustrate switch-case, continue, and break statements.",
+        "cleaned_text": "write a program to illustrate switchcase continue and break statements",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q23"
+    },
+    {
+        "id": "KU_Q24",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to check whether a number is a Strong Number or not.\n[Hint: 145 is a strong number because 1! + 4! + 5! = 145]",
+        "raw_subquestion": "Write a C program to check whether a number is a Strong Number or not.\n[Hint: 145 is a strong number because 1! + 4! + 5! = 145]",
+        "cleaned_text": "write a c program to check whether a number is a strong number or not",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q24"
+    },
+    {
+        "id": "KU_Q25_1",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program that reads twelve numbers entered by the user and prints if any of them match. With example, differentiate pass by value with pass by reference.",
+        "raw_subquestion": "Write a program that reads twelve numbers entered by the user and prints if any of them match.",
+        "cleaned_text": "write a program that reads twelve numbers entered by the user and prints if any of them match",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q25"
+    },
+    {
+        "id": "KU_Q25_2",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program that reads twelve numbers entered by the user and prints if any of them match. With example, differentiate pass by value with pass by reference.",
+        "raw_subquestion": "With example, differentiate pass by value with pass by reference.",
+        "cleaned_text": "with example differentiate pass by value with pass by reference",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q25"
+    },
+    {
+        "id": "KU_Q26",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define dynamic memory allocation and briefly explain different dynamic memory allocation functions.",
+        "raw_subquestion": "Define dynamic memory allocation and briefly explain different dynamic memory allocation functions.",
+        "cleaned_text": "define dynamic memory allocation and briefly explain different dynamic memory allocation functions",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q26"
+    },
+    {
+        "id": "KU_Q27_1",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Using a function, write a program to multiply two matrices. Display the resultant matrix. Write a C program that illustrates how an array of structures is passed to a function, and how a pointer to a particular structure is returned.",
+        "raw_subquestion": "Using a function, write a program to multiply two matrices. Display the resultant matrix.",
+        "cleaned_text": "using a function write a program to multiply two matrices display the resultant matrix",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q27"
+    },
+    {
+        "id": "KU_Q27_2",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Using a function, write a program to multiply two matrices. Display the resultant matrix. Write a C program that illustrates how an array of structures is passed to a function, and how a pointer to a particular structure is returned.",
+        "raw_subquestion": "Write a C program that illustrates how an array of structures is passed to a function, and how a pointer to a particular structure is returned.",
+        "cleaned_text": "write a c program that illustrates how an array of structures is passed to a function and how a pointer to a particular structure is returned",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q27"
+    },
+    {
+        "id": "KU_Q28_1",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Explain storage class specifiers. Write a program to enter the records of n students according to the structure given below and arrange the records in ascending order based on their names:\nstruct student {\n    int Roll_Num;\n    char Name[20];\n    char Dept[20];\n};",
+        "raw_subquestion": "Explain storage class specifiers.",
+        "cleaned_text": "explain storage class specifiers",
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q28"
+    },
+    {
+        "id": "KU_Q28_2",
+        "year": 2015,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Explain storage class specifiers. Write a program to enter the records of n students according to the structure given below and arrange the records in ascending order based on their names:\nstruct student {\n    int Roll_Num;\n    char Name[20];\n    char Dept[20];\n};\n\nKATHMANDU UNIVERSITY\nEnd Semester Examination",
+        "raw_subquestion": " Write a program to enter the records of n students according to the structure given below and arrange the records in ascending order based on their names:\nstruct student {\n    int Roll_Num;\n    char Name[20];\n    char Dept[20];\n};",
+        "cleaned_text": "write a program to enter the records of n students according to the structure given below and arrange the records in ascending order based on their names",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q28"
+    },
+    {
+        "id": "KU_Q29_1",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain the following loop control statements in C with example:  \n   (a) `break` statement  \n   (b) `continue` statement  \n   (c) `switch` statement\n\n   Distinguish between `#include` and `#define`.",
+        "raw_subquestion": "Explain the following loop control statements in C with example:  \n   (a) `break` statement  \n   (b) `continue` statement  \n   (c) `switch` statement",
+        "cleaned_text": "explain the following loop control statements in c with example break statement continue statement switch statement",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q29"
+    },
+    {
+        "id": "KU_Q29_2",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain the following loop control statements in C with example:  \n   (a) `break` statement  \n   (b) `continue` statement  \n   (c) `switch` statement  \n\n   Distinguish between `#include` and `#define`.",
+        "raw_subquestion": "Distinguish between `#include` and `#define`.",
+        "cleaned_text": "distinguish between `include` and `define`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q29"
+    },
+    {
+        "id": "KU_Q30_1",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a character array? How is it different from other data types of arrays?  \n   Write a C program to find the smallest value among four numbers.",
+        "raw_subquestion": "What is a character array?",
+        "cleaned_text": "what is a character array",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q30"
+    },
+    {
+        "id": "KU_Q30_2",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a character array? How is it different from other data types of arrays?  \n   Write a C program to find the smallest value among four numbers.",
+        "raw_subquestion": "How is character array different from other data types of arrays?",
+        "cleaned_text": "how is character array different from other data types of arrays",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q30"
+    },
+    {
+        "id": "KU_Q30_3",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a character array? How is it different from other data types of arrays?  \n   Write a C program to find the smallest value among four numbers.",
+        "raw_subquestion": "Write a C program to find the smallest value among four numbers.",
+        "cleaned_text": "write a c program to find the smallest value among four numbers",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q30"
+    },
+    {
+        "id": "KU_Q31",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define different types of statements used in C.",
+        "raw_subquestion": "Define different types of statements used in C.",
+        "cleaned_text": "define different types of statements used in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q31"
+    },
+    {
+        "id": "KU_Q32_1",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define `for` loop. Write a C program to find the sum and average of given numbers using a `for` loop.",
+        "raw_subquestion": "Define `for` loop.",
+        "cleaned_text": "define `for` loop",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q32"
+    },
+    {
+        "id": "KU_Q32_2",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define `for` loop. Write a C program to find the sum and average of given numbers using a `for` loop.",
+        "raw_subquestion": "Write a C program to find the sum and average of given numbers using a `for` loop.",
+        "cleaned_text": "write a c program to find the sum and average of given numbers using a `for` loop",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q32"
+    },
+    {
+        "id": "KU_Q33_1",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain the difference between `printf()` and `scanf()` with examples. Write a program in C to find the principal, rate of interest, and number of years.",
+        "raw_subquestion": "Explain the difference between `printf()` and `scanf()` with examples.",
+        "cleaned_text": "explain the difference between `printf` and `scanf` with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q33"
+    },
+    {
+        "id": "KU_Q33_2",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain the difference between `printf()` and `scanf()` with examples. Write a program in C to find the principal, rate of interest, and number of years.",
+        "raw_subquestion": "Write a program in C to find the principal, rate of interest, and number of years.",
+        "cleaned_text": "write a program in c to find the principal rate of interest and number of years",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q33"
+    },
+    {
+        "id": "KU_Q34_1",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What is a multidimensional array? How is it different from a one-dimensional array?  \n   Write a C program to read the elements of two matrices of order n x n and perform matrix multiplication.",
+        "raw_subquestion": "What is a multidimensional array?",
+        "cleaned_text": "what is a multidimensional array",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q34"
+    },
+    {
+        "id": "KU_Q34_2",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What is a multidimensional array? How is it different from a one-dimensional array?  \n   Write a C program to read the elements of two matrices of order n x n and perform matrix multiplication.",
+        "raw_subquestion": "How is multidimensional array different from a one-dimensional array?",
+        "cleaned_text": "how is multidimensional array different from a onedimensional array",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q34"
+    },
+    {
+        "id": "KU_Q34_3",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What is a multidimensional array? How is it different from a one-dimensional array?  \n   Write a C program to read the elements of two matrices of order n x n and perform matrix multiplication.",
+        "raw_subquestion": "Write a C program to read the elements of two matrices of order n x n and perform matrix multiplication.",
+        "cleaned_text": "write a c program to read the elements of two matrices of order n x n and perform matrix multiplication",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q34"
+    },
+    {
+        "id": "KU_Q35_1",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Distinguish a structure data type from other data type variables. Develop a program in C to read the following information from the keyboard:  \n   - Employee's name  \n   - Employee's code  \n   - Designation  \n   - Years of experience  \n   - Age",
+        "raw_subquestion": "Distinguish a structure data type from other data type variables.",
+        "cleaned_text": "distinguish a structure data type from other data type variables",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q35"
+    },
+    {
+        "id": "KU_Q35_2",
+        "year": 2016,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Distinguish a structure data type from other data type variables. Develop a program in C to read the following information from the keyboard:  \n   - Employee's name  \n   - Employee's code  \n   - Designation  \n   - Years of experience  \n   - Age",
+        "raw_subquestion": "Develop a program in C to read the following information from the keyboard:  \n   - Employee's name  \n   - Employee's code  \n   - Designation  \n   - Years of experience  \n   - Age",
+        "cleaned_text": "develop a program in c to read the following information from the keyboard employees name employees code designation years of experience age",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q35"
+    },
+    {
+        "id": "KU_Q36_1",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe the usefulness of the `switch` statement. Write a program that reads a value x and evaluates the following functions using nested `if` statements:  \n   - y = 1 for x > 0  \n   - y = 0 for x = 0  \n   - y = -1 for x < 0",
+        "raw_subquestion": "Describe the usefulness of the `switch` statement.",
+        "cleaned_text": "describe the usefulness of the `switch` statement",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q36"
+    },
+    {
+        "id": "KU_Q36_2",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe the usefulness of the `switch` statement. Write a program that reads a value x and evaluates the following functions using nested `if` statements:  \n   - y = 1 for x > 0  \n   - y = 0 for x = 0  \n   - y = -1 for x < 0",
+        "raw_subquestion": "Write a program that reads a value x and evaluates the following functions using nested `if` statements:  \n   - y = 1 for x > 0  \n   - y = 0 for x = 0  \n   - y = -1 for x < 0",
+        "cleaned_text": "write a program that reads a value x and evaluates the following functions using nested if statements y 1 for x 0 y 0 for x 0 y 1 for x 0",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q36"
+    },
+    {
+        "id": "KU_Q37_1",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What are relational operators? Provide a C snippet that demonstrates the use of the `!=` (not-equal-to) operator. How does `==` differ from `!=`?",
+        "raw_subquestion": "What are relational operators?",
+        "cleaned_text": "what are relational operators",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q37"
+    },
+    {
+        "id": "KU_Q37_2",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What are relational operators? Provide a C snippet that demonstrates the use of the `!=` (not-equal-to) operator. How does `==` differ from `!=`?",
+        "raw_subquestion": "Provide a C snippet that demonstrates the use of the `!=` (not-equal-to) operator.",
+        "cleaned_text": "provide a c snippet that demonstrates the use of the `` notequalto operator",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q37"
+    },
+    {
+        "id": "KU_Q37_3",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What are relational operators? Provide a C snippet that demonstrates the use of the `!=` (not-equal-to) operator. How does `==` differ from `!=`?",
+        "raw_subquestion": "How does `==` differ from `!=`?",
+        "cleaned_text": "how does `` differ from ``",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q37"
+    },
+    {
+        "id": "KU_Q38_1",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe the syntax of `do-while` statement. The time period of a pendulum can be calculated using the following equation:\n T = 2π * sqrt(L / g)\nwhere L is the length of the pendulum, g is the acceleration due to gravity (= 9.8).  \nWrite a program to calculate the time period of a simple pendulum for values of L from 1 to 10 in steps of 1.",
+        "raw_subquestion": "Describe the syntax of `do-while` statement.",
+        "cleaned_text": "describe the syntax of `dowhile` statement",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q38"
+    },
+    {
+        "id": "KU_Q38_2",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe the syntax of `do-while` statement. The time period of a pendulum can be calculated using the following equation:\n T = 2π * sqrt(L / g)\nwhere L is the length of the pendulum, g is the acceleration due to gravity (= 9.8).  \nWrite a program to calculate the time period of a simple pendulum for values of L from 1 to 10 in steps of 1.",
+        "raw_subquestion": "The time period of a pendulum can be calculated using the following equation:\n T = 2π * sqrt(L / g)\nwhere L is the length of the pendulum, g is the acceleration due to gravity (= 9.8). \nWrite a program to calculate the time period of a simple pendulum for values of L from 1 to 10 in steps of 1.",
+        "cleaned_text": "the time period of a pendulum can be calculated using the following equation write a program to calculate the time period of a simple pendulum for values of l from 1 to 10 in steps of 1",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q38"
+    },
+    {
+        "id": "KU_Q39",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Consider the weekly salary of a salesman selling some domestic products. If x is the number of products sold in a week, his weekly salary is given by:  \n salary = 100 for x <= 20\n salary = 300 for x <= 40\n salary = 4.5*x + 150 for x > 40  \nWrite a function `get_salary` that takes x as an argument and returns the salary. Also write a complete program using this function.",
+        "raw_subquestion": "Consider the weekly salary of a salesman selling some domestic products. If x is the number of products sold in a week, his weekly salary is given by:  \n salary = 100 for x <= 20\n salary = 300 for x <= 40\n salary = 4.5*x + 150 for x > 40  \nWrite a function `get_salary` that takes x as an argument and returns the salary. Also write a complete program using this function.",
+        "cleaned_text": "consider the weekly salary of a salesman selling some domestic products write a function getsalary that takes x as an argument and returns the salary also write a complete program using this function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q39"
+    },
+    {
+        "id": "KU_Q40_1",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is an array? How does passing a variable to a function differ from passing an array to a function?  \nWhat are static storage classes? Write a complete C program that shows the use of a static variable.",
+        "raw_subquestion": "What is an array?",
+        "cleaned_text": "what is an array",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q40"
+    },
+    {
+        "id": "KU_Q40_2",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is an array? How does passing a variable to a function differ from passing an array to a function?  \nWhat are static storage classes? Write a complete C program that shows the use of a static variable.",
+        "raw_subquestion": "How does passing a variable to a function differ from passing an array to a function?",
+        "cleaned_text": "how does passing a variable to a function differ from passing an array to a function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q40"
+    },
+    {
+        "id": "KU_Q40_3",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is an array? How does passing a variable to a function differ from passing an array to a function?  \nWhat are static storage classes? Write a complete C program that shows the use of a static variable.",
+        "raw_subquestion": "What are static storage classes?",
+        "cleaned_text": "what are static storage classes",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q40"
+    },
+    {
+        "id": "KU_Q40_4",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is an array? How does passing a variable to a function differ from passing an array to a function?  \nWhat are static storage classes? Write a complete C program that shows the use of a static variable.",
+        "raw_subquestion": "Write a complete C program that shows the use of a static variable.",
+        "cleaned_text": "write a complete c program that shows the use of a static variable",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q40"
+    },
+    {
+        "id": "KU_Q41",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain the differences between `malloc()` and `calloc()` functions in dynamic memory allocation.",
+        "raw_subquestion": "Explain the differences between `malloc()` and `calloc()` functions in dynamic memory allocation.",
+        "cleaned_text": "explain the differences between `malloc` and `calloc` functions in dynamic memory allocation",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q41"
+    },
+    {
+        "id": "KU_Q42",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Given a square matrix A of size 10 x 10, write a program that identifies whether the matrix is diagonal.  \n(A diagonal matrix has all non-diagonal elements equal to zero.)",
+        "raw_subquestion": "Given a square matrix A of size 10 x 10, write a program that identifies whether the matrix is diagonal.   (A diagonal matrix has all non-diagonal elements equal to zero.)",
+        "cleaned_text": "given a square matrix a of size 10 x 10 write a program that identifies whether the matrix is diagonal a diagonal matrix has all nondiagonal elements equal to zero",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q42"
+    },
+    {
+        "id": "KU_Q43",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Create a structure called `Employee` with attributes: name, salary, year, and taxable;  \n- `name` stores the employee's name  \n- `year` stores the year of joining the company  \n- `salary` stores the annual income  \n- `taxable` stores either 0 or 1 (0 if salary is not taxable, 1 if taxable)  \n\nIn the main program, create an array of 5 employees. Initialize the array and calculate the total tax collected from all employees (tax rate = 15%).",
+        "raw_subquestion": "Create a structure called `Employee` with attributes: name, salary, year, and taxable;  \n- `name` stores the employee's name  \n- `year` stores the year of joining the company  \n- `salary` stores the annual income  \n- `taxable` stores either 0 or 1 (0 if salary is not taxable, 1 if taxable)  \n\nIn the main program, create an array of 5 employees. Initialize the array and calculate the total tax collected from all employees (tax rate = 15%).",
+        "cleaned_text": "create a structure called employee with attributes name salary year and taxable in the main program create an array of 5 employees initialize the array and calculate the total tax collected from all employees",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q43"
+    },
+    {
+        "id": "KU_Q44",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Consider a student with grades in 5 subjects. Scores of 4 subjects are arranged in an array:  \nScore[4] = {86, 45, 51, 61}\nThe highest mark is 100 and the minimum passing score is 40. Write a program to calculate the score required in the 5th subject to achieve a given percentage. Show the following test cases:  \n- Test Case #1: Enter percentage = 78 → Impossible to score  \n- Test Case #2: Enter percentage = 60 → Mark required = 57  \n- Test Case #3: Enter percentage = 45 → Minimum percentage achievable = 56.6",
+        "raw_subquestion": "Consider a student with grades in 5 subjects. Scores of 4 subjects are arranged in an array:  \nScore[4] = {86, 45, 51, 61}\nThe highest mark is 100 and the minimum passing score is 40. Write a program to calculate the score required in the 5th subject to achieve a given percentage. Show the following test cases:  \n- Test Case #1: Enter percentage = 78 → Impossible to score  \n- Test Case #2: Enter percentage = 60 → Mark required = 57  \n- Test Case #3: Enter percentage = 45 → Minimum percentage achievable = 56.6",
+        "cleaned_text": "consider a student with grades in 5 subjects write a program to calculate the score required in the 5th subject to achieve a given percentage",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q44"
+    },
+    {
+        "id": "KU_Q45",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain the four steps of development of a C program.",
+        "raw_subquestion": "Explain the four steps of development of a C program.",
+        "cleaned_text": "explain the four steps of development of a c program",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q45"
+    },
+    {
+        "id": "KU_Q46",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program in C to illustrate `switch-case` statement.",
+        "raw_subquestion": "Write a program in C to illustrate `switch-case` statement.",
+        "cleaned_text": "write a program in c to illustrate `switchcase` statement",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q46"
+    },
+    {
+        "id": "KU_Q47_1",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by control structure? With example, explain the two types of repetition control.",
+        "raw_subquestion": "What do you mean by control structure?",
+        "cleaned_text": "what do you mean by control structure",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q47"
+    },
+    {
+        "id": "KU_Q47_2",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by control structure? With example, explain the two types of repetition control.",
+        "raw_subquestion": "With example, explain the two types of repetition control.",
+        "cleaned_text": "with example explain the two types of repetition control",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q47"
+    },
+    {
+        "id": "KU_Q48",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Using a function, write a program to demonstrate recursion.",
+        "raw_subquestion": "Using a function, write a program to demonstrate recursion.",
+        "cleaned_text": "using a function write a program to demonstrate recursion",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q48"
+    },
+    {
+        "id": "KU_Q49",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "With example, differentiate pass by value with pass by reference.",
+        "raw_subquestion": "With example, differentiate pass by value with pass by reference.",
+        "cleaned_text": "with example differentiate pass by value with pass by reference",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q49"
+    },
+    {
+        "id": "KU_Q50",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "With example, explain nested loops and nested structures.",
+        "raw_subquestion": "With example, explain nested loops and nested structures.",
+        "cleaned_text": "with example explain nested loops and nested structures",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q50"
+    },
+    {
+        "id": "KU_Q51",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program to calculate the average of user-given number of array elements. Ensure the average function returns a floating point value.",
+        "raw_subquestion": "Write a program to calculate the average of user-given number of array elements. Ensure the average function returns a floating point value.",
+        "cleaned_text": "write a program to calculate the average of usergiven number of array elements",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q51"
+    },
+    {
+        "id": "KU_Q52",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Write a C program that finds the transpose of a given 3 x 3 matrix. Display both the original and transposed matrices using functions.",
+        "raw_subquestion": "Write a C program that finds the transpose of a given 3 x 3 matrix. Display both the original and transposed matrices using functions.",
+        "cleaned_text": "write a c program that finds the transpose of a given 3 x 3 matrix display both the original and transposed matrices using functions",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q52"
+    },
+    {
+        "id": "KU_Q53_1",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "With example, define `typedef` and `union`. Using structures and functions, write a C program to sort information of five students by their names.",
+        "raw_subquestion": "With example, define `typedef` and `union`.",
+        "cleaned_text": "with example define `typedef` and `union`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q53"
+    },
+    {
+        "id": "KU_Q53_2",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "With example, define `typedef` and `union`. Using structures and functions, write a C program to sort information of five students by their names.",
+        "raw_subquestion": "Using structures and functions, write a C program to sort information of five students by their names.",
+        "cleaned_text": "using structures and functions write a c program to sort information of five students by their names",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q53"
+    },
+    {
+        "id": "KU_Q54_1",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Compare and contrast an array with a structure. Define storage class. Explain different types of storage classes.",
+        "raw_subquestion": "Compare and contrast an array with a structure.",
+        "cleaned_text": "compare and contrast an array with a structure",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q54"
+    },
+    {
+        "id": "KU_Q54_2",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Compare and contrast an array with a structure. Define storage class. Explain different types of storage classes.",
+        "raw_subquestion": "Define storage class.",
+        "cleaned_text": "define storage class",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q54"
+    },
+    {
+        "id": "KU_Q54_3",
+        "year": 2016,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Compare and contrast an array with a structure. Define storage class. Explain different types of storage classes.",
+        "raw_subquestion": "Explain different types of storage classes.",
+        "cleaned_text": "explain different types of storage classes",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q54"
+    },
+    {
+        "id": "KU_Q55_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a variable? What sorts of variable names are acceptable in C programming? How does it differ from a keyword?",
+        "raw_subquestion": "What is a variable?",
+        "cleaned_text": "what is a variable",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q55"
+    },
+    {
+        "id": "KU_Q55_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a variable? What sorts of variable names are acceptable in C programming? How does it differ from a keyword?",
+        "raw_subquestion": "What sorts of variable names are acceptable in C programming?",
+        "cleaned_text": "what sorts of variable names are acceptable in c programming",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q55"
+    },
+    {
+        "id": "KU_Q55_3",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a variable? What sorts of variable names are acceptable in C programming? How does it differ from a keyword?",
+        "raw_subquestion": "How does variable differ from a keyword?",
+        "cleaned_text": "how does variable differ from a keyword",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q55"
+    },
+    {
+        "id": "KU_Q56_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by looping? Write a program to print all even numbers between 101 and 201, except those divisible by 14.",
+        "raw_subquestion": "What do you mean by looping?",
+        "cleaned_text": "what do you mean by looping",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q56"
+    },
+    {
+        "id": "KU_Q56_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by looping? Write a program to print all even numbers between 101 and 201, except those divisible by 14.",
+        "raw_subquestion": "Write a program to print all even numbers between 101 and 201, except those divisible by 14.",
+        "cleaned_text": "write a program to print all even numbers between 101 and 201 except those divisible by 14",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q56"
+    },
+    {
+        "id": "KU_Q57_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe a static variable in terms of its scope and lifetime. Write a simple C program to demonstrate the use of a static variable.",
+        "raw_subquestion": "Describe a static variable in terms of its scope and lifetime.",
+        "cleaned_text": "describe a static variable in terms of its scope and lifetime",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q57"
+    },
+    {
+        "id": "KU_Q57_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe a static variable in terms of its scope and lifetime. Write a simple C program to demonstrate the use of a static variable.",
+        "raw_subquestion": "Write a simple C program to demonstrate the use of a static variable.",
+        "cleaned_text": "write a simple c program to demonstrate the use of a static variable",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q57"
+    },
+    {
+        "id": "KU_Q58_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by ternary operator? Write a simple C program that makes use of the ternary operator.",
+        "raw_subquestion": "What do you mean by ternary operator?",
+        "cleaned_text": "what do you mean by ternary operator",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q58"
+    },
+    {
+        "id": "KU_Q58_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by ternary operator? Write a simple C program that makes use of the ternary operator.",
+        "raw_subquestion": "Write a simple C program that makes use of the ternary operator.",
+        "cleaned_text": "write a simple c program that makes use of the ternary operator",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q58"
+    },
+    {
+        "id": "KU_Q59_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe the syntax of `else if` ladder. How is it different from a `switch` statement?",
+        "raw_subquestion": "Describe the syntax of `else if` ladder.",
+        "cleaned_text": "describe the syntax of `else if` ladder",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q59"
+    },
+    {
+        "id": "KU_Q59_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Describe the syntax of `else if` ladder. How is it different from a `switch` statement?",
+        "raw_subquestion": "How is `else if` different from a `switch` statement?",
+        "cleaned_text": "how is `else if` different from a `switch` statement",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q59"
+    },
+    {
+        "id": "KU_Q60",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a function called `is_divisible` that takes two positive integers as arguments. Assume the first argument is less than the second. The function returns 1 if the second is divisible by the first, otherwise 0. Example: `is_divisible(3,7)` returns 0. No main function needed.",
+        "raw_subquestion": "Write a function called `is_divisible` that takes two positive integers as arguments. Assume the first argument is less than the second. The function returns 1 if the second is divisible by the first, otherwise 0. Example: `is_divisible(3,7)` returns 0. No main function needed.",
+        "cleaned_text": "write a function called `isdivisible` that takes two positive integers as arguments assume the first argument is less than the second the function returns 1 if the second is divisible by the first otherwise 0",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q60"
+    },
+    {
+        "id": "KU_Q61_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a pointer variable? How is pass by reference advantageous compared to pass by value?",
+        "raw_subquestion": "What is a pointer variable?",
+        "cleaned_text": "what is a pointer variable",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q61"
+    },
+    {
+        "id": "KU_Q61_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is a pointer variable? How is pass by reference advantageous compared to pass by value?",
+        "raw_subquestion": "How is pass by reference advantageous compared to pass by value?",
+        "cleaned_text": "how is pass by reference advantageous compared to pass by value",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q61"
+    },
+    {
+        "id": "KU_Q62_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate between array and pointer. In what ways are they similar? Write a complete C program demonstrating the addition of two-dimensional arrays.",
+        "raw_subquestion": "Differentiate between array and pointer.",
+        "cleaned_text": "differentiate between array and pointer",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q62"
+    },
+    {
+        "id": "KU_Q62_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate between array and pointer. In what ways are they similar? Write a complete C program demonstrating the addition of two-dimensional arrays.",
+        "raw_subquestion": "In what ways are array and pointer similar?",
+        "cleaned_text": "in what ways are array and pointer similar",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q62"
+    },
+    {
+        "id": "KU_Q62_3",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate between array and pointer. In what ways are they similar? Write a complete C program demonstrating the addition of two-dimensional arrays.",
+        "raw_subquestion": "Write a complete C program demonstrating the addition of two-dimensional arrays.",
+        "cleaned_text": "write a complete c program demonstrating the addition of twodimensional arrays",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q62"
+    },
+    {
+        "id": "KU_Q63_1",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the advantages of structures in C programming?  \n   a. Create a structure `Point` with attributes `x_axis` and `y_axis`.  \n   b. In the main program, create an array of 10 points. Write code to input data for the 10 points.  \n   c. Check whether any point entered is (0,0).",
+        "raw_subquestion": "What are the advantages of structures in C programming?",
+        "cleaned_text": "what are the advantages of structures in c programming",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q63"
+    },
+    {
+        "id": "KU_Q63_2",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What are the advantages of structures in C programming?  \n   a. Create a structure `Point` with attributes `x_axis` and `y_axis`.  \n   b. In the main program, create an array of 10 points. Write code to input data for the 10 points.  \n   c. Check whether any point entered is (0,0).",
+        "raw_subquestion": "a. Create a structure `Point` with attributes `x_axis` and `y_axis`.  \n   b. In the main program, create an array of 10 points. Write code to input data for the 10 points.  \n   c. Check whether any point entered is (0,0).",
+        "cleaned_text": "create a structure point with attributes xaxis and yaxis in the main program create an array of 10 points and input data for them check whether any point entered is 00",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q63"
+    },
+    {
+        "id": "KU_Q64",
+        "year": 2017,
+        "year_semester": "I/II",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Write a complete C program demonstrating the use of library functions: `fopen()`, `fclose()`, `fgetc()`, and `fputc()`.",
+        "raw_subquestion": "Write a complete C program demonstrating the use of library functions: `fopen()`, `fclose()`, `fgetc()`, and `fputc()`.",
+        "cleaned_text": "write a complete c program demonstrating the use of library functions",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q64"
+    },
+    {
+        "id": "KU_Q65_1",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by data types? Explain the difference between `'a'` and `\"a\"` when used as constants in C. Describe their memory representation.",
+        "raw_subquestion": "What do you mean by data types?",
+        "cleaned_text": "what do you mean by data types",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q65"
+    },
+    {
+        "id": "KU_Q65_2",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by data types? Explain the difference between `'a'` and `\"a\"` when used as constants in C. Describe their memory representation.",
+        "raw_subquestion": "Explain the difference between `'a'` and `\"a\"` when used as constants in C.",
+        "cleaned_text": "explain the difference between `a` and `a` when used as constants in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q65"
+    },
+    {
+        "id": "KU_Q65_3",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by data types? Explain the difference between `'a'` and `\"a\"` when used as constants in C. Describe their memory representation.",
+        "raw_subquestion": "Describe memory representation of `'a'` and `\"a\"` when used as constants in C.",
+        "cleaned_text": "describe memory representation of character and string constants in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q65"
+    },
+    {
+        "id": "KU_Q66_1",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is the difference between a local and a global variable in C? Write a program illustrating the use of a static variable.",
+        "raw_subquestion": "What is the difference between a local and a global variable in C?",
+        "cleaned_text": "what is the difference between a local and a global variable in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q66"
+    },
+    {
+        "id": "KU_Q66_2",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is the difference between a local and a global variable in C? Write a program illustrating the use of a static variable.",
+        "raw_subquestion": "Write a program illustrating the use of a static variable.",
+        "cleaned_text": "write a program illustrating the use of a static variable",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q66"
+    },
+    {
+        "id": "KU_Q67_1",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by pass by value? Illustrate with an example how passing an array differs from passing a variable to a function.",
+        "raw_subquestion": "What do you mean by pass by value?",
+        "cleaned_text": "what do you mean by pass by value",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q67"
+    },
+    {
+        "id": "KU_Q67_2",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by pass by value? Illustrate with an example how passing an array differs from passing a variable to a function.",
+        "raw_subquestion": "Illustrate with an example how passing an array differs from passing a variable to a function.",
+        "cleaned_text": "illustrate with an example how passing an array differs from passing a variable to a function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q67"
+    },
+    {
+        "id": "KU_Q68",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Triangle Inequality Theorem: the sum of two sides of a triangle must be greater than the third side. Write a program that takes three sides of a triangle and prints whether it is valid.",
+        "raw_subquestion": "riangle Inequality Theorem: the sum of two sides of a triangle must be greater than the third side. Write a program that takes three sides of a triangle and prints whether it is valid.",
+        "cleaned_text": "write a program that takes three sides of a triangle and prints whether it is valid",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q68"
+    },
+    {
+        "id": "KU_Q69",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Two keywords frequently used in looping are `break` and `continue`. Write a C program demonstrating their use.",
+        "raw_subquestion": "Two keywords frequently used in looping are `break` and `continue`. Write a C program demonstrating their use.",
+        "cleaned_text": "write a c program using `break` and `continue` in looping",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q69"
+    },
+    {
+        "id": "KU_Q70",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a function called `how_many_primes_between` that takes two positive numbers. Assume the first argument is less than the second. The function returns the number of prime numbers between them. Example: `how_many_primes_between(3,7)` returns 1 (prime number 5).",
+        "raw_subquestion": "Write a function called `how_many_primes_between` that takes two positive numbers. Assume the first argument is less than the second. The function returns the number of prime numbers between them. Example:  `how_many_primes_between(3,7)` returns 1 (prime number 5).",
+        "cleaned_text": "write a function called `howmanyprimesbetween` that takes two positive numbers assume the first argument is less than the second the function returns the number of prime numbers between them",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q70"
+    },
+    {
+        "id": "KU_Q71_1",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What are logical operators? Describe each one. Provide a C snippet demonstrating the `!` (not) operator.",
+        "raw_subquestion": "What are logical operators? Describe each one.",
+        "cleaned_text": "what are logical operators describe",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q71"
+    },
+    {
+        "id": "KU_Q71_2",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What are logical operators? Describe each one. Provide a C snippet demonstrating the `!` (not) operator.",
+        "raw_subquestion": "Provide a C snippet demonstrating the `!` (not) operator.",
+        "cleaned_text": "provide a c snippet demonstrating the `` not operator",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q71"
+    },
+    {
+        "id": "KU_Q72",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Write a program that reads a 4 x 4 matrix and prints the sum of each row. Example output:  \n1 2 3 4 Sum = 10\n5 6 7 8 Sum = 26\n9 10 11 12 Sum = 42\n13 14 15 16 Sum = 58",
+        "raw_subquestion": "Write a program that reads a 4 x 4 matrix and prints the sum of each row. Example output:  \n1 2 3 4 Sum = 10\n5 6 7 8 Sum = 26\n9 10 11 12 Sum = 42\n13 14 15 16 Sum = 58",
+        "cleaned_text": "write a program that reads a 4 x 4 matrix and prints the sum of each row",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q72"
+    },
+    {
+        "id": "KU_Q73_1",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Create a structure called `Student` with attributes: `name`, `age`, `birth_place`. Create an array of 10 students and input their data. Check whether any two students are neighbors (same birth place).",
+        "raw_subquestion": "Create a structure called `Student` with attributes:`name`, `age`, `birth_place`. Create an array of 10 students and input their data. Check whether any two students are neighbors (same birth place).",
+        "cleaned_text": "create a structure called `student` with attributes `name` `age` `birthplace` create an array of 10 students and input their data check whether any two students are neighbors same birth place",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q73"
+    },
+    {
+        "id": "KU_Q74_1",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate between `malloc` and `realloc`. Write a complete C program illustrating their use including `free()`.",
+        "raw_subquestion": "Differentiate between `malloc` and `realloc`.",
+        "cleaned_text": "differentiate between `malloc` and `realloc`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q74"
+    },
+    {
+        "id": "KU_Q74_2",
+        "year": 2017,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate between `malloc` and `realloc`. Write a complete C program illustrating their use including `free()`.",
+        "raw_subquestion": "Write a complete C program illustrating their use including `free()`.",
+        "cleaned_text": "write a complete c program illustrating their use including `free`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q74"
+    },
+    {
+        "id": "KU_Q75_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Discuss the characteristics of C programming language. Describe general programming rules.",
+        "raw_subquestion": "Discuss the characteristics of C programming language.",
+        "cleaned_text": "discuss the characteristics of c programming language",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q75"
+    },
+    {
+        "id": "KU_Q75_2",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Discuss the characteristics of C programming language. Describe general programming rules.",
+        "raw_subquestion": "Describe general programming rules.",
+        "cleaned_text": "describe general programming rules",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q75"
+    },
+    {
+        "id": "KU_Q76_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by an expression? With example, describe different types of operators used in C programming.",
+        "raw_subquestion": "What do you mean by an expression?",
+        "cleaned_text": "what do you mean by an expression",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q76"
+    },
+    {
+        "id": "KU_Q76_2",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by an expression? With example, describe different types of operators used in C programming.",
+        "raw_subquestion": "With example, describe different types of operators used in C programming.",
+        "cleaned_text": "with example describe different types of operators used in c programming",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q76"
+    },
+    {
+        "id": "KU_Q77_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define `switch-case` in C. Considering character constants as test values, write a program illustrating `switch-case`, `continue`, and `break`.",
+        "raw_subquestion": "Define `switch-case` in C.",
+        "cleaned_text": "define `switchcase` in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q77"
+    },
+    {
+        "id": "KU_Q77_2",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define `switch-case` in C. Considering character constants as test values, write a program illustrating `switch-case`, `continue`, and `break`.",
+        "raw_subquestion": "Considering character constants as test values, write a program illustrating `switch-case`, `continue`, and `break`.",
+        "cleaned_text": "considering character constants as test values write a program illustrating `switchcase` `continue` and `break`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q77"
+    },
+    {
+        "id": "KU_Q78_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to check whether a user-given number is Armstrong using a function.  \n[Hint: XYZ is an Armstrong number because X³ + Y³ + Z³ = XYZ]",
+        "raw_subquestion": "Write a C program to check whether a user-given number is Armstrong using a function.   [Hint: XYZ is an Armstrong number because X³ + Y³ + Z³ = XYZ]",
+        "cleaned_text": "write a c program to check whether a usergiven number is armstrong using a function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q78"
+    },
+    {
+        "id": "KU_Q79",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program that reads ten numbers and displays if any number is repeated.",
+        "raw_subquestion": "Write a program that reads ten numbers and displays if any number is repeated.",
+        "cleaned_text": "write a program that reads ten numbers and displays if any number is repeated",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q79"
+    },
+    {
+        "id": "KU_Q80_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Mention the significance of functions. Illustrate different features of functions in C.",
+        "raw_subquestion": "Mention the significance of functions.",
+        "cleaned_text": "mention the significance of functions",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q80"
+    },
+    {
+        "id": "KU_Q80_2",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Mention the significance of functions. Illustrate different features of functions in C.",
+        "raw_subquestion": "Illustrate different features of functions in C.",
+        "cleaned_text": "illustrate different features of functions in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q80"
+    },
+    {
+        "id": "KU_Q81_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by storage class? Using a C program example, differentiate static storage class from automatic storage class.",
+        "raw_subquestion": "What do you mean by storage class?",
+        "cleaned_text": "what do you mean by storage class",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q81"
+    },
+    {
+        "id": "KU_Q81_2",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What do you mean by storage class? Using a C program example, differentiate static storage class from automatic storage class.",
+        "raw_subquestion": "Using a C program example, differentiate static storage class from automatic storage class.",
+        "cleaned_text": "using a c program example differentiate static storage class from automatic storage class",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q81"
+    },
+    {
+        "id": "KU_Q82",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Using a function, write a program to calculate the transpose of a user-given M x N matrix. Display the resultant matrix after adding 5 to each element.",
+        "raw_subquestion": "Using a function, write a program to calculate the transpose of a user-given M x N matrix. Display the resultant matrix after adding 5 to each element.",
+        "cleaned_text": "using a function write a program to calculate the transpose of a usergiven m x n matrix display the resultant matrix after adding 5 to each element",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q82"
+    },
+    {
+        "id": "KU_Q83_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "How is a structure different from a union? Assume a structure has five members: `Roll_Num`, `Name`, `Dept`, `DOB`, and `Marks`. `DOB` contains `Day`, `Month`, and `Year`. Using a nested structure, write a C program to enter records of `n` students and display them in descending order based on name.",
+        "raw_subquestion": "How is a structure different from a union? ",
+        "cleaned_text": "how is a structure different from a union",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q83"
+    },
+    {
+        "id": "KU_Q83_2",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "How is a structure different from a union? Assume a structure has five members: `Roll_Num`, `Name`, `Dept`, `DOB`, and `Marks`. `DOB` contains `Day`, `Month`, and `Year`. Using a nested structure, write a C program to enter records of `n` students and display them in descending order based on name.",
+        "raw_subquestion": "Assume a structure has five members: `Roll_Num`, `Name`, `Dept`, `DOB`, and `Marks`. `DOB` contains `Day`, `Month`, and `Year`. Using a nested structure, write a C program to enter records of `n` students and display them in descending order based on name.",
+        "cleaned_text": "assume a structure has five members `rollnum` `name` `dept` `dob` and `marks` `dob` contains `day` `month` and `year` using a nested structure write a c program to enter records of `n` students and display them in descending order based on name",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q83"
+    },
+    {
+        "id": "KU_Q84_1",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Define dynamic memory allocation. Briefly explain functions used in it. Write a C program to calculate average marks of `n` students in COMP 103 using `malloc()`.",
+        "raw_subquestion": "Define dynamic memory allocation.",
+        "cleaned_text": "define dynamic memory allocation",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q84"
+    },
+    {
+        "id": "KU_Q84_2",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Define dynamic memory allocation. Briefly explain functions used in it. Write a C program to calculate average marks of `n` students in COMP 103 using `malloc()`.",
+        "raw_subquestion": "Briefly explain functions used in dynamic memory allocation.",
+        "cleaned_text": "briefly explain functions used in dynamic memory allocation",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q84"
+    },
+    {
+        "id": "KU_Q84_3",
+        "year": 2018,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Define dynamic memory allocation. Briefly explain functions used in it. Write a C program to calculate average marks of `n` students in COMP 103 using `malloc()`.",
+        "raw_subquestion": "Write a C program to calculate average marks of `n` students in COMP 103 using `malloc()`.",
+        "cleaned_text": "write a c program to calculate average marks of `n` students in comp 103 using `malloc`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q84"
+    },
+    {
+        "id": "KU_Q85_1",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "How can an array be declared in C? Briefly explain datatype, identifier, and variable with proper examples.",
+        "raw_subquestion": "How can an array be declared in C?",
+        "cleaned_text": "how can an array be declared in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q85"
+    },
+    {
+        "id": "KU_Q85_2",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "How can an array be declared in C? Briefly explain datatype, identifier, and variable with proper examples.",
+        "raw_subquestion": "Briefly explain datatype, identifier, and variable with proper examples.",
+        "cleaned_text": "briefly explain datatype identifier and variable with proper examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q85"
+    },
+    {
+        "id": "KU_Q86",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to count the total number of prime numbers stored in an array using a function. Explain the program in comments.",
+        "raw_subquestion": "Write a C program to count the total number of prime numbers stored in an array using a function. Explain the program in comments.",
+        "cleaned_text": "write a c program to count the total number of prime numbers stored in an array using a function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q86"
+    },
+    {
+        "id": "KU_Q87_1",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is associativity of an operator? Discuss briefly about a type of operator with right-to-left associativity.",
+        "raw_subquestion": "What is associativity of an operator?",
+        "cleaned_text": "what is associativity of an operator",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q87"
+    },
+    {
+        "id": "KU_Q87_2",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is associativity of an operator? Discuss briefly about a type of operator with right-to-left associativity.",
+        "raw_subquestion": "Discuss briefly about a type of operator with right-to-left associativity.",
+        "cleaned_text": "discuss briefly about a type of operator with righttoleft associativity",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q87"
+    },
+    {
+        "id": "KU_Q88",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Using if…else ladder, write a program to compute and output the number of digits in a user input number:  \n   - 0–9 → 1 digit  \n   - 10–99 → 2 digits  \n   - 100–999 → 3 digits  \n   - >999 → above 3 digits  \n   - Otherwise → Invalid input",
+        "raw_subquestion": "Using if…else ladder, write a program to compute and output the number of digits in a user input number:  \n   - 0–9 → 1 digit  \n   - 10–99 → 2 digits  \n   - 100–999 → 3 digits  \n   - >999 → above 3 digits  \n   - Otherwise → Invalid input",
+        "cleaned_text": "using if…else ladder write a program to compute and output the number of digits in a user input number",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q88"
+    },
+    {
+        "id": "KU_Q89",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program to read a binary number and convert it into decimal. Example: 111 = 1*2² + 1*2¹ + 1*2⁰ = 7.",
+        "raw_subquestion": "Write a program to read a binary number and convert it into decimal. Example: 111 = 1*2² + 1*2¹ + 1*2⁰ = 7",
+        "cleaned_text": "write a program to read a binary number and convert it into decimal",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q89"
+    },
+    {
+        "id": "KU_Q90_1",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write short notes:  \n   a. Advantages of modularization in C  \n   b. Unformatted I/O functions  \n   c. Pointer to structure",
+        "raw_subquestion": "Write short note on Advantages of modularization in C",
+        "cleaned_text": "write short note advantages of modularization in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q90"
+    },
+    {
+        "id": "KU_Q90_2",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write short notes:  \n   a. Advantages of modularization in C  \n   b. Unformatted I/O functions  \n   c. Pointer to structure",
+        "raw_subquestion": "Write short note on Unformatted I/O functions",
+        "cleaned_text": "write short note on unformatted io functions",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q90"
+    },
+    {
+        "id": "KU_Q90_3",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write short notes:  \n   a. Advantages of modularization in C  \n   b. Unformatted I/O functions  \n   c. Pointer to structure",
+        "raw_subquestion": "Write short note on Pointer to structure",
+        "cleaned_text": "write short note on pointer to structure",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q90"
+    },
+    {
+        "id": "KU_Q91_1",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate between dynamic memory allocation and automatic memory allocation in an array. Explain DMA functions with proper syntax in C.",
+        "raw_subquestion": "Differentiate between dynamic memory allocation and automatic memory allocation in an array.",
+        "cleaned_text": "differentiate between dynamic memory allocation and automatic memory allocation in an array",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q91"
+    },
+    {
+        "id": "KU_Q91_2",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Differentiate between dynamic memory allocation and automatic memory allocation in an array. Explain DMA functions with proper syntax in C.",
+        "raw_subquestion": "Explain DMA functions with proper syntax in C.",
+        "cleaned_text": "explain dynamic memory allocation functions with proper syntax in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q91"
+    },
+    {
+        "id": "KU_Q92_1",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "How does recursion consume more memory and execution time than iteration? Explain with an example. Write a recursive program to find the sum of n natural numbers (user input).",
+        "raw_subquestion": "How does recursion consume more memory and execution time than iteration? Explain with an example.",
+        "cleaned_text": "how does recursion consume more memory and execution time than iteration",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q92"
+    },
+    {
+        "id": "KU_Q92_2",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "How does recursion consume more memory and execution time than iteration? Explain with an example. Write a recursive program to find the sum of n natural numbers (user input).",
+        "raw_subquestion": "Write a recursive program to find the sum of n natural numbers (user input).",
+        "cleaned_text": "write a recursive program to find the sum of n natural numbers user input",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q92"
+    },
+    {
+        "id": "KU_Q93",
+        "year": 2019,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Define a structure `Distance` with two entities `km` and `m` (both int). Write a program to take five distances as input and display them in ascending order.  \n    Write a function `void swapDistance(Distance *a, Distance *b)` to swap two distance values.",
+        "raw_subquestion": "Define a structure `Distance` with two entities `km` and `m` (both int). Write a program to take five distances as input and display them in ascending order.  \n    Write a function `void swapDistance(Distance *a, Distance *b)` to swap two distance values.",
+        "cleaned_text": "define a structure distance with km and m write a program to input five distances and display them in ascending order write a function to swap two distance values",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q93"
+    },
+    {
+        "id": "KU_Q94",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "How do `getchar()` and `putchar()` differ from `scanf()` and `printf()`? Explain with examples.",
+        "raw_subquestion": "How do `getchar()` and `putchar()` differ from `scanf()` and `printf()`? Explain with examples.",
+        "cleaned_text": "how do getchar and putchar differ from scanf and printf explain",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q94"
+    },
+    {
+        "id": "KU_Q95",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Compare `if-else` statement with conditional operator `?:` including syntax.",
+        "raw_subquestion": "Compare `if-else` statement with conditional operator `?:` including syntax.",
+        "cleaned_text": "compare ifelse statement with conditional operator including syntax",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q95"
+    },
+    {
+        "id": "KU_Q96",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a program using a pointer to read an array of integers and print its elements in reverse order.",
+        "raw_subquestion": "Write a program using a pointer to read an array of integers and print its elements in reverse order.",
+        "cleaned_text": "write a program using a pointer to read an array of integers and print its elements in reverse order",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q96"
+    },
+    {
+        "id": "KU_Q97",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "How can header files be accessed in C? Explain with examples.",
+        "raw_subquestion": "How can header files be accessed in C? Explain with examples.",
+        "cleaned_text": "how can header files be accessed in c explain",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q97"
+    },
+    {
+        "id": "KU_Q98",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to print numbers that do not appear in the Fibonacci series. Number of elements to be printed should be user input.",
+        "raw_subquestion": "Write a C program to print numbers that do not appear in the Fibonacci series. Number of elements to be printed should be user input.",
+        "cleaned_text": "write a c program to print numbers that do not appear in the fibonacci series",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q98"
+    },
+    {
+        "id": "KU_Q99_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "How does a C program behave when a variable inside a function has the same name as the function? Discuss scope of global and local variables with examples.",
+        "raw_subquestion": "How does a C program behave when a variable inside a function has the same name as the function?",
+        "cleaned_text": "how does a c program behave when a variable inside a function has the same name as the function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q99"
+    },
+    {
+        "id": "KU_Q99_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "How does a C program behave when a variable inside a function has the same name as the function? Discuss scope of global and local variables with examples.",
+        "raw_subquestion": "Discuss scope of global and local variables with examples.",
+        "cleaned_text": "discuss scope of global and local variables with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q99"
+    },
+    {
+        "id": "KU_Q100",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to convert temperature from Celsius to Fahrenheit. Formula: F = 9C/5 + 32. Describe each term.",
+        "raw_subquestion": "Write a C program to convert temperature from Celsius to Fahrenheit. Formula: F = 9C/5 + 32. Describe each term.",
+        "cleaned_text": "write a c program to convert temperature from celsius to fahrenheit formula",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q100"
+    },
+    {
+        "id": "KU_Q101",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Write a C program that performs matrix multiplication:  \n   a. Read elements of two matrices n x m from user.  \n   b. Check whether multiplication is possible; if not, display a message.  \n   c. Pass arrays to a user-defined function.  \n   d. Perform multiplication in user-defined function.  \n   e. Display the result.",
+        "raw_subquestion": "Write a C program that performs matrix multiplication: \n   a. Read elements of two matrices n x m from user.  \n   b. Check whether multiplication is possible; if not, display a message.  \n   c. Pass arrays to a user-defined function.  \n   d. Perform multiplication in user-defined function.  \n   e. Display the result.",
+        "cleaned_text": "write a c program that performs matrix multiplication using a userdefined function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q101"
+    },
+    {
+        "id": "KU_Q102_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Explain with example how a library function differs from a user-defined function. Write a C program to generate prime numbers from 1 to 100 and pass them to a function `primeAverage` that calculates the average.",
+        "raw_subquestion": "Explain with example how a library function differs from a user-defined function.",
+        "cleaned_text": "explain with example how a library function differs from a userdefined function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q102"
+    },
+    {
+        "id": "KU_Q102_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Explain with example how a library function differs from a user-defined function. Write a C program to generate prime numbers from 1 to 100 and pass them to a function `primeAverage` that calculates the average.",
+        "raw_subquestion": "Write a C program to generate prime numbers from 1 to 100 and pass them to a function `primeAverage` that calculates the average.",
+        "cleaned_text": "write a c program to generate prime numbers from 1 to 100 and pass them to a function primeaverage that calculates the average",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q102"
+    },
+    {
+        "id": "KU_Q103_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Describe the properties of four built-in data types in C. With proper syntax and examples, demonstrate how a user-defined data type can be created and used.",
+        "raw_subquestion": "Describe the properties of four built-in data types in C.",
+        "cleaned_text": "describe the properties of four builtin data types in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q103"
+    },
+    {
+        "id": "KU_Q103_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Describe the properties of four built-in data types in C. With proper syntax and examples, demonstrate how a user-defined data type can be created and used.",
+        "raw_subquestion": "With proper syntax and examples, demonstrate how a user-defined data type can be created and used.",
+        "cleaned_text": "with proper syntax and examples demonstrate how a userdefined data type can be created and used",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q103"
+    },
+    {
+        "id": "KU_Q104_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain precedence and associativity in expression evaluation with examples. Define left-to-right and right-to-left associativity.",
+        "raw_subquestion": "Explain precedence and associativity in expression evaluation with examples.",
+        "cleaned_text": "explain precedence and associativity in expression evaluation with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q104"
+    },
+    {
+        "id": "KU_Q104_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain precedence and associativity in expression evaluation with examples. Define left-to-right and right-to-left associativity.",
+        "raw_subquestion": "Define left-to-right and right-to-left associativity.",
+        "cleaned_text": "define lefttoright and righttoleft associativity",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q104"
+    },
+    {
+        "id": "KU_Q105_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Compare `for` loop with `do-while` loop. Write a program that displays your name if an integer is divisible by 7 but not by 10.",
+        "raw_subquestion": "Compare `for` loop with `do-while` loop.",
+        "cleaned_text": "compare `for` loop with `dowhile` loop",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q105"
+    },
+    {
+        "id": "KU_Q105_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Compare `for` loop with `do-while` loop. Write a program that displays your name if an integer is divisible by 7 but not by 10.",
+        "raw_subquestion": "Write a program that displays your name if an integer is divisible by 7 but not by 10.",
+        "cleaned_text": "write a program that displays your name if an integer is divisible by 7 but not by 10",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q105"
+    },
+    {
+        "id": "KU_Q106",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to calculate the area of a triangle using Heron’s formula:  \narea = sqrt(s * (s-a) * (s-b) * (s-c))\ns = (a + b + c) / 2\nRead a, b, c in main and pass them to a user-defined function.",
+        "raw_subquestion": "Write a C program to calculate the area of a triangle using Heron’s formula:  \narea = sqrt(s * (s-a) * (s-b) * (s-c))\ns = (a + b + c) / 2\nRead a, b, c in main and pass them to a user-defined function.",
+        "cleaned_text": "write a c program to calculate the area of a triangle using herons formula using user defined function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q106"
+    },
+    {
+        "id": "KU_Q107",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Illustrate the use of `auto` and `static` keywords with examples.",
+        "raw_subquestion": "Illustrate the use of `auto` and `static` keywords with examples.",
+        "cleaned_text": "illustrate the use of auto and static keywords with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q107"
+    },
+    {
+        "id": "KU_Q108_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define the term structure. Write a program that stores 5 values in a structure:  \nstruct record {\nint emp_id;\nchar name[20];\nfloat salary;\n}",
+        "raw_subquestion": "Define the term structure.",
+        "cleaned_text": "define the term structure",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q108"
+    },
+    {
+        "id": "KU_Q108_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Define the term structure. Write a program that stores 5 values in a structure:  \nstruct record {\nint emp_id;\nchar name[20];\nfloat salary;\n}",
+        "raw_subquestion": " Write a program that stores 5 values in a structure: \nstruct record {\nint emp_id;\nchar name[20];\nfloat salary;\n}struct record { int emp_id; char name[20]; float salary; }",
+        "cleaned_text": "write a program to store 5 records using a structure with fields empid name and salary",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q108"
+    },
+    {
+        "id": "KU_Q109_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is recursion? Explain recursive process and illustrate the working mechanism with sum of natural numbers.",
+        "raw_subquestion": "What is recursion?",
+        "cleaned_text": "what is recursion",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q109"
+    },
+    {
+        "id": "KU_Q109_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is recursion? Explain recursive process and illustrate the working mechanism with sum of natural numbers.",
+        "raw_subquestion": "Explain recursive process and illustrate the working mechanism with sum of natural numbers.",
+        "cleaned_text": "explain recursive process and illustrate the working mechanism with sum of natural numbers",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q109"
+    },
+    {
+        "id": "KU_Q110",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to input a number and find the largest digit. Read the number in main and pass it to a user-defined function.",
+        "raw_subquestion": "Write a C program to input a number and find the largest digit. Read the number in main and pass it to a user-defined function.",
+        "cleaned_text": "write a c program to input a number and find the largest digit using a user defined function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q110"
+    },
+    {
+        "id": "KU_Q111_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Explain the purpose of functions. Differentiate between pass by value and pass by reference.  \nb. What are arguments? Explain their importance with examples.  \nc. What are return types? Explain their importance with examples.",
+        "raw_subquestion": "Explain the purpose of functions. Differentiate between pass by value and pass by reference.",
+        "cleaned_text": "explain the purpose of functions differentiate between pass by value and pass by reference",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q111"
+    },
+    {
+        "id": "KU_Q111_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Explain the purpose of functions. Differentiate between pass by value and pass by reference.  \nb. What are arguments? Explain their importance with examples.  \nc. What are return types? Explain their importance with examples.",
+        "raw_subquestion": "Differentiate between pass by value and pass by reference.",
+        "cleaned_text": "differentiate between pass by value and pass by reference",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q111"
+    },
+    {
+        "id": "KU_Q111_3",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Explain the purpose of functions. Differentiate between pass by value and pass by reference.  \nb. What are arguments? Explain their importance with examples.  \nc. What are return types? Explain their importance with examples.",
+        "raw_subquestion": "What are arguments? Explain their importance with examples.",
+        "cleaned_text": "what are arguments explain their importance with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q111"
+    },
+    {
+        "id": "KU_Q111_4",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Explain the purpose of functions. Differentiate between pass by value and pass by reference.  \nb. What are arguments? Explain their importance with examples.  \nc. What are return types? Explain their importance with examples.",
+        "raw_subquestion": "What are return types? Explain their importance with examples.",
+        "cleaned_text": "what are return types explain their importance with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q111"
+    },
+    {
+        "id": "KU_Q112_1",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Discuss a menu-driven program with an example.  \nb. Write a modular program:  \n   i) Find factorial of an integer entered via keyboard  \n   ii) Find the square of a number entered via keyboard  \n   iii) A function `power(a,b)` to calculate a^b  \n\nWrite a program that defines a structure `student` with attributes `name`, `roll_no`, `email`, `enrolled_year` etc. Read data for at least five students. Access structure members using a pointer and display records in ascending order by `enrolled_year`.",
+        "raw_subquestion": "Discuss a menu-driven program with an example.",
+        "cleaned_text": "discuss a menudriven program with an example",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q112"
+    },
+    {
+        "id": "KU_Q112_2",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Discuss a menu-driven program with an example.  \nb. Write a modular program:  \n   i) Find factorial of an integer entered via keyboard  \n   ii) Find the square of a number entered via keyboard  \n   iii) A function `power(a,b)` to calculate a^b  \n\nWrite a program that defines a structure `student` with attributes `name`, `roll_no`, `email`, `enrolled_year` etc. Read data for at least five students. Access structure members using a pointer and display records in ascending order by `enrolled_year`.",
+        "raw_subquestion": "Write a modular program to find factorial of an integer entered via keyboard.",
+        "cleaned_text": "write a modular program to find factorial of an integer entered via keyboard",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q112"
+    },
+    {
+        "id": "KU_Q112_3",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Discuss a menu-driven program with an example.  \nb. Write a modular program:  \n   i) Find factorial of an integer entered via keyboard  \n   ii) Find the square of a number entered via keyboard  \n   iii) A function `power(a,b)` to calculate a^b  \n\nWrite a program that defines a structure `student` with attributes `name`, `roll_no`, `email`, `enrolled_year` etc. Read data for at least five students. Access structure members using a pointer and display records in ascending order by `enrolled_year`.",
+        "raw_subquestion": "Write a modular program to find the square of a number entered via keyboard.",
+        "cleaned_text": "write a modular program to find the square of a number entered via keyboard",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q112"
+    },
+    {
+        "id": "KU_Q112_4",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Discuss a menu-driven program with an example.  \nb. Write a modular program:  \n   i) Find factorial of an integer entered via keyboard  \n   ii) Find the square of a number entered via keyboard  \n   iii) A function `power(a,b)` to calculate a^b  \n\nWrite a program that defines a structure `student` with attributes `name`, `roll_no`, `email`, `enrolled_year` etc. Read data for at least five students. Access structure members using a pointer and display records in ascending order by `enrolled_year`.",
+        "raw_subquestion": "Write a program with function `power(a,b)` to calculate a^b.",
+        "cleaned_text": "write a program with a function power to calculate a raised to the power b",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q112"
+    },
+    {
+        "id": "KU_Q112_5",
+        "year": 2022,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Discuss a menu-driven program with an example.  \nb. Write a modular program:  \n   i) Find factorial of an integer entered via keyboard  \n   ii) Find the square of a number entered via keyboard  \n   iii) A function `power(a,b)` to calculate a^b  \n\nWrite a program that defines a structure `student` with attributes `name`, `roll_no`, `email`, `enrolled_year` etc. Read data for at least five students. Access structure members using a pointer and display records in ascending order by `enrolled_year`.",
+        "raw_subquestion": "Write a program that defines a structure `student` with attributes `name`, `roll_no`, `email`, `enrolled_year` etc. Read data for at least five students. Access structure members using a pointer and display records in ascending order by `enrolled_year`.",
+        "cleaned_text": "write a program that defines a structure `student` with attributes `name` `rollno` `email` `enrolledyear` etc read data for at least five students access structure members using a pointer and display records in ascending order by `enrolledyear`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q112"
+    },
+    {
+        "id": "KU_Q113_1",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is an identifier? What are the ways to assign values to a variable? Define constant and its types.",
+        "raw_subquestion": "What is an identifier?",
+        "cleaned_text": "what is an identifier",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q113"
+    },
+    {
+        "id": "KU_Q113_2",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is an identifier? What are the ways to assign values to a variable? Define constant and its types.",
+        "raw_subquestion": "What are the ways to assign values to a variable?",
+        "cleaned_text": "what are the ways to assign values to a variable",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q113"
+    },
+    {
+        "id": "KU_Q113_3",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "What is an identifier? What are the ways to assign values to a variable? Define constant and its types.",
+        "raw_subquestion": "Define constant and its types.",
+        "cleaned_text": "define constant and its types",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q113"
+    },
+    {
+        "id": "KU_Q114_1",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "List different operators with their associativity in C. What are relational and assignment operators? Explain with examples.",
+        "raw_subquestion": "List different operators with their associativity in C.",
+        "cleaned_text": "list different operators with their associativity in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q114"
+    },
+    {
+        "id": "KU_Q114_2",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "List different operators with their associativity in C. What are relational and assignment operators? Explain with examples.",
+        "raw_subquestion": "What are relational and assignment operators? Explain with examples.",
+        "cleaned_text": "what are relational and assignment operators explain",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q114"
+    },
+    {
+        "id": "KU_Q115_1",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain basic structure of a C program with examples. Write syntax and examples of `puts()`, `scanf()`, `printf()`, and `putchar()`.",
+        "raw_subquestion": "Explain basic structure of a C program with examples.",
+        "cleaned_text": "explain basic structure of a c program with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q115"
+    },
+    {
+        "id": "KU_Q115_2",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain basic structure of a C program with examples. Write syntax and examples of `puts()`, `scanf()`, `printf()`, and `putchar()`.",
+        "raw_subquestion": "Write syntax and examples of `puts()`, `scanf()`, `printf()`, and `putchar()`.",
+        "cleaned_text": "write syntax and examples of `puts` `scanf` `printf` and `putchar`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q115"
+    },
+    {
+        "id": "KU_Q116_1",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Briefly describe different types of functions available in C. Write a C program to input a number and calculate the sum of its digits using recursion.",
+        "raw_subquestion": "Briefly describe different types of functions available in C.",
+        "cleaned_text": "briefly describe different types of functions available in c",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q116"
+    },
+    {
+        "id": "KU_Q116_2",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Briefly describe different types of functions available in C. Write a C program to input a number and calculate the sum of its digits using recursion.",
+        "raw_subquestion": "Write a C program to input a number and calculate the sum of its digits using recursion.",
+        "cleaned_text": "write a c program to input a number and calculate the sum of its digits using recursion",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q116"
+    },
+    {
+        "id": "KU_Q117",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Write a C program to input a list of values into an array. Pass the list to a function to sort in ascending order and display the sorted list from main.",
+        "raw_subquestion": "Write a C program to input a list of values into an array. Pass the list to a function to sort in ascending order and display the sorted list from main.",
+        "cleaned_text": "write a c program to input a list of values into an array pass the list to a function to sort in ascending order and display the sorted list from main",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q117"
+    },
+    {
+        "id": "KU_Q118",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Differentiate between `malloc()` and `calloc()` with examples.",
+        "raw_subquestion": "Differentiate between `malloc()` and `calloc()` with examples.",
+        "cleaned_text": "differentiate between `malloc` and `calloc` with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q118"
+    },
+    {
+        "id": "KU_Q119_1",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain any two storage classes. Write a C program to input a 2x2 matrix and display its transpose.",
+        "raw_subquestion": "Explain any two storage classes.",
+        "cleaned_text": "explain any two storage classes",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q119"
+    },
+    {
+        "id": "KU_Q119_2",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "B",
+        "marks": 4,
+        "raw_text": "Explain any two storage classes. Write a C program to input a 2x2 matrix and display its transpose.",
+        "raw_subquestion": "Write a C program to input a 2x2 matrix and display its transpose.",
+        "cleaned_text": "write a c program to input a 2x2 matrix and display its transpose",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q119"
+    },
+    {
+        "id": "KU_Q120",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "Write a menu-driven program in C with options:  \na. Check if a number is strong (e.g., 145 → 1!+4!+5! = 145)  \nb. Check if a number is prime or composite  \nc. Display the middle number among three numbers  \nd. Exit",
+        "raw_subquestion": "Write a menu-driven program in C with options:  \na. Check if a number is strong (e.g., 145 → 1!+4!+5! = 145)  \nb. Check if a number is prime or composite  \nc. Display the middle number among three numbers  \nd. Exit",
+        "cleaned_text": "write a menu driven program in c with options to check whether a number is strong check whether a number is prime or composite display the middle number among three numbers and exit",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q120"
+    },
+    {
+        "id": "KU_Q121_1",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What is `typedef`? Write a program to read a structure `collage` with `name`, `estDate`, and `location` where `estDate` is another structure with `day`, `month`, `year`. Display records of any number of colleges entered by the user.",
+        "raw_subquestion": "What is `typedef`?",
+        "cleaned_text": "what is `typedef`",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q121"
+    },
+    {
+        "id": "KU_Q121_2",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "What is `typedef`? Write a program to read a structure `collage` with `name`, `estDate`, and `location` where `estDate` is another structure with `day`, `month`, `year`. Display records of any number of colleges entered by the user.",
+        "raw_subquestion": "Write a program to read a structure `collage` with `name`, `estDate`, and `location` where `estDate` is another structure with `day`, `month`, `year`. Display records of any number of colleges entered by the user.",
+        "cleaned_text": "write a program to read a structure `collage` with `name` `estdate` and `location` where `estdate` is another structure with `day` `month` `year` display records of any number of colleges entered by the user",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q121"
+    },
+    {
+        "id": "KU_Q122_1",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Write advantages of pointers. Write a program using pointers to swap values of two variables via a separate function.  \n b. Explain `break` and `continue` statements with examples.",
+        "raw_subquestion": "Write advantages of pointers. ",
+        "cleaned_text": "write advantages of pointers",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q122"
+    },
+    {
+        "id": "KU_Q122_2",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Write advantages of pointers. Write a program using pointers to swap values of two variables via a separate function.  \n b. Explain `break` and `continue` statements with examples.",
+        "raw_subquestion": "Write a program using pointers to swap values of two variables via a separate function.",
+        "cleaned_text": "write a program using pointers to swap values of two variables via a separate function",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q122"
+    },
+    {
+        "id": "KU_Q122_3",
+        "year": 2024,
+        "year_semester": "I/I",
+        "section": "C",
+        "marks": 8,
+        "raw_text": "a. Write advantages of pointers. Write a program using pointers to swap values of two variables via a separate function.  \n b. Explain `break` and `continue` statements with examples.",
+        "raw_subquestion": "Explain `break` and `continue` statements with examples.",
+        "cleaned_text": "explain `break` and `continue` statements with examples",
+        "embedding": null,
+        "cluster_important": null,
+        "cluster_conceptual": null,
+        "features": {
+            "frequency": null,
+            "last_seen_year": null,
+            "similarity_score": null,
+            "transition_probability": null
+        },
+        "id_original": "KU_Q122"
+    }
+]
