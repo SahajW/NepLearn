@@ -1,0 +1,6054 @@
+{
+  "subject": "C Programming",
+  "source": "Textbook",
+  "questions": [
+    {
+      "id": "TB_Q1",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Draw the block diagram of a computer and explain the functions of the various blocks.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q2",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the various types of memory? How do they differ from each other?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q3",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Compare the use and working of primary memory and secondary memory.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q4",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the need for an operating system? What are its responsibilities?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q5",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the various types of operating systems? Compare their features and working.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q6",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the tree structure of a storage system. Differentiate between absolute addressing and relative addressing of files.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q7",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write an algorithm, pseudocode, and flowchart for finding:\n (a) Minimum of three numbers\n (b) Maximum of four numbers\n (c) Factorial of a number\n (d) Smallest of n numbers",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q8",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "List the various phases of software development and briefly describe each phase.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q9",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is structured programming carried out? What problems might arise if programs are not developed in a structured manner?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q10",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is machine language? How does machine language differ from high-level languages?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q11",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Name some commonly used high-level languages. What are the advantages of using high-level languages?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q12",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is meant by compilation? What is meant by interpretation? How do these two processes differ?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q13",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the major components of a C program? What significance is attached to the function name main?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q14",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can comments be included in a C program? Where can comments be placed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q15",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Are C programs required to be typed in lowercase? Is uppercase ever used in a C program? Explain.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q16",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Why are some statements within a C program indented? Why are empty lines included in a typical C program?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q17",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Summarize the rules for naming identifiers. Are uppercase letters equivalent to lowercase letters? Can digits be included in an identifier name? Can any special characters be included?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q18",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the keywords in C? What restrictions apply to their use?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q19",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Name and describe the four basic data types in C.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q20",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Name and describe the four data-type qualifiers. To which data types can each qualifier be applied?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q21",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Summarize the rules that apply to all numeric-type constants.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q22",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "When writing integer constants, how are decimal, octal, and hexadecimal constants distinguished from one another?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q23",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Typically, what is the largest permissible magnitude of an integer constant? State your answer in decimal, octal, and hexadecimal.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q24",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are unsigned integer constants? What are long integer constants? How do these constants differ from ordinary integer constants? How can they be written and identified?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q25",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe two different ways in which floating-point constants can be written. What special rules apply in each case?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q26",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of the (optional) exponent in a floating-point constant?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q27",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Typically, what is the largest permissible magnitude of a floating-point constant? Compare this with an integer constant.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q28",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can single-precision and long floating-point constants be written and identified?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q29",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe the differences in accuracy between integer and floating-point constants. Under what circumstances should each type of constant be used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q30",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a character constant? How do character constants differ from numeric-type constants? Do character constants represent numerical values?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q31",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the ASCII character set? How common is its use?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q32",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an escape sequence? What is its purpose?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q33",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Summarize the standard escape sequences in C. Describe other commonly available nonstandard escape sequences.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q34",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a string constant? How do string constants differ from character constants? Do string constants represent numerical values?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q35",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can escape sequences be included in a string constant? Explain.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q36",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a variable? How can variables be characterized?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q37",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an array variable? How does an array variable differ from an ordinary variable?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q38",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can individual array elements be distinguished from one another?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q39",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a subscript? What range of values is permitted for the subscript of a one-dimensional n-element array?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q40",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of a type declaration? What does a type declaration consist of?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q41",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are initial values assigned to variables within a type declaration? How are strings assigned to one-dimensional character-type arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q42",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an expression? What kind of information is represented by an expression?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q43",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an operator? Describe several different types of operators included in the C language.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q44",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can statements be embedded within other statements? Explain.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q45",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a symbolic constant? How is a symbolic constant defined? How is the definition written? Where must a symbolic constant definition be placed within a C program?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q46",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "During the compilation process, what happens to symbolic constants that appear within a C program?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q47",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are unary operators? Name the unary operators included in the C language.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q48",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are binary operators? Name the binary operators included in the C language.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q49",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are arithmetic operators? Describe the arithmetic operators included in C.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q50",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the modulus operator? What restrictions apply to its operands?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q51",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe the use of increment (++) and decrement (--) operators.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q52",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is meant by operator precedence? Why is it important?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q53",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is associativity of operators? How does associativity affect the evaluation of expressions?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q54",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are relational operators? List the relational operators available in C.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q55",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are logical operators? List the logical operators available in C.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q56",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the conditional operator? How does it work?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q57",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an assignment operator? Describe the different assignment operators available in C.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q58",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an expression? How does an expression differ from a statement?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q59",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a type conversion? When does type conversion occur in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q60",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is implicit type conversion? Give examples.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q61",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is explicit type conversion? How is it performed in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q62",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is type casting? How does type casting differ from automatic type conversion?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q63",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the comma operator? Where is it commonly used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q64",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the size-of (sizeof) operator? What is its purpose?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q65",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a control statement? Why are control statements required in programming?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q66",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is meant by sequential execution of statements?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q67",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is decision making? How is it implemented in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q68",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the if statement? Explain its syntax and working.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q69",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the if–else statement? Explain its syntax with an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q70",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the nested if statement? Explain with an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q71",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the else if ladder? When is it preferred over nested if statements?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q72",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the switch statement? Explain its syntax and working.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q73",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are case labels? What is the purpose of the break statement in a switch construct?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q74",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the default label in a switch statement? When is it executed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q75",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Compare the switch statement with the if–else ladder.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q76",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an iterative statement? Why are loops needed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q77",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the while loop? Explain its syntax and working.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q78",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the do–while loop? How does it differ from the while loop?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q79",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the for loop? Explain its syntax and working.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q80",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Compare the while, do–while, and for loops.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q81",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a nested loop? Give an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q82",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an infinite loop? How can infinite loops be avoided?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q83",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the break statement? How does it work inside loops?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q84",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the continue statement? How does it differ from the break statement?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q85",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the goto statement? Why is it generally avoided?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q86",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the return statement? What is its purpose?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q87",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a null statement? When is it used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q88",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a conditional expression? How does it differ from an if statement?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q89",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to check whether a given number is even or odd.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q90",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the largest of three numbers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q91",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to display the first n terms of the Fibonacci series.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q92",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to check whether a given number is prime.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q93",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to calculate the factorial of a given number.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q94",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a function? Why are functions needed in C programming?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q95",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the advantages of using functions?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q96",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Differentiate between a function declaration, function definition, and function call.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q97",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a function prototype? Why is it required?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q98",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of a return statement? Can a function return more than one value?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q99",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is meant by actual arguments and formal parameters? How do they differ?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q100",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the concept of call by value.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q101",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the concept of call by reference. How is it implemented in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q102",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is recursion? How does it differ from iteration?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q103",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "State the advantages and disadvantages of recursion.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q104",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a nested function call? Explain with an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q105",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a library function? Give examples.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q106",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a user-defined function? Give examples.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q107",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is function overloading? Is it supported in C? Explain.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q108",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a variable scope? Explain local and global variables.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q109",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the lifetime of a variable? How is it related to scope?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q110",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the sum of two numbers using a function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q111",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the factorial of a number using a recursive function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q112",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to calculate the nth Fibonacci number using recursion.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q113",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the greatest of three numbers using a function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q114",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to check whether a number is prime using a function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q115",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to check whether a number is a palindrome using a function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q116",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the sum of digits of a number using a function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q117",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to reverse a given number using a function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q118",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the GCD and LCM of two numbers using functions.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q119",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to calculate the power of a number using recursion.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q120",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to swap two numbers using call by value.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q121",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to swap two numbers using call by reference.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q122",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the average of n numbers using a function.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q123",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to display all Armstrong numbers between two given numbers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q124",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a storage class? Why are storage classes needed in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q125",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Name the different storage classes available in C.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q126",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the auto storage class with an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q127",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the register storage class. What are its advantages and limitations?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q128",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the static storage class. How does it differ from the auto storage class?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q129",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the extern storage class. When is it used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q130",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the scope of variables declared with different storage classes?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q131",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the lifetime of variables declared with different storage classes?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q132",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Compare auto, register, static, and extern storage classes.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q133",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to demonstrate the use of the static storage class.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q134",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is an array? Why are arrays needed in C programming?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q135",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are arrays declared in C? Explain the general syntax.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q136",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are array elements stored in memory?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q137",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are array elements accessed in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q138",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are one-dimensional arrays? Give an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q139",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are two-dimensional arrays? Give an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q140",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are two-dimensional arrays declared and initialized?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q141",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a multidimensional array? How is it declared?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q142",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is array initialization? Explain different methods of initializing arrays.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q143",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the difference between compile-time and run-time initialization of arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q144",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can arrays be passed to functions?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q145",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a character array? How does it differ from a string?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q146",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are strings stored in character arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q147",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the advantages and disadvantages of using arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q148",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to read and display n elements of a one-dimensional array.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q149",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the sum and average of array elements.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q150",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the largest and smallest elements in an array.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q151",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to sort array elements in ascending order.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q152",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to search for an element in an array.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q153",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to perform matrix addition.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q154",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to perform matrix multiplication.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q155",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a string? How does a string differ from a character array?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q156",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are strings represented and stored in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q157",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the null character ('\\0')? Why is it important in strings?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q158",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are strings declared and initialized in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q159",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are string-handling functions? Name some commonly used string functions.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q160",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the use of the following string functions: strlen(), strcpy(), strcat(), strcmp()",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q161",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the difference between gets() and fgets()? Why is gets() unsafe?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q162",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the difference between puts() and printf() when displaying strings?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q163",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can strings be passed to functions?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q164",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are arrays of strings? How are they declared?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q165",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the advantages and disadvantages of using strings in C?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q166",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the length of a string without using library functions.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q167",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to copy one string into another.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q168",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to concatenate two strings.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q169",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to compare two strings.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q170",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to reverse a string.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q171",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to check whether a given string is a palindrome.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q172",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a pointer? How is it different from a normal variable?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q173",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a pointer declared? Explain the syntax.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q174",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is the address of a variable obtained? Which operator is used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q175",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the indirection operator ()? How does it work?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q176",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a pointer initialized? Can it be assigned NULL?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q177",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain pointer arithmetic. How do addition and subtraction work with pointers?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q178",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a pointer be incremented or decremented?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q179",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are arrays of pointers? Give an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q180",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are pointers used to access elements of an array?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q181",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Difference between passing by value and passing by reference. How do pointers enable passing by reference?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q182",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can changes to an array inside a function using a pointer affect the original array? Explain.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q183",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a multi-dimensional array represented using pointers?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q184",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a pointer be returned from a function?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q185",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Difference between a pointer to an array and an array of pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q186",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a pointer to a function be declared and used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q187",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Advantages of using pointers in C programming.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q188",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to generate a table of values using pointer functions.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q189",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program using pointers to calculate deviations about the average.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q190",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to reverse a string using pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q191",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to encode and decode a line of text using pointer arithmetic.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q192",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to demonstrate pointer arithmetic with arrays.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q193",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to pass arrays to functions using pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q194",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to pass multi-dimensional arrays to functions using pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q195",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a pointer? How does it differ from a normal variable?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q196",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a pointer declared and initialized?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q197",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of the indirection () operator?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q198",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of the address-of (&) operator?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q199",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are pointer expressions evaluated?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q200",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is pointer arithmetic? How can pointers be incremented or decremented?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q201",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are pointers used to access array elements?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q202",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the rules for passing arrays to functions using pointers?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q203",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the difference between passing by value and passing by reference.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q204",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a function return a pointer?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q205",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are multi-dimensional arrays accessed using pointers?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q206",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can the elements of a pointer-to-pointer array be accessed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q207",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe pointer-to-function usage. How are function pointers declared and used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q208",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is dynamic memory allocation? Name the standard functions used.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q209",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is memory allocated using malloc(), calloc(), and realloc()? How is it freed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q210",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to generate a table of values for y = 2e^(-t) * sin(0.5*t) for t from 0 to 60. Allow user input for increment.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q211",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write an interactive C program to encode or decode a line of text using a random ASCII shift.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q212",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Modify a C program to process exam scores for a group of students using arrays and pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q213",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to generate a table of compound interest factors, F/P = (1 + i/100)^n, for multiple values of n and interest rates.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q214",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a menu-driven currency conversion program using pointers and arrays.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q215",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to reverse a string using pointer notation.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q216",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to find the last occurrence of a substring in a string using pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q217",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to separate a string into two strings: odd-positioned and even-positioned characters.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q218",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to count vowels, consonants, digits, and symbols in a string using pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q219",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to replace a substring with another in a string using pointer arithmetic.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q220",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to display the elements of a multi-dimensional array using pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q221",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to implement piglatin encoding with punctuation handling using pointers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q222",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How do strings differ from other arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q223",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How does gets() differ from scanf(\"%s\") for reading strings?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q224",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "List four methods to read a line of text containing blanks.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q225",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can ASCII codes of letters a–z and A–Z be determined?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q226",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the return value of strstr()? Provide an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q227",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a null character ('\\0')? What are its advantages in strings?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q228",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Compare strncmp(), strcmp(), and strcpy().",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q229",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe assigning an initial string constant to a one-dimensional character array. Can a similar method be used for numerical arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q230",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "When a one-dimensional character array is assigned an initial string, which character is automatically added at the end?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q231",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a list of strings be stored in a two-dimensional array? How are individual strings processed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q232",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to search the last occurrence of a substring in a given string.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q233",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to split a string into two: odd-positioned characters in the first string and even-positioned characters in the second string.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q234",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program that counts vowels, consonants, digits, and symbols in a string.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q235",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to replace a substring with another in a given string. Example: Replace \"banana\" with \"apple\" in \"There are 30 bananas on a banana tree.\" → \"There are 30 apples on an apple tree.\"",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q236",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to reverse a string without using strrev(). The source string should be modified in place.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q237",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write an interactive program for country-capital lookup: Input a country → Output its capital; Input a capital → Output its country; Loop until the input is \"End\".",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q238",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "For your C compiler, how many memory cells are required to store: a char, an int, a long int, a float, a double?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q239",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is meant by the address of a memory cell? How are addresses usually numbered?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q240",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a variable’s address determined?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q241",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of the indirection operator ()? To what type of operand must it be applied?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q242",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What precedence is assigned to unary operators compared to multiplication, division, and remainder operators?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q243",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can the address operator (&) act upon an arithmetic expression like 2 * (u + v)? Explain.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q244",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can an expression with the indirection operator appear on the left-hand side of an assignment?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q245",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a pointer variable declared? What is the purpose of specifying its data type?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q246",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a pointer variable be assigned an initial value?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q247",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Why might it be desirable to pass a pointer to a function as an argument?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q248",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a pointer argument represented in a function prototype?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q249",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the relationship between an array name and a pointer?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q250",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Suppose a formal argument is an array. How can the array be declared within the function?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q251",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a portion of an array be passed to a function?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q252",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can a function return a pointer to its calling routine?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q253",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe two ways to specify the address of an array element and two ways to access an array element.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q254",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can an address be assigned to an array name or an array element?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q255",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Complete C program using pointer notation to generate a table of values: Columns: t, ae^(sin ct), ae^(cos ct); Functions: f1 (ae^(sin ct)), f2 (a*e^(cos ct)), main calls table_gen passing f1 and f2.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q256",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is meant by dynamic memory allocation? Which library function allocates memory dynamically? How is size specified?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q257",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What happens if an integer is added to or subtracted from a pointer variable?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q258",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Under what conditions can one pointer be subtracted from another?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q259",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Under what conditions can two pointers be compared?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q260",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a multidimensional array defined in terms of a pointer to contiguous lower-dimensional arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q261",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can the indirection operator access a multidimensional array element?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q262",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a multidimensional array defined in terms of an array of pointers? How does it differ from contiguous arrays?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q263",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "If several strings are stored in a one-dimensional array of pointers, how can an individual string be accessed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q264",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "If strings in a pointer array are reordered, are they moved in memory?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q265",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Under what conditions can elements of a multidimensional array (array of pointers) be initialized?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q266",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Pointer to function as argument: declaration and usage in host and guest functions.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q267",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Applications where passing one function to another is useful.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q268",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a structure? How is it different from an array?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q269",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Give the syntax for declaring a structure type.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q270",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a structure variable defined? How are its members accessed?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q271",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can a structure contain an array? Can an array contain structures?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q272",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the difference between a structure definition and a structure declaration?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q273",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are structure variables initialized at the time of declaration?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q274",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can a structure be passed to a function? If yes, by what methods?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q275",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a pointer to a structure declared and used?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q276",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of the arrow operator (->)? How is it different from the dot operator (.)?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q277",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can a structure contain a pointer as a member? How is memory allocated dynamically for it?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q278",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can structures be nested within other structures?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q279",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a union? How does it differ from a structure?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q280",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is a union declared and initialized?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q281",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How is memory allocated for a union? How does the size compare to a structure?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q282",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can a union contain arrays or structures as members?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q283",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are members of a union accessed? What happens when multiple members are assigned values?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q284",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Can a union be passed to a function? How?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q285",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Compare the use of structures and unions in terms of memory efficiency.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q286",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the difference between typedef struct and a normal structure declaration?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q287",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How are bit fields declared in structures? Give an example for storing flags efficiently.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q288",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to define a structure for a student record (name, roll no, marks) and: Input details for 5 students; Display the student with the highest marks.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q289",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a program to define a union for a bank transaction (deposit, withdraw, balance) and demonstrate memory sharing.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q290",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain how a pointer to a structure can be used to pass large data to a function efficiently.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q291",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Demonstrate dynamic allocation of an array of structures using malloc.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q292",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Difference between structure pointer and pointer to structure array.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q293",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is dynamic memory allocation? How does it differ from static memory allocation?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q294",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the purpose of the following C library functions: malloc(), calloc(), realloc(), free().",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q295",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How do you allocate memory for an array of integers dynamically using malloc()? Give an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q296",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How does calloc() differ from malloc()? When would you prefer one over the other?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q297",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What precautions must you take when using realloc()?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q298",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Why is it important to free dynamically allocated memory? What can happen if you don’t?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q299",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can you check if a memory allocation was successful?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q300",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain memory leaks. How can they be detected and prevented?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q301",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to dynamically allocate memory for n integers, read values from the user, and then display them.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q302",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to expand an array using realloc() and display the new array.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q303",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is recursion in programming? Give an example.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q304",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the difference between direct and indirect recursion.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q305",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are the advantages and disadvantages of recursion compared to iteration?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q306",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to calculate the factorial of a number using recursion.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q307",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to compute Fibonacci numbers using recursion.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q308",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain the concept of the base case in recursion. Why is it important?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q309",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are stack overflows in recursion? How can they occur?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q310",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a recursive C program to reverse a string.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q311",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a recursive C program to find the greatest common divisor (GCD) of two numbers.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q312",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is meant by low-level programming?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q313",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What are registers? In general, what are registers used for?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q314",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of the register storage class? What benefits are obtained from it? Which types of variables can be assigned this class? What is the scope of register variables?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q315",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Why might a register declaration not be honored? How can a programmer tell if it is honored? How are unhonored register variables treated?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q316",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is the purpose of the one's complement operator (~)? To what types of operands does it apply? What precedence and associativity does it have?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q317",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe the three logical bitwise operators (&, |, ^). What is the purpose of each?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q318",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What types of operands are required by each bitwise operator?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q319",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe the precedence and associativity of the bitwise operators.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q320",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What is a masking operation? What is the purpose of each operand? Which operand is the mask, and how is it chosen?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q321",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe a masking operation in which a portion of a bit pattern is copied while the remaining bits are set to 0. Which bitwise operator is used? How is the mask selected?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q322",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe a masking operation in which a portion of a bit pattern is copied while the remaining bits are set to 1. Which bitwise operator is used? How is the mask defined? Compare with the previous question.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q323",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Describe a masking operation in which a portion of a bit pattern is copied while the remaining bits are inverted. Which bitwise operator is used? How is the mask defined? Compare with the previous two questions.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q324",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Why is the one's complement operator sometimes used in masking operations? Under what conditions?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q325",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can bitwise operations be used to set, clear, or toggle individual bits within a byte? Give examples.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q326",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can bitwise operations be used to test the value of a specific bit?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q327",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can left and right shift operators (<<, >>) be used to manipulate data?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q328",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "What precautions should be taken when using shift operators on signed integers?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q329",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Explain how masks can be combined with shift operations for efficient bit-level programming.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q330",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "How can bitwise operations improve efficiency in embedded or low-level applications?",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q331",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to invert the bits of a given byte.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q332",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to count the number of 1’s in the binary representation of an integer.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q333",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to toggle the n-th bit of a given integer.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q334",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to check whether the n-th bit of an integer is set or not.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q335",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to set the n-th bit of an integer.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    },
+    {
+      "id": "TB_Q336",
+      "year": null,
+      "year_semester": "I/I",
+      "section": null,
+      "marks": null,
+      "raw_text": "Write a C program to clear the n-th bit of an integer.",
+      "cleaned_text": null,
+      "embedding": null,
+      "cluster_important": null,
+      "cluster_conceptual": null,
+      "features": {
+        "frequency": null,
+        "last_seen_year": null,
+        "similarity_score": null,
+        "transition_probability": null
+      }
+    }
+  ]
+}

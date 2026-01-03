@@ -1,0 +1,454 @@
+1) If lengths of three sides of a triangle are input through the keyboard, write a program to find the area of the triangle.
+
+2) If a five digit number is input through the keyboard , write a number to reverse the number.
+
+3) Consider a currency system in which there are notes of seven denominations , namely , Re. 1, Rs. 2,Rs. 5,Rs. 10,Rs. 50 and Rs. 100. If a sum of Rs. N is entered through the keyboard , write a program to compute the smallest number of notes that will combine to give Rs. N.
+
+4) Any integer is input through the keyboard. Write a program to find out whether it is an odd number or even number.
+
+5) Any year is input through the keyboard. Write a program to determine whether the year is leap year or not.
+
+6) If cost price and selling price of an item is input through the keyboard, write a program to determine the seller has made profit or incurred loss. Also determine how much profit he made or loss he incurred.
+
+7) If a character is entered through the keyboard , write a program to determine whether the character is a capital letter , a small case letter , a digit or a special symbol.
+
+8) If three sides of a triangle are entered through keyboard , write a program to check whether the triangle is valid or not.
+
+9) Write a program to calculate overtime pay of 10 employees. Overtime is paid at the rate of Rs. 12.00 per hour for every hour worked above 40 hours. Assume that employees do not work for fractional part of an hour.
+
+10) Write a program to find the factorial value of any number entered through the keyboard.
+
+11) Two number entered through the keyboard. Write a program to fin the value of one number raised to the power of another.
+
+12) Write a program to print all prime number from 1 to 300.
+
+13) Write a program to generate all combinations of 1,2 and 3 using for loop.
+
+14) Write a program to add first seven terms of the following series using a for loop.
+    1/1! + 2/2! + 3/3! + ………
+
+15) Write a program to print the multiplication table of the number entered by the user.
+
+16) Write a menu driven program which has the following options:
+    1. Factorial of a number
+    2. Prime or not
+    3. Odd or even
+    4. Exit
+    Once a menu item is selected the appropriate action should be taken and once this action is finished, the menu should reappear. Unless the user selected the 'Exit' option the program should continue.
+
+17) Write a function to calculate the factorial value of any integer entered through the keyboard.
+
+18) Write a function power(a,b), to calculate the value of a raised to b.
+
+19) Write a general purpose function to convert any given year into it's roman equivalent.
+
+20) Write a function that receives 5 integers and returns the sum, average and standard deviation of these numbers. Call his function from main() and print the result in main().
+
+21) Write a function that receives marks obtained by a student in 3 subjects and returns the average and percentage of these marks. Call this function from main() and print the results in main().
+
+22) A 5-digit positive integer is entered through the keyboard, write a recursive function to calculate sum of digits of the 5-digit number.
+
+23) A positive integer is entered through the keyboard, write a program to obtain the prime factors of the number. Modify the function suitably to obtain the prime factors recursively.
+
+24) Write a recursive function to obtain the first 24 numbers of a Fibonacci sequence:
+    1 1 2 3 5 8 13 21 34 55 89 …
+
+24) Write a program that interchanges elements at odd position with elements at even position in an array of 10 elements.
+
+25) Write a program to copy the contents of a 5 element integer array into another array in reverse order.
+
+26) An array contains 10 integers. Receive the number to be searched  in the array as an input. Write a program to search this number in the array and display the number of times it occurs in the array. 
+
+27) Write a program to pick up the largest number from a 5 row by 5 column matrix. 
+
+28) Write a program to transpose a 4 x 4 matrix. 
+
+29) How will you initialize a 3D array threed[3][2][3]? How will you refer the first and last element in this array?
+
+30) Write a program that extracts part of the given string from the specified position.
+
+31) Write a program that convert a string like "124" to an integer 124.
+
+32) Write a program to store a few strings using an array of pointers to strings. Receive a string and check if it is present in the array.
+
+33) Write a program to alphabetically sort a set of names stored using an array of pointers to strings.
+
+34) Write a program to reverse the strings stored in an array of pointers to strings.
+
+35) What is programming paradigm?
+
+36) What do you mean by scope of variable? What are the different types of scopes that a variable can have?
+
+37) What are the difference between a declaration and a definition?
+
+38) What is null pointer?
+
+39) How are structure passing and returning implemented by the compiler?
+
+40) What is the similarity between a structure, union and an enumeration?
+
+41) What is the difference between a structure and a union?
+
+42) What is the difference between an enumeration and a set of pre-processor #defines?
+
+43) What is the difference between malloc() and calloc() functions?
+
+44) What is the difference between dynamic memory allocation and static memory allocation?
+
+45) If a five-digit number is input through the keyboard, write a program to calculate the sum of its digits.
+(Hint: Use the modulus operator ‘%’)
+
+46) Write a program to receive Cartesian coordinates (x, y) of a point and convert them into polar coordinates (r, θ).
+Hint: r = sqrt(xx + yy) and θ = tan⁻¹(y/x)
+
+47) Write a program to receive values of latitude (L1, L2) and longitude (G1, G2), in degrees, of two places on the earth and output the distance (D) between them in nautical miles.
+The formula for distance in nautical miles is:
+D = 3963 * cos⁻¹( sin L1 * sin L2 + cos L1 * cos L2 * cos (G2 − G1) )
+
+48) Wind chill factor is the felt air temperature on exposed skin due to wind. The wind chill temperature is always lower than the air temperature and is calculated as per the following formula:
+wcf = 35.74 + 0.6215t + (0.4275t − 35.75) * v^0.16
+where t is the temperature and v is the wind velocity. Write a program to receive values of t and v and calculate wind chill factor (wcf).
+
+49) If value of an angle is input through the keyboard, write a program to print all its trigonometric ratios.
+
+50) Two numbers are input through the keyboard into two locations C and D. Write a program to interchange the contents of C and D.
+
+51) A five-digit number is entered through the keyboard. Write a program to obtain the reversed number and to determine whether the original and reversed numbers are equal or not.
+
+52) If ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three.
+
+53) Write a program to check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard.
+A triangle is valid if the sum of all the three angles is equal to 180 degrees.
+
+54) Write a program to find the absolute value of a number entered through the keyboard.
+
+55) Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter.
+
+56) Given three points (x1, y1), (x2, y2) and (x3, y3), write a program to check if all the three points fall on one straight line.
+
+57) Given the coordinates (x, y) of center of a circle and its radius, write a program that will determine whether a point lies inside the circle, on the circle or outside the circle.
+(Hint: Use sqrt( ) and pow( ) functions)
+
+58) Given a point (x, y), write a program to find out if it lies on the X-axis, Y-axis or on the origin.
+
+59) According to Gregorian calendar, it was Monday on the date 01/01/01. If any year is input through the keyboard, write a program to find out what is the day on 1st January of this year.
+
+60) If the three sides of a triangle are entered through the keyboard, write a program to check whether the triangle is equilateral, isosceles, scalene or right-angled.
+
+61) In digital world colors are specified in Red-Green-Blue (RGB) format, with values of R, G, B varying on an integer scale from 0 to 255.
+In print publishing the colors are mentioned in Cyan-Magenta-Yellow-Black (CMYK) format, with values of C, M, Y and K varying on a real scale from 0.0 to 1.0.
+Write a program that converts RGB color to CMYK color as per the following formulae:
+
+White = max(R/255, G/255, B/255)
+C = (White − R/255) / White
+M = (White − G/255) / White
+Y = (White − B/255) / White
+Black = 1 − White
+
+Note that if the RGB values are all 0, then the CMY values are all 0 and the K value is 1.
+
+62) A certain grade of steel is graded according to the following conditions:
+(i) Hardness must be greater than 50
+(ii) Carbon content must be less than 0.7
+(iii) Tensile strength must be greater than 5600
+
+The grades are as follows:
+Grade is 10 if all three conditions are met
+Grade is 9 if conditions (i) and (ii) are met
+Grade is 8 if conditions (ii) and (iii) are met
+Grade is 7 if conditions (i) and (iii) are met
+Grade is 6 if only one condition is met
+Grade is 5 if none of the conditions are met
+
+Write a program which will require the user to give values of hardness, carbon content and tensile strength of the steel under consideration and output the grade of the steel.
+
+63) Using conditional operators determine:
+(1) Whether the character entered through the keyboard is a lowercase alphabet or not.
+(2) Whether the character entered through the keyboard is a special symbol or not.
+
+64) Write a program using conditional operators to determine whether the year entered through the keyboard is a leap year or not.
+
+65) Write a program to find the greatest of three numbers entered through the keyboard. Use conditional operators.
+
+66) Write a program to receive value of an angle in degrees and check whether sum of squares of sine and cosine of this angle is equal to 1.
+
+67) Write a program to print all the ASCII values and their equivalent characters using a while loop. The ASCII values vary from 0 to 255.
+
+68) Write a program to print out all Armstrong numbers between 1 and 500.
+
+69) Write a program for a matchstick game being played between the computer and a user such that the computer always wins.
+
+70) Write a program to enter numbers till the user wants. At the end it should display the count of positive, negative and zeros entered.
+
+71) Write a program to receive an integer and find its octal equivalent.
+
+72) Write a program to find the range of a set of numbers entered through the keyboard.
+
+73) Write a program that will produce a table of values of y for each value of x, where y varies from 1 to 5 and x varies from 5.5 to 12.5 in steps of 0.5.
+
+74) When interest compounds q times per year at an annual rate r % for n years, the principal p compounds to an amount a as per the following formula:
+a = p (1 + r/q)^(nq)
+Write a program to read p, r, n and q and calculate the corresponding amount a.
+
+75) The natural logarithm can be approximated by the following series:
+(x − 1)/x + 1/2 ((x − 1)/x)² + 1/3 ((x − 1)/x)³ + 1/4 ((x − 1)/x)⁴ + …
+If x is input through the keyboard, write a program to calculate the sum of first seven terms of this series.
+
+76) Write a program to generate all Pythagorean triplets with side length less than or equal to 30.
+
+77) Population of a town today is 100000. The population has increased steadily at the rate of 10% per year for last 10 years. Write a program to determine the population at the end of each year in the last decade.
+
+78) Ramanujan number is the smallest number that can be expressed as sum of two cubes in two different ways. Write a program to print all such numbers up to a reasonable limit.
+
+79) Write a program to print 24 hours of day with suffixes like AM and PM.
+
+80) Write a program to produce the following output:
+10
+
+81) Write a program to find the grace marks for a student using switch. The user should enter the class obtained by the student and the number of subjects he has failed in. Use the following logic:
+If the student gets first class and the number of subjects he failed in is greater than 3, then he does not get any grace. Otherwise the grace is of 5 marks per subject.
+If the student gets second class and the number of subjects he failed in is greater than 2, then he does not get any grace. Otherwise the grace is of 4 marks per subject.
+If the student gets third class and the number of subjects he failed in is greater than 1, then he does not get any grace. Otherwise the grace is of 5 marks.
+
+82) Any year is entered through the keyboard. Write a function to determine whether the year is a leap year or not.
+
+83) A positive integer is entered through the keyboard. Write a function to obtain the prime factors of this number.
+
+84) Given three variables x, y, z, write a function to circularly shift their values to the right. In other words, if x = 5, y = 8, z = 10, after circular shift y = 5, z = 8, x = 10. Call the function with variables a, b, c to circularly shift values.
+
+85) If the lengths of the sides of a triangle are denoted by a, b, and c, then area of triangle is given by:
+area = √(S(S − a)(S − b)(S − c))
+where S = (a + b + c) / 2. Write a function to calculate the area of the triangle.
+
+86) Write a function to compute the distance between two points and use it to develop another function that will compute the area of the triangle whose vertices are A(x1, y1), B(x2, y2), and C(x3, y3). Use these functions to develop a function which returns a value 1 if the point (x, y) lies inside the triangle ABC, otherwise returns a value 0.
+
+87) Write a function to compute the greatest common divisor given by Euclid’s algorithm, exemplified for J = 1980, K = 1617.
+
+88) A positive integer is entered through the keyboard. Write a function to find the binary equivalent of this number:
+(1) Without using recursion
+(2) Using recursion
+
+89) Write a recursive function to obtain the sum of first 25 natural numbers.
+
+90) There are three pegs labeled A, B and C. Four disks are placed on peg A. The bottom-most disk is largest, and disks go on decreasing in size with the topmost disk being smallest. The objective of the game is to move the disks from peg A to peg C, using peg B as an auxiliary peg. The rules of the game are as follows:
+(1) Only one disk may be moved at a time, and it must be the top disk on one of the pegs.
+(2) A larger disk should never be placed on the top of a smaller disk.
+Write a program to print out the sequence in which the disks should be moved such that all disks on peg A are finally transferred to peg C.
+
+91) Twenty-five numbers are entered from the keyboard into an array. Write a program to find out how many of them are positive, how many are negative, how many are even and how many are odd.
+
+92) If an array arr contains n elements, then write a program to check if arr[0] = arr[n−1], arr[1] = arr[n−2] and so on.
+
+93) Write a program using pointers to find the smallest number in an array of 25 integers.
+
+94) Implement the insertion sort algorithm shown in Figure 13.3 on a set of 25 numbers.
+
+95) Write a program which performs the following tasks:
+— Initialize an integer array of 10 elements in main( )
+— Pass the entire array to a function modify( )
+— In modify( ), multiply each element of array by 3
+— Return the control to main( ) and print the new array elements in main( )
+
+96) For the following set of sample data, compute the standard deviation and the mean:
+6, −12, 8, 13, 11, 6, 7, 2, −6, −9, −10, 11, 10, 9, 2
+The formula for standard deviation is:
+√( Σ(xᵢ − x)² / n )
+where xᵢ is the data item and x is the mean.
+
+97) The area of a triangle can be computed by the sine law when two sides of the triangle and the angle between them are known.
+Area = (1/2) ab sin(angle)
+Given the following triangular pieces of land, write a program to find their area and determine which one is largest.
+
+98) The X and Y coordinates of 10 different points are entered through the keyboard. Write a program to find the distance of the last point from the first point (sum of distances between consecutive points).
+
+99) A dequeue is an ordered set of elements in which elements may be inserted or retrieved from either end. Using an array simulate a dequeue of characters and the operations retrieve left, retrieve right, insert left, insert right. Exceptional conditions such as dequeue full or empty should be indicated. Two pointers (namely, left and right) are needed in this simulation.
+
+100) Write a program to find if a square matrix is symmetric.
+
+101) Write a program to add two 6 × 6 matrices.
+
+102) Write a program to multiply any two 3 × 3 matrices.
+
+103) Given an array p[5], write a function to shift it circularly left by two positions. Thus, if the original array is {15, 30, 28, 19, 61} then after shifting it will be {28, 19, 61, 15, 30}. Call this function for a 4 × 5 matrix and get its rows left shifted.
+
+104) How many bytes in memory would be occupied by the following array of pointers to strings? How many bytes would be required to store the same strings if they are stored in a two-dimensional character array?
+
+char *mess[ ] = {
+"Hammer and tongs",
+"Tooth and nail",
+"Spit and polish",
+"You and I"
+};
+
+105) Write a program to delete all vowels from a sentence. Assume that the sentence is not more than 80 characters long.
+
+106) Write a program that will read a line and delete from it all occurrences of the word “the”.
+
+107) Write a program that takes a set of names and abbreviates the first and middle name to their first letter.
+
+108) Write a program to count the number of occurrences of any two vowels in succession in a line of text. For example, in the following sentence:
+“Please read this application and give me gratuity”
+such occurrences are ea, ea, ui.
+
+109) Write a program that receives an integer (less than or equal to nine digits in length) and prints out the number in words.
+
+110) Create a structure called student that can contain data given below:
+Roll number, Name, Department, Course, Year of joining
+Assume that there are not more than 450 students in the college.
+(1) Write a function to print names of all students who joined in a particular year.
+(2) Write a function to print the data of a student whose roll number is received by the function.
+
+111) Create a structure that can contain data of customers in a bank. The data to be stored is Account number, Name, Balance in account. Assume maximum of 200 customers in the bank.
+(1) Write a function to print the Account number and name of each customer with balance below Rs. 100.
+(2) If a customer requests for withdrawal or deposit, the form contains the fields:
+Acct. no, amount, code (1 for deposit, 0 for withdrawal)
+Write a function that prints a message “The balance is insufficient for the specified withdrawal” if on withdrawal the balance falls below Rs. 100.
+
+112) An automobile company has serial numbers for engine parts starting from AA0 to FF9. The other characteristics of parts are year of manufacture, material and quantity manufactured.
+(1) Create a structure to store information corresponding to a part.
+(2) Write a program to retrieve information on parts with serial numbers between BB1 and CC6.
+
+113) A record contains name of cricketer, his age, number of test matches that he has played and the average runs that he has scored in each test match. Create an array of structures to hold records of 20 such cricketers and write a program to read these records and arrange them in ascending order by average runs. Use the qsort( ) standard library function.
+
+114) There is a structure called employee that holds information like employee code, name and date of joining. Write a program to create an array of structures and enter some data into it. Ask the user to enter current date. Display the names of those employees whose tenure is greater than or equal to 3 years.
+
+115) Create a structure called library to hold accession number, title of the book, author name, price of the book, and flag indicating whether book is issued or not. Write a menu-driven program that implements the working of a library. The menu options should be:
+Add book information
+Display book information
+List all books of given author
+List the title of specified book
+List the count of books in the library
+List the books in the order of accession number
+Exit
+
+116) Write a function that compares two given dates. To store a date use a structure that contains three members namely day, month and year. If the dates are equal it should return 1, otherwise it should return 0.
+
+117) Write a program to calculate the sum of the following series:
+A) 2/4 + 2/13 + 4/14 + 4/15 + …… + 9/101
+
+118) Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+
+119) Write a program to find the range of a set of numbers that are input through the keyboard. Range is the difference between the smallest and biggest number in the list.
+
+120) If three integers are entered through the keyboard, write a program to determine whether they form a Pythagorean triplet or not.
+
+121) Why are addresses of functions stored on the stack?
+
+122) How do we decide whether a variable should be passed by value or by reference?
+
+123) Size of a pointer is not dependent on whose address is stored in it. Justify.
+
+124) At times there may be holes in a structure. Why do they exist? How can they be avoided?
+
+125) A recursive call should always be subjected to an if condition. Why? Explain with an example.
+
+126) Define a function that receives four integers and returns sum, product and average of these integers.
+
+127) Write a recursive function which prints the prime factors of the number that it receives when called from main( ).
+
+128) Write macros for calculating area of circle, circumference of circle, volume of a cone and volume of a sphere.
+
+129) Write a program that prints sizes of all types of chars, ints and reals.
+
+130) What is likely to happen if the bounds of an array are exceeded?
+
+131) When do you prefer a structure over an array to store similar elements? Explain with an example.
+
+132) What is the limitation of an array of pointers to strings? How can it be overcome?
+
+133) In a two-dimensional array a[4][4], why do expressions a and *a give base address?
+
+134) How can we receive multi-word strings as input using scanf( ) and using gets( )?
+
+135) Write a function that receives as parameters a 1D array, its size and an integer, and returns the number of times the integer occurs in the array.
+
+136) Create an array of pointers containing names of 10 cities. Write a program that sorts the cities in reverse alphabetical order and prints this reversed list.
+
+137) Declare a structure called student containing his name, age and address. Create and initialize three structure variables. Define a function to which these variables are passed. The function should convert the names into uppercase. Print the resultant structure variables.
+
+138) Write a program that checks and reports whether sum of elements in the ith row of a 5 × 5 array is equal to the sum of elements in the ith column.
+
+139) Write a program to multiply two integers using bitwise operators.
+
+140) Write a program to count number of words in a given text file.
+
+141) Write a program that receives a set of numbers as command-line arguments and prints their average.
+
+142) Allocate space for a 3D array of dimensions 3 × 5 × 4. Set up each element of this array with a value 10. Report an error if enough memory space is not available.
+
+143) Create an array of pointers to strings for storing names of 5 persons. What is the limitation of this array?
+
+144) Create a data structure for storing the following data:
+Name of the fruit
+Color of the fruit
+Diameter of the fruit
+Price of the fruit
+Weight of the fruit
+
+145) If a function is to be called, is it necessary to mention its prototype? If yes, why?
+
+146) What do argc and argv represent with regards to command-line arguments?
+
+147) How will you redefine the types unsigned long int to ULI and int ** to DOUBLEPTR? What is the scope of a typedef statement?
+
+148) Write a program that defines a function called isalnum( ). The function should receive a string and check if all characters in it are alphabets or digits. If so, it should return true, otherwise false. Call this function for the following strings:
+"ABCD1234"
+"Nagpur - 440010"
+
+149) Define an enumeration to represent colors red, green, yellow, magenta and brown. Create two variables Apple and Banana of this enum type and assign colors red and yellow to them respectively. Print these color values and indicate what output they will produce.
+
+150) Define a function called showbits( ) which displays all the bits of an unsigned char that it receives. Call this function for values 45 and 30. Indicate what output showbits( ) will produce for these values.
+
+151) Write a program to generate and print all unique combinations of numbers 1, 2, 3 and 4.
+
+152) Write an iterative function and a recursive function to print first ten terms of a Fibonacci series. Which one of these two functions will run faster and why?
+
+153) Create a data structure for storing the following data:
+Name of document — Leaflet / Flier / Brochure
+Number of colors — 1 / 2 / 4 / 5
+Size — Small / Medium / Big
+Type of paper — Maplitho / Bond / Artcard
+Number of copies
+Number of printing — Positive / Negative
+
+154) For storing names of months in a year, which out of array of strings and array of pointers to strings is preferable, and why?
+
+155) Consider the following structure:
+
+struct Flower
+{
+  char name[20];
+  int color;
+  int no_of_petals;
+};
+struct Flower f[3];
+
+Write statements to receive values into array f[ ] and print them on the screen.
+
+156) Given two matrices A 3 × 3 and B 3 × 3, define a function that checks whether matrix A is transpose of matrix B.
+
+157) What is the difference between function declaration and function definition? Which of the two — function redefinition or function redeclaration — is an error, and why?
+
+158) Write a code snippet to carry out the following operations:
+— Open a file ‘records.dat’ in read binary mode.
+— Skip first 200 bytes from the beginning of the file.
+— Read next 20 bytes into an array arr[ ].
+
+159) While using command-line arguments, is it necessary to use variables argc and argv? Write statements to print the name of the executable file and the first and second argument passed to the program.
+
+160) Once a type has been given a new name using typedef, can we use the previous type? Can the effect of typedef be also obtained using a macro? If yes, how?
+
+161) What is the difference between the following declarations?
+int *p[4];
+int (*q)[4];
+
+162) What is the difference between a structure and a union as regards sharing of memory locations?
+
+163) Write a program that defines a function called isalpha( ). The function should receive a string and check if all characters in it are alphabets. If so, it should return true, otherwise false. Call this function for suitable strings.
+
+164) Define an enumeration to represent marital status of a person — single, married, divorced. Create two variables he and she of this enum type and assign values single and married to them respectively. Print these values and indicate what output they will produce.
+
+165) Define functions countzeros( ) and countones( ) which count the number of 0s and 1s in an unsigned char that they receive. Call these functions for values 101 and 111. Indicate what values these functions return.
+
+166) Write a program to find maximum out of three given numbers in a single statement. What are the pros and cons of using this statement?
+ 
