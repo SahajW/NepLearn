@@ -1,146 +1,293 @@
 /* =========================================
    1. GLOBAL VARIABLES (Synced with Homepage)
    ========================================= */
-:root {
-  --bg-dark: #0a0a0a;
-  --bg-card: #1e1e1e;
-  --accent-primary: #619acf; /* Vivid Violet/Blue */
-  --accent-glow: rgba(81, 126, 193, 0.709);
-  --text-main: #ffffff;
-  --text-muted: #a1a1aa;
-}
-
-/* Set the whole page background */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--bg-dark); 
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  color: var(--text-main);
-}
-
-/* =========================================
-   2. MAIN CARD (The Login Box)
-   ========================================= */
-.container {
-  display: flex;
-  flex-direction: column;
-  margin: 80px auto; /* Centers vertically/horizontally */
-  width: 450px; 
-  background: var(--bg-card); /* Dark Card Background */
-  padding-bottom: 40px;
+   :root {
+    --bg-dark: #0a0a0a;
+    --bg-card: #1e1e1e;
+    --accent-primary: #619acf; /* Vivid Violet/Blue */
+    --accent-glow: rgba(81, 126, 193, 0.709);
+    --text-main: #ffffff;
+    --text-muted: #a1a1aa;
+  }
   
-  /* Styling to match Homepage Boxes */
-  border-radius: 40px; 
-  border: 1px solid #333; 
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Deep shadow */
-  transition: all 0.3s ease;
-}
-
-/* Subtle Glow on Hover (Like your homepage boxes) */
-.container:hover {
-  border-color: var(--accent-primary);
-  box-shadow: 0 0 30px var(--accent-glow);
-}
-
-/* =========================================
-   3. HEADER (Sign Up Text)
-   ========================================= */
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  margin-top: 40px;
-}
-
-.text {
-  font-size: 36px;
-  font-weight: 700;
-  /* Gradient Text Effect from Navbar */
-  background: linear-gradient(90deg, #ffffff, #a1a1aa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.underline {
-  width: 60px;
-  height: 4px;
-  background: var(--accent-primary); /* Matches the footer/buttons */
-  border-radius: 9px;
-}
-
-.inputs {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.input {
-  display: flex;
-  align-items: center;
-  margin: auto;
-  width: 380px;
-  height: 60px;
-  background: #2a2a2a; /* Slightly lighter than card for contrast */
-  border-radius: 15px; 
-  border: 1px solid transparent; /* Hidden border for focus effect */
-  transition: all 0.3s ease;
-}
-
-/* Glow when user clicks inside an input */
-.input:focus-within {
-  border-color: var(--accent-primary);
-  box-shadow: 0 0 15px var(--accent-glow);
-}
-
-.input img {
-  margin: 0 25px;
-  width: 24px;
-  /* IMPORTANT: Inverts black icons to white so they appear on dark bg */
-  filter: invert(1) opacity(0.7); 
-}
-
-.input input {
-  height: 50px;
-  width: 300px;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: var(--text-main); /* White text */
-  font-size: 18px;
-}
-
-/* =========================================
-   5. SUBMIT BUTTON
-   ========================================= */
-.submit-container {
-  display: flex;
-  justify-content: center;
-  margin: 50px auto;
-}
-
-.submit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 220px;
-  height: 55px;
-  color: #fff;
-  background: var(--accent-primary); /* Main Blue/Violet */
-  border-radius: 50px;
-  font-size: 18px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-}
-
-/* Hover Effect: Lift and Glow */
-.submit:hover {
-  transform: translateY(-4px);
-  background-color: #7aaee0; /* Slightly lighter on hover */
-  box-shadow: 0 0 25px var(--accent-glow);
-}
+  /* Set the whole page background */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-dark); 
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-main);
+  }
+  
+  /* =========================================
+     2. MAIN CARD (The Login Box)
+     ========================================= */
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto; /* Centers vertically/horizontally */
+    width: 450px; 
+    background: var(--bg-card); /* Dark Card Background */
+    padding-bottom: 40px;
+    
+    /* Styling to match Homepage Boxes */
+    border-radius: 40px; 
+    border: 1px solid #333; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Deep shadow */
+    transition: all 0.3s ease;
+  }
+  
+  /* Subtle Glow on Hover (Like your homepage boxes) */
+  .container:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 30px var(--accent-glow);
+  }
+  
+  /* =========================================
+     3. HEADER (Sign Up Text)
+     ========================================= */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .text {
+    font-size: 36px;
+    font-weight: 700;
+    /* Gradient Text Effect from Navbar */
+    background: linear-gradient(90deg, #ffffff, #a1a1aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .underline {
+    width: 60px;
+    height: 4px;
+    background: var(--accent-primary); /* Matches the footer/buttons */
+    border-radius: 9px;
+  }
+  
+  /* =========================================
+     4. INPUT FIELDS
+     ========================================= */
+  .inputs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 60px;
+    background: #2a2a2a; /* Slightly lighter than card for contrast */
+    border-radius: 15px; 
+    border: 1px solid transparent; /* Hidden border for focus effect */
+    transition: all 0.3s ease;
+  }
+  
+  /* Glow when user clicks inside an input */
+  .input:focus-within {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px var(--accent-glow);
+  }
+  
+  .input img {
+    margin: 0 25px;
+    width: 24px;
+    /* IMPORTANT: Inverts black icons to white so they appear on dark bg */
+    filter: invert(1) opacity(0.7); 
+  }
+  
+  .input input {
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-main); /* White text */
+    font-size: 18px;
+  }
+  
+  .input input::placeholder {
+    color: var(--text-muted);
+    opacity: 0.6;
+  }
+  
+  /* =========================================
+     5. ERROR & SUCCESS MESSAGES
+     ========================================= */
+  .error-message {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #fca5a5;
+    padding: 12px 20px;
+    border-radius: 15px;
+    margin: 20px auto 0;
+    width: 380px;
+    font-size: 14px;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .success-message {
+    background: rgba(34, 197, 94, 0.15);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    color: #86efac;
+    padding: 12px 20px;
+    border-radius: 15px;
+    margin: 20px auto 0;
+    width: 380px;
+    font-size: 14px;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* =========================================
+     6. FORGOT PASSWORD
+     ========================================= */
+  .forgot-password {
+    padding-left: 35px;
+    margin-top: 10px;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+  
+  .forgot-password span {
+    color: var(--accent-primary);
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password span:hover {
+    color: #7aaee0;
+    text-decoration: underline;
+  }
+  
+  /* =========================================
+     7. SUBMIT BUTTONS
+     ========================================= */
+  .submit-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 30px auto 0;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 55px;
+    color: #fff;
+    background: var(--accent-primary); /* Main Blue/Violet */
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+  
+  /* Hover Effect: Lift and Glow */
+  .submit:hover {
+    transform: translateY(-4px);
+    background-color: #7aaee0; /* Slightly lighter on hover */
+    box-shadow: 0 0 25px var(--accent-glow);
+  }
+  
+  /* Gray/Inactive State */
+  .submit.gray {
+    background: #2a2a2a;
+    color: var(--text-muted);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  
+  .submit.gray:hover {
+    background: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+  
+  /* Primary Action Button (Full Width) */
+  .submit.primary {
+    width: 380px;
+    margin-top: 20px;
+  }
+  
+  /* Disabled State */
+  .submit.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  /* =========================================
+     8. SWITCH MODE (Login/Signup Toggle)
+     ========================================= */
+  .switch-mode {
+    text-align: center;
+    margin-top: 25px;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+  
+  .switch-mode p {
+    margin: 0;
+  }
+  
+  .switch-mode span {
+    color: var(--accent-primary);
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .switch-mode span:hover {
+    color: #7aaee0;
+    text-decoration: underline;
+  }
+  
+  /* =========================================
+     9. RESPONSIVE DESIGN
+     ========================================= */
+  @media (max-width: 500px) {
+    .container {
+      width: 90%;
+      margin: 40px auto;
+    }
+  
+    .input,
+    .error-message,
+    .submit.primary {
+      width: 85%;
+    }
+  
+    .submit {
+      width: 140px;
+      font-size: 16px;
+    }
+  
+    .text {
+      font-size: 28px;
+    }
+  }

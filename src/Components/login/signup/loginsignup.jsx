@@ -155,24 +155,39 @@ export const Loginsignup = () => {
       {success && <div className="success-message">{success}</div>}
       
       <div className="inputs">
-        <div className="input">
-          <img src={user_icon} alt="" />
-          <input
-            type="text"
-            placeholder="User Name" />
-        </div>
+        {!isLogin && (
+          <div className="input">
+            <img src={user_icon} alt="" />
+            <input 
+              type="text" 
+              placeholder="Username"
+              name="username"
+              value={formData.username}
+              onChange={handleInputChange}
+            />
+          </div>
+        )}
+        
         <div className="input">
           <img src={email_icon} alt="" />
-          <input
-            type="email"
-            placeholder="Email" />
+          <input 
+            type="email" 
+            placeholder="Email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+          />
         </div>
         
         <div className="input">
           <img src={lock_icon} alt="" />
-          <input
-            type="password"
-            placeholder="Password" />
+          <input 
+            type="password" 
+            placeholder="Password"
+            name="password"
+            value={formData.password}
+            onChange={handleInputChange}
+          />
         </div>
         
         {!isLogin && (
