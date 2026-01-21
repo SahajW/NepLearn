@@ -1,7 +1,12 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+import os
+from dotenv import load_dotenv
 
-DATABASE_URL = "postgresql://postgres:Prabin@localhost:5432/nep_learn_db"
+# Load environment variables from .env file
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 engine = create_engine(DATABASE_URL, echo=True) #Connects to postgre
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine) #Creates datababase sessions
