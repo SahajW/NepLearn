@@ -53,10 +53,9 @@ async def signup(user: UserCreate, db: Session = Depends(get_db)):
         hashed_password=hashed_password
     )
     
-    db.add(new_user)
-    db.commit()
-    db.refresh(new_user)
-    
+    db.add(new_user)  # Prepares the INSERT statement
+    db.commit()       # Executes: INSERT INTO users VALUES (...)
+    db.refresh(new_user)  # Gets the auto-generated ID
     # Create access token
     access_token = create_token(user.email)
     
