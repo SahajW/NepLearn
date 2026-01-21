@@ -6,6 +6,12 @@ node_modules/
 /node_modules
 /.pnp
 .pnp.js
+/.venv
+backend/__pycache__/
+backend/venv
+backend/*.pyc
+backend/.pytest_cache/
+backend/.env
 
 # testing
 /coverage
