@@ -12,7 +12,7 @@ backend/venv
 backend/*.pyc
 backend/.pytest_cache/
 backend/.env
-
+fastapi/__pycache__/
 # testing
 /coverage
 
