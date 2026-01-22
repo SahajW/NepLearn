@@ -7,6 +7,260 @@ app = FastAPI()
 
 MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
+# ============================================================================
+# CHANGE 1: Better Device Detection
+# ============================================================================
+# ORIGINAL CODE:
+# device = "cuda" if torch.cuda.is_available() else "cpu"
+#
+# PROBLEM: Didn't check for MPS (Apple Silicon GPU), causing the original error
+# "Placeholder storage has not been allocated on MPS device!"
+#
+# FIX: Check for all device types in priority order
+# ============================================================================
+if torch.cuda.is_available():
+    device = "cuda"
+elif torch.backends.mps.is_available():
+    device = "mps"
+else:
+    device = "cpu"
+
+model_dict = {}
+
+def load_model():
+    global model_dict
+    if not model_dict:
+        print(f"Using device: {device}")
+        print(f"Loading {MODEL_NAME}...")
+        
+        model_dict["tokenizer"] = AutoTokenizer.from_pretrained(MODEL_NAME)
+        
+        # ====================================================================
+        # CHANGE 2: Conditional Model Loading Strategy
+        # ====================================================================
+        # ORIGINAL CODE:
+        # model_dict["model"] = AutoModelForCausalLM.from_pretrained(
+        #     MODEL_NAME,
+        #     device_map="auto",
+        #     dtype=torch.float16,  # Was torch_dtype in older code
+        #     low_cpu_mem_usage=True
+        # )
+        #
+        # PROBLEM 1: device_map="auto" doesn't work well with MPS/CPU
+        # - device_map="auto" tells PyTorch to manage device placement itself
+        # - Then calling .to(device) later creates a conflict
+        # - Model parts end up on different devices than inputs
+        # - Result: "Placeholder storage has not been allocated" error
+        #
+        # PROBLEM 2: float16 (half precision) not supported on MPS/CPU
+        # - MPS has incomplete float16 support, causes crashes
+        # - CPU is very slow with float16 and may not support it
+        #
+        # PROBLEM 3: torch_dtype parameter was deprecated
+        # - Newer transformers versions use dtype instead
+        #
+        # FIX: Use different strategies for different devices
+        # ====================================================================
+        
+        if device == "cuda":
+            # CUDA: Use device_map="auto" for smart multi-GPU handling
+            # device_map="auto" automatically distributes model across GPUs
+            # and handles input device placement for us
+            model_dict["model"] = AutoModelForCausalLM.from_pretrained(
+                MODEL_NAME,
+                device_map="auto",  # Auto-handles device placement
+                dtype=torch.float16,  # CUDA supports float16 well
+                low_cpu_mem_usage=True
+            )
+        else:
+            # MPS/CPU: Manual device placement required
+            # Don't use device_map="auto" because it conflicts with .to(device)
+            model_dict["model"] = AutoModelForCausalLM.from_pretrained(
+                MODEL_NAME,
+                dtype=torch.float32,  # Use float32 for stability
+                low_cpu_mem_usage=True
+            ).to(device)  # Manually place entire model on device
+        
+        print("Model loaded successfully!")
+
+class Query(BaseModel):
+    question: str
+
+# ============================================================================
+# CHANGE 3: Load Model at Startup, Not Per Request
+# ============================================================================
+# ORIGINAL CODE:
+# @app.post("/ask")
+# def ask_llm(query: Query):
+#     load_model()  # Called every request!
+#     ...
+#
+# PROBLEM: Loading a 1.1B parameter model takes 10-30 seconds
+# - Every request had to wait for model loading
+# - Even with the model_dict check, it still took time
+# - Browser/client would timeout waiting for response
+# - Result: Page keeps loading forever
+#
+# FIX: Load model once when server starts using startup event
+# ============================================================================
+@app.on_event("startup")
+async def startup_event():
+    """Load model once when server starts, not on every request"""
+    load_model()
+
+@app.post("/ask")
+def ask_llm(query: Query):
+    # Check if model is loaded (safety check)
+    if not model_dict:
+        return {
+            "answer": "", 
+            "status": "error", 
+            "error": "Model not loaded yet. Please wait for server startup to complete."
+        }
+    
+    tokenizer = model_dict["tokenizer"]
+    model = model_dict["model"]
+    
+    # TinyLlama chat format
+    prompt = f"<|system|>\nYou are a helpful AI assistant.</s>\n<|user|>\n{query.question}</s>\n<|assistant|>\n"
+    
+    # ====================================================================
+    # CHANGE 4: Proper Input Device Placement
+    # ====================================================================
+    # ORIGINAL CODE:
+    # inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    #
+    # PROBLEM: When using device_map="auto" (CUDA), inputs are on CPU
+    # but model expects to handle device placement itself
+    # - Causes device mismatch
+    # - Model and inputs on different devices
+    #
+    # FIX: Only manually move inputs when NOT using device_map="auto"
+    # ====================================================================
+    
+    # Tokenize first
+    inputs = tokenizer(prompt, return_tensors="pt")
+    
+    # Only manually place inputs if we're not using device_map="auto"
+    if device != "cuda":
+        # For MPS/CPU: manually move inputs to same device as model
+        inputs = {k: v.to(device) for k, v in inputs.items()}
+    # For CUDA with device_map="auto": do nothing, it handles placement
+
+    # ====================================================================
+    # CHANGE 5: Better Generation and Response Extraction
+    # ====================================================================
+    # ORIGINAL CODE:
+    # outputs = model.generate(**inputs, max_new_tokens=200, ...)
+    # answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    # answer = answer.replace(prompt, "").strip()
+    #
+    # PROBLEM 1: No error handling - crashes would kill the server
+    # PROBLEM 2: Prompt removal by string replacement is unreliable
+    # - Special tokens might be decoded differently
+    # - String matching fails
+    # - Result: Entire prompt appears in answer
+    #
+    # PROBLEM 3: Missing pad_token_id causes warnings
+    #
+    # FIX: Add error handling, extract only generated tokens
+    # ====================================================================
+    
+    try:
+        with torch.no_grad():  # Disable gradient computation (saves memory)
+            outputs = model.generate(
+                **inputs,
+                max_new_tokens=200,
+                do_sample=True,
+                temperature=0.7,
+                top_p=0.9,
+                repetition_penalty=1.15,
+                pad_token_id=tokenizer.eos_token_id  # Prevents warnings
+            )
+        
+        # BEST METHOD: Extract only the newly generated tokens
+        # outputs[0] contains: [input_tokens] + [generated_tokens]
+        # We only want [generated_tokens]
+        input_length = inputs['input_ids'].shape[1]  # Length of input
+        generated_tokens = outputs[0][input_length:]  # Skip input, keep generation
+        
+        # Decode only the generated tokens
+        answer = tokenizer.decode(generated_tokens, skip_special_tokens=True).strip()
+        
+        return {"answer": answer, "status": "success"}
+    
+    except Exception as e:
+        # Catch any errors during generation and return helpful message
+        return {
+            "answer": "", 
+            "status": "error", 
+            "error": f"Generation failed: {str(e)}"
+        }
+
+@app.get("/")
+def root():
+    return {
+        "message": "LLM API with TinyLlama", 
+        "status": "ready",
+        "device": device  # Show which device is being used
+    }
+
+@app.get("/health")
+def health_check():
+    """Check if model is loaded and ready"""
+    model_loaded = bool(model_dict)
+    return {
+        "status": "healthy" if model_loaded else "initializing",
+        "model_loaded": model_loaded,
+        "device": device
+    }
+
+# ============================================================================
+# SUMMARY OF ALL CHANGES AND WHY THEY WERE NECESSARY
+# ============================================================================
+#
+# 1. DEVICE DETECTION (Line ~20)
+#    Problem: Didn't detect MPS, causing "Placeholder storage" error
+#    Fix: Check for CUDA, then MPS, then CPU
+#
+# 2. CONDITIONAL MODEL LOADING (Line ~45)
+#    Problem: device_map="auto" + .to(device) conflict, float16 on MPS fails
+#    Fix: Use device_map="auto" only for CUDA, manual .to(device) for MPS/CPU
+#         Use float32 for MPS/CPU for stability
+#
+# 3. STARTUP LOADING (Line ~75)
+#    Problem: Model loaded on every request, causing 30s delays and timeouts
+#    Fix: Load once at server startup with @app.on_event("startup")
+#
+# 4. INPUT PLACEMENT (Line ~100)
+#    Problem: Manually moving inputs to device conflicts with device_map="auto"
+#    Fix: Only manually move inputs when not using device_map="auto"
+#
+# 5. RESPONSE EXTRACTION (Line ~115)
+#    Problem: Prompt included in response, no error handling
+#    Fix: Extract only generated tokens by slicing, add try-except
+#
+# 6. PARAMETER UPDATE (throughout)
+#    Problem: torch_dtype deprecated
+#    Fix: Use dtype instead
+#
+# ============================================================================
+
+
+#FIRST CODE DONE BY YOU SAHAJ
+
+"""
+
+```python
+from fastapi import FastAPI
+from pydantic import BaseModel
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+
+app = FastAPI()
+
+MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model_dict = {}
 
@@ -61,3 +315,6 @@ def ask_llm(query: Query):
 @app.get("/")
 def root():
     return {"message": "LLM API with TinyLlama", "status": "ready"}
+```
+
+"""
