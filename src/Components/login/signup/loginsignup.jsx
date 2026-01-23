@@ -152,7 +152,7 @@ export const Loginsignup = () => {
 
       if (response.ok) {
         localStorage.setItem("token", data.access_token);
-        localStorage.setItem("username", data.user.username);
+        localStorage.setItem("username", data.username);
         setSuccess("Login successful! Redirecting...");
         
         // Redirect after short delay
