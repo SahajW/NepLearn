@@ -87,6 +87,18 @@ def load_model():
 class Query(BaseModel):
     question: str
 
+origins = [
+    "http://localhost:3001"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins = origins,
+    allow_credentials = True,
+    allow_methods = ["*"],
+    allow_headers = ["*"],
+
+)
 # ============================================================================
 # CHANGE 3: Load Model at Startup, Not Per Request
 # ============================================================================
@@ -140,7 +152,7 @@ def ask_llm(query: Query):
     # ====================================================================
     
     # Tokenize first
-    inputs = tokenizer(prompt, return_tensors="pt")
+    inputs = tokenizer(prompt, return_tensors="pt").to(device)
     
     # Only manually place inputs if we're not using device_map="auto"
     if device != "cuda":
