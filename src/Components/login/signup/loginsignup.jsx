@@ -21,6 +21,30 @@ export const Loginsignup = () => {
 
   const API_URL = "http://localhost:8000";
 
+  // NEW: Helper function to extract error message
+  const getErrorMessage = (data) => {
+    // If detail is a string, return it
+    if (typeof data.detail === 'string') {
+      return data.detail;
+    }
+    
+    // If detail is an array (Pydantic validation errors)
+    if (Array.isArray(data.detail)) {
+      // Extract all error messages and join them
+      return data.detail
+        .map(err => err.msg || JSON.stringify(err))
+        .join('. ');
+    }
+    
+    // If detail is an object
+    if (typeof data.detail === 'object') {
+      return JSON.stringify(data.detail);
+    }
+    
+    // Fallback
+    return "An error occurred";
+  };
+
   const handleInputChange = (e) => {
     setFormData({
       ...formData,
@@ -42,8 +66,24 @@ export const Loginsignup = () => {
       return;
     }
 
-    if (formData.password.length < 6) {
-      setError("Password must be at least 6 characters");
+    if (formData.password.length < 8) {
+      setError("Password must be at least 8 characters");
+      return;
+    }
+    if (!/[A-Z]/.test(formData.password)) {
+      setError("Password must contain at least one uppercase letter");
+      return;
+    }
+    if (!/[0-9]/.test(formData.password)) {
+      setError("Password must contain at least one number");
+      return;
+    }
+    if (!/[a-z]/.test(formData.password)) {
+      setError("Password must contain at least one lowercase letter");
+      return;
+    }
+    if (!/[!@#$%^&*]/.test(formData.password)) {
+      setError("Password must contain at least one special character (!@#$%^&*)");
       return;
     }
 
@@ -77,7 +117,8 @@ export const Loginsignup = () => {
           setSuccess("");
         }, 2000);
       } else {
-        setError(data.detail || "Signup failed");
+        // ✅ FIXED: Use helper function to extract error message
+        setError(getErrorMessage(data));
       }
     } catch (err) {
       setError("Network error. Please try again.");
@@ -111,10 +152,16 @@ export const Loginsignup = () => {
 
       if (response.ok) {
         localStorage.setItem("token", data.access_token);
-        localStorage.setItem("username", data.username);
-        navigate('/home');
+        localStorage.setItem("username", data.user.username);
+        setSuccess("Login successful! Redirecting...");
+        
+        // Redirect after short delay
+        setTimeout(() => {
+          navigate('/home');
+        }, 1000);
       } else {
-        setError(data.detail || "Invalid email or password");
+        // FIXED: Use helper function to extract error message
+        setError(getErrorMessage(data));
       }
     } catch (err) {
       setError("Network error. Please try again.");
@@ -151,6 +198,7 @@ export const Loginsignup = () => {
         <div className="underline"></div>
       </div>
       
+      {/* These are already correct - displaying strings */}
       {error && <div className="error-message">{error}</div>}
       {success && <div className="success-message">{success}</div>}
       

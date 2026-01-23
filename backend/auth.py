@@ -3,6 +3,7 @@ from jose import jwt  #JWT = signed string.
 from datetime import datetime, timedelta
 import os
 from dotenv import load_dotenv
+import hashlib
 
 # Load environment variables from .env file
 load_dotenv()
@@ -14,10 +15,12 @@ ALGORITHM = os.getenv("ALGORITHM")
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 def hash_password(password: str):
-    return pwd_context.hash(password)
+    password_hash = hashlib.sha256(password.encode('utf-8')).hexdigest()
+    return pwd_context.hash(password_hash)
 
 def verify_password(password, hashed):
-    return pwd_context.verify(password, hashed)
+    password_hash = hashlib.sha256(password.encode('utf-8')).hexdigest()
+    return pwd_context.verify(password_hash, hashed)
 
 def create_token(email: str):
     payload = {
