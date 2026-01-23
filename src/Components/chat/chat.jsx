@@ -1,11 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./chat.css";
 
 export const Chat = () => {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState("");
 
-    const handleSend = () => {
+    useEffect(() => {
+        if (messages.length === 0) {
+            setMessages([
+                {
+                    role: "bot",
+                    text: "👋 Hi! I'm Nep-Learn, your AI study buddy.\nWhat topic are you studying today?",
+                },
+            ]);
+        }
+    }, []);
+
+
+    /*const handleSend = () => {
         if (!input.trim()) return;
 
         const userMessage = {
@@ -20,7 +32,32 @@ export const Chat = () => {
 
         setMessages([...messages, userMessage, botMessage]);
         setInput("");
+    };*/
+
+    const handleSend = async () => {
+        if (!input.trim()) return;
+
+        const userMessage = { role: "user", text: input };
+        setMessages([...messages, userMessage]); // show user's message immediately
+        setInput("");
+
+        try {
+            const response = await fetch("http://localhost:8000/ask", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question: input }),
+            });
+
+            const data = await response.json();
+            const botMessage = { role: "bot", text: data.answer };
+            setMessages((prev) => [...prev, botMessage]);
+        } catch (err) {
+            console.error("Error sending message:", err);
+            const botMessage = { role: "bot", text: "Oops! Something went wrong." };
+            setMessages((prev) => [...prev, botMessage]);
+        }
     };
+
     const handleKeyDown = (e) => {
         if (e.key === "Enter") {
             handleSend();
