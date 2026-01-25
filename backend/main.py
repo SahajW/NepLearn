@@ -6,9 +6,12 @@ import models
 from schemas import UserCreate, UserLogin  # Import Pydantic schemas
 from models import User  # Import SQLAlchemy model
 from auth import hash_password, verify_password, create_token
-from pydantic import BaseModel
+from pydantic import BaseModel,Field
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+import pickle
+from typing import Dict, List, Optional
+from final_model import QuestionPaperPredictor
 
 # Create tables
 models.Base.metadata.create_all(bind=engine)
@@ -416,3 +419,48 @@ def root():
 ```
 
 """
+#FOR OUR MODEL(SAHAJ PLEASE LOOK)
+with open('question_predictor.pkl','rb') as f:
+    predictor = pickle.load(f)
+
+    
+class Features(BaseModel):
+    structure: Dict = Field(
+    ...,
+    description="Structure of the question paper",
+    example={
+        "SECTION B": {
+            "count": 7,
+            "instruction": "Attempt Any SIX Questions",
+            "min_length": 30,
+            "max_length": 400
+        },
+        "SECTION C": {
+            "count": 3,
+            "instruction": "Attempt Any TWO Questions",
+            "min_length": 150,
+            "require_multipart": True
+            }
+        }
+    ) 
+    similarity_threshold: float = 0.85
+    source_filter: str = "mixed"
+
+@app.get('/')
+def read_root():
+    return {"message":"Welcome to the model"}
+@app.post("/predict")
+ 
+
+def predict_model(req:Features):
+    try:
+        paper = predictor.generate_question_paper(
+            structure=req.structure,      
+            similarity_threshold=req.similarity_threshold,
+            source_filter=req.source_filter
+        )
+
+        return paper
+    except Exception as e:
+        print("ERROR:", repr(e)) 
+        raise HTTPException(status_code=500, detail=str(e))
