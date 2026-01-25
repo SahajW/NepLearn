@@ -460,7 +460,7 @@ def predict_model(req:Features):
             source_filter=req.source_filter
         )
 
-        return paper
+        return {"paper":paper}
     except Exception as e:
         print("ERROR:", repr(e)) 
         raise HTTPException(status_code=500, detail=str(e))
