@@ -27,7 +27,7 @@ export const Loginsignup = () => {
     if (typeof data.detail === 'string') {
       return data.detail;
     }
-    
+
     // If detail is an array (Pydantic validation errors)
     if (Array.isArray(data.detail)) {
       // Extract all error messages and join them
@@ -35,12 +35,12 @@ export const Loginsignup = () => {
         .map(err => err.msg || JSON.stringify(err))
         .join('. ');
     }
-    
+
     // If detail is an object
     if (typeof data.detail === 'object') {
       return JSON.stringify(data.detail);
     }
-    
+
     // Fallback
     return "An error occurred";
   };
@@ -152,9 +152,9 @@ export const Loginsignup = () => {
 
       if (response.ok) {
         localStorage.setItem("token", data.access_token);
-        localStorage.setItem("username", data.user.username);
+        localStorage.setItem("username", data.username);
         setSuccess("Login successful! Redirecting...");
-        
+
         // Redirect after short delay
         setTimeout(() => {
           navigate('/home');
@@ -197,17 +197,17 @@ export const Loginsignup = () => {
         <div className="text">{isLogin ? "Login" : "Sign Up"}</div>
         <div className="underline"></div>
       </div>
-      
+
       {/* These are already correct - displaying strings */}
       {error && <div className="error-message">{error}</div>}
       {success && <div className="success-message">{success}</div>}
-      
+
       <div className="inputs">
         {!isLogin && (
           <div className="input">
             <img src={user_icon} alt="" />
-            <input 
-              type="text" 
+            <input
+              type="text"
               placeholder="Username"
               name="username"
               value={formData.username}
@@ -215,34 +215,34 @@ export const Loginsignup = () => {
             />
           </div>
         )}
-        
+
         <div className="input">
           <img src={email_icon} alt="" />
-          <input 
-            type="email" 
+          <input
+            type="email"
             placeholder="Email"
             name="email"
             value={formData.email}
             onChange={handleInputChange}
           />
         </div>
-        
+
         <div className="input">
           <img src={lock_icon} alt="" />
-          <input 
-            type="password" 
+          <input
+            type="password"
             placeholder="Password"
             name="password"
             value={formData.password}
             onChange={handleInputChange}
           />
         </div>
-        
+
         {!isLogin && (
           <div className="input">
             <img src={lock_icon} alt="" />
-            <input 
-              type="password" 
+            <input
+              type="password"
               placeholder="Confirm Password"
               name="confirmPassword"
               value={formData.confirmPassword}
@@ -250,13 +250,13 @@ export const Loginsignup = () => {
             />
           </div>
         )}
-        
+
         {isLogin && (
           <div className="forgot-password">
             Forgot Password? <span>Click Here!</span>
           </div>
         )}
-        
+
         <div className="submit-container">
           <div
             className={`submit primary ${loading ? "disabled" : ""}`}
@@ -269,12 +269,12 @@ export const Loginsignup = () => {
         <div className="switch-mode">
           {isLogin ? (
             <p>
-              Don't have an account? 
+              Don't have an account?
               <span onClick={switchMode}> Sign Up</span>
             </p>
           ) : (
             <p>
-              Already have an account? 
+              Already have an account?
               <span onClick={switchMode}> Login</span>
             </p>
           )}
