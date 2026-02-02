@@ -12,7 +12,9 @@ import torch
 import pickle
 from typing import Dict, List, Optional
 from final_model import QuestionPaperPredictor
-
+from Checkall import get_year,check_input,check_subject
+from train import train_model
+import json
 # Create tables
 models.Base.metadata.create_all(bind=engine)
 
@@ -93,7 +95,7 @@ async def login(user: UserLogin, db: Session = Depends(get_db)):
     }
 
 #LLM
-
+"""
 MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 # ============================================================================
@@ -194,7 +196,7 @@ class Query(BaseModel):
 # ============================================================================
 @app.on_event("startup")
 async def startup_event():
-    """Load model once when server starts, not on every request"""
+    # Load model once when server starts, not on every request
     load_model()
 
 @app.post("/ask")
@@ -296,7 +298,7 @@ def root():
 
 @app.get("/health")
 def health_check():
-    """Check if model is loaded and ready"""
+    #Check if model is loaded and ready
     model_loaded = bool(model_dict)
     return {
         "status": "healthy" if model_loaded else "initializing",
@@ -334,7 +336,7 @@ def health_check():
 #    Fix: Use dtype instead
 #
 # ============================================================================
-
+"""
 
 #FIRST CODE DONE BY YOU SAHAJ
 
@@ -419,13 +421,12 @@ def root():
 ```
 
 """
+
 #FOR OUR MODEL(SAHAJ PLEASE LOOK)
-with open('question_predictor.pkl','rb') as f:
-    predictor = pickle.load(f)
-    
 
     
 class Features(BaseModel):
+    user_input: str
     structure: Dict = Field(
     ...,
     description="Structure of the question paper",
@@ -434,7 +435,8 @@ class Features(BaseModel):
             "count": 7,
             "instruction": "Attempt Any SIX Questions",
             "min_length": 30,
-            "max_length": 400
+            "max_length": 400,
+           
         },
         "SECTION C": {
             "count": 3,
@@ -455,13 +457,50 @@ def read_root():
 
 def predict_model(req:Features):
     try:
+        year = get_year(req.user_input)
+        print("Using year:", year)
+        valid = check_input(req.user_input)
+        if not valid:
+             raise HTTPException(
+                status_code=400,
+                detail="Use prompt like (Generate the questions of subject and the year.)"
+            )
+        check = check_subject(req.user_input)
+        if not check:
+             raise HTTPException(
+                status_code=400,
+                detail="We have only questions of C-Programming, use prompt acc to that"
+            )
+        if year is None:
+            raise HTTPException(
+                status_code=400,
+                detail="Year (20xx) not found in input text"
+            )
+        
+        train_model(year)
+        with open('question_predictor.pkl','rb') as f:
+            predictor = pickle.load(f)
         paper = predictor.generate_question_paper(
             structure=req.structure,      
             similarity_threshold=req.similarity_threshold,
             source_filter=req.source_filter
         )
+        
+        
+        score = paper.get("prediction_score", None)
+        
+        response = {
+            "metadata": {
+                "subject": "C Programming",  # You can extract this from user_input
+                "year": year,
+                "duration": "3 hours",
+                "total_marks": 100,
+                "score" : score}, 
+            "sections": paper.get("sections", paper)  # If paper already has sections
+        }
 
-        return {"paper":paper}
+        return {"paper":response}
     except Exception as e:
         print("ERROR:", repr(e)) 
         raise HTTPException(status_code=500, detail=str(e))
+    
