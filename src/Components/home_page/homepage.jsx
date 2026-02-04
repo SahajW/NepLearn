@@ -24,50 +24,52 @@ export const Homepage = () => {
 
   return (
     <div className="home-container">
-      {/* Navigation Bar */}
-      <div className="navbar">
         
-        {/* Display username */}
-        <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '15px' }}>
-          {username && (
-            <span style={{ fontSize: '16px', fontWeight: '500' }}>
-              👤 {username}
-            </span>
-          )}
-          <button 
-            onClick={handleLogout}
-            style={{
-              padding: '8px 20px',
-              background: '#d9534f',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer',
-              fontSize: '14px',
-              fontWeight: '500'
-            }}
-          >
-            Logout
-          </button>
-        </div>
-      </div>
-
-      <div className="main-content">
-        <div className="box-wrapper">
-          <div className="box" onClick={() => navigate('/chat')}>
-            <h2>Generate Answer</h2>
+          <div className="navbar">
+            <div className="nav-text" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+              Nep-Learn
+            </div>
+          
+            <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '15px' }}>
+              {username && (
+                <span style={{ fontSize: '16px', fontWeight: '500' }}>
+                  👤 {username}
+                </span>
+              )}
+              <button
+                onClick={handleLogout}
+                style={{
+                  padding: '8px 20px',
+                  background: '#d9534f',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '4px',
+                  cursor: 'pointer',
+                  fontSize: '14px',
+                  fontWeight: '500'
+                }}
+              >
+                Logout
+              </button>
+            </div>
           </div>
-          <div className="box" onClick={() => navigate('/generate')}>
-            <h2>Generate Question</h2>
+
+          <div className="main-content">
+            <div className="box-wrapper">
+              <div className="box" onClick={() => navigate('/chat')}>
+                <h2>Generate Answer</h2>
+              </div>
+              <div className="box" onClick={() => navigate('/generate')}>
+                <h2>Generate Question</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="footer">
+            <div className="sliding-text">
+              Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="footer">
-        <div className="sliding-text">
-          Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!    Nep Learn!
-        </div>
-      </div>
-    </div>
-  );
+        );
 };
