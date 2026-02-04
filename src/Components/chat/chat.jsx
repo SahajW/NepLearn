@@ -63,7 +63,7 @@ export const Chat = () => {
         <div className="chat-page-container">
             {/* Nav-bar with navigation links */}
             <div className="navbar">
-                <div className="nav-text" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+                <div className="nav-text" onClick={() => navigate('/home')} style={{ cursor: 'pointer' }}>
                     Nep-Learn
                 </div>
                 <div className="nav-links" style={{ display: 'flex', gap: '20px', marginLeft: 'auto' }}>

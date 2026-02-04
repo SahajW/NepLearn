@@ -12,7 +12,7 @@ import torch
 import pickle
 from typing import Dict, List, Optional
 from final_model import QuestionPaperGenerator
-from Checkall import get_year,check_input,check_subject,check_nset,check_pastpaper,check_textbook
+from Checkall import get_year,check_input,check_subject,check_nset
 from train import train_model
 import json
 # Create tables
@@ -458,10 +458,9 @@ def read_root():
 def predict_model(req:Features):
     try:
         year = get_year(req.user_input)
-        pastpaper = check_pastpaper(req.user_input)
-        textbook = check_textbook(req.user_input)
         sets = check_nset(req.user_input)
         print("Using year:", year)
+        print("Using sets:", sets)
         valid = check_input(req.user_input)
         if not valid:
              raise HTTPException(
@@ -479,31 +478,45 @@ def predict_model(req:Features):
                 status_code=400,
                 detail="Year (20xx) not found in input text"
             )
+        if sets > 10:
+            raise HTTPException(
+                status_code=400,
+                detail="Maximum number of set = 10 "
+            )
+    
+        all_sets = []
         
-        train_model(year,pastpaper,textbook,sets)
-        with open('question_predictor.pkl','rb') as f:
-            predictor = pickle.load(f)
-        paper = predictor.generate_question_paper(
-            structure=req.structure,      
-            similarity_threshold=req.similarity_threshold,
-            source_filter=req.source_filter
-        )
+        for set_num in range(1, sets + 1):
+            train_model(year,  1)  
+            
+            with open('question_predictor.pkl', 'rb') as f:
+                predictor = pickle.load(f)
+            
+            paper = predictor.generate_question_paper(
+                structure=req.structure,      
+                similarity_threshold=req.similarity_threshold,
+            )
+            
+            score = paper.get("prediction_score", None)
+            
+            set_response = {
+                "set_number": set_num,
+                "metadata": {
+                    "subject": "C Programming",
+                    "year": year,
+                    "duration": "3 hours",
+                    "total_marks": 100,
+                    "score": score
+                }, 
+                "sections": paper.get("sections", paper)
+            }
+            
+            all_sets.append(set_response)
         
-        
-        score = paper.get("prediction_score", None)
-        
-        response = {
-            "metadata": {
-                "subject": "C Programming",  # You can extract this from user_input
-                "year": year,
-                "duration": "3 hours",
-                "total_marks": 100,
-                "score" : score}, 
-            "sections": paper.get("sections", paper)  # If paper already has sections
+        return {
+            "total_sets": sets,
+            "papers": all_sets
         }
-
-        return {"paper":response}
     except Exception as e:
         print("ERROR:", repr(e)) 
         raise HTTPException(status_code=500, detail=str(e))
-    

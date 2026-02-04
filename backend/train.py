@@ -1,8 +1,8 @@
 from final_model import QuestionPaperGenerator
 import pickle
 
-def train_model(year,pastpaper,textbook,sets):
-    predictor = QuestionPaperGenerator("final_data.json", target_year=year,target_pastpaper = pastpaper, target_textbook=textbook,target_sets=sets)
+def train_model(year,sets):
+    predictor = QuestionPaperGenerator("final_data.json",target_year=year,max_papers=sets)
 
     # IMPORTANT: must call fit()
     predictor.fit()
