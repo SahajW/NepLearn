@@ -1,3 +1,16 @@
+"""
+Question Paper Generator - Core Module
+=======================================
+A machine learning-based system for generating exam question papers.
+
+Features:
+- ML-based question prediction using Random Forest and XGBoost
+- Smart question deduplication using cosine similarity
+- Topic and concept tracking to ensure diversity
+- Source balancing (exam vs textbook questions)
+- Automatic quality filtering
+"""
+
 import pandas as pd
 import numpy as np
 import json
@@ -12,19 +25,42 @@ warnings.filterwarnings('ignore')
 
 class QuestionPaperGenerator:
     """
-    Final improved version with:
+    ML-powered question paper generator with automatic quality control.
+    
+    Key Features:
     - Automatic min_score_threshold (0.35)
     - Max 10 papers enforced
     - Smart fallback for depleted sources
+    - Topic diversity constraints
+    - Similarity-based deduplication
+    
+    Parameters
+    ----------
+    json_file_path : str
+        Path to the questions JSON file
+    target_year : int
+        Target year for question paper generation
+    max_papers : int, optional
+        Maximum number of papers allowed (default: 10)
+    min_score : float, optional
+        Minimum prediction score threshold (default: 0.35)
+    max_topic_per_section : int, optional
+        Maximum questions per topic in a section (default: 2)
+    max_topic_total : int, optional
+        Maximum questions per topic across all sections (default: 3)
     """
 
-    def __init__(self, json_file_path, target_year):
+    def __init__(self, json_file_path, target_year, max_papers=10, min_score=0.35,
+                 max_topic_per_section=2, max_topic_total=3):
+        """Initialize the question paper generator."""
         self.json_file_path = json_file_path
         self.target_year = target_year
-        self.MAX_PAPERS = 10  # Hard limit
-        self.MIN_SCORE = 0.35  # Automatic quality threshold
-        self.max_topic_per_section = 2
-        self.max_topic_total = 3
+        self.MAX_PAPERS = max_papers
+        self.MIN_SCORE = min_score
+        self.max_topic_per_section = max_topic_per_section
+        self.max_topic_total = max_topic_total
+        
+        # Internal state
         self.models = {}
         self.df_labeled = None
         self.feature_cols = None
@@ -34,6 +70,14 @@ class QuestionPaperGenerator:
         self.textbook_depleted = False
 
     def load_and_flatten_json(self):
+        """
+        Load and flatten the questions JSON file into a DataFrame.
+        
+        Returns
+        -------
+        pd.DataFrame
+            Flattened questions with all relevant features
+        """
         with open(self.json_file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
@@ -63,10 +107,13 @@ class QuestionPaperGenerator:
             rows.append(row)
 
         df = pd.DataFrame(rows)
+        
+        # Fill missing values
         num_cols = df.select_dtypes(include=[np.number]).columns
         df[num_cols] = df[num_cols].fillna(0)
         df["section"] = df["section"].fillna("UNKNOWN")
 
+        # Calculate concept recency
         exam_df = df[(df["source"] == "exam") & (df["year"] > 0)]
         concept_last_seen = exam_df.groupby("concept_id")["year"].max().to_dict()
         df["concept_last_seen_year"] = df["concept_id"].map(concept_last_seen).fillna(0)
@@ -76,13 +123,32 @@ class QuestionPaperGenerator:
         return df
 
     def create_labels(self, df, use_soft_labels=True, threshold=0.5):
+        """
+        Create training labels for questions.
+        
+        Parameters
+        ----------
+        df : pd.DataFrame
+            Questions dataframe
+        use_soft_labels : bool, optional
+            Use soft labeling for textbook questions (default: True)
+        threshold : float, optional
+            Probability threshold for soft labels (default: 0.5)
+            
+        Returns
+        -------
+        pd.DataFrame
+            DataFrame with labels added
+        """
         df = df.copy()
         df["label"] = 0
 
+        # Label recent exam questions as positive
         exam_mask = (df["source"] == "exam") & (df["year"] >= self.target_year - 8)
         df.loc[exam_mask, "label"] = 1
 
         if use_soft_labels:
+            # Calculate appearance probability for textbook questions
             tb_mask = df["source"] != "exam"
             df.loc[tb_mask, "appear_probability"] = (
                 df.loc[tb_mask, "topic_importance"] * 0.45 +
@@ -90,6 +156,7 @@ class QuestionPaperGenerator:
                 df.loc[tb_mask, "section_confidence"] * 0.10
             )
 
+            # Normalize probabilities
             min_p = df.loc[tb_mask, "appear_probability"].min()
             max_p = df.loc[tb_mask, "appear_probability"].max()
             if max_p > min_p:
@@ -97,6 +164,7 @@ class QuestionPaperGenerator:
                     (df.loc[tb_mask, "appear_probability"] - min_p) / (max_p - min_p)
                 )
 
+            # Apply threshold
             df.loc[tb_mask, "label"] = (
                 df.loc[tb_mask, "appear_probability"] > threshold
             ).astype(int)
@@ -105,9 +173,27 @@ class QuestionPaperGenerator:
         return df
 
     def engineer_features(self, df):
+        """
+        Engineer features for ML models.
+        
+        Parameters
+        ----------
+        df : pd.DataFrame
+            Questions dataframe with labels
+            
+        Returns
+        -------
+        tuple
+            (X, y, feature_cols, data) where:
+            - X: Feature matrix
+            - y: Labels
+            - feature_cols: List of feature column names
+            - data: Full dataframe with engineered features
+        """
         data = df.copy()
         baseline_year = self.target_year - 4
 
+        # Concept recency features
         data["concept_last_seen_year"] = data["concept_last_seen_year"].replace(0, baseline_year)
         data["concept_years_since_last_seen"] = (
             self.target_year - data["concept_last_seen_year"]
@@ -118,15 +204,18 @@ class QuestionPaperGenerator:
             data["concept_importance"] * data["concept_recency_decay"]
         )
 
+        # Binary features
         data["is_exam_source"] = (data["source"] == "exam").astype(int)
         data["high_topic_importance"] = (data["topic_importance"] > data["topic_importance"].median()).astype(int)
         data["high_section_conf"] = (data["section_confidence"] > data["section_confidence"].median()).astype(int)
         data["concept_x_section"] = data["concept_importance"] * data["section_confidence"]
 
+        # Section one-hot encoding
         masked_section = data["section"].where(data["source"] == "exam", "UNKNOWN")
         section_dummies = pd.get_dummies(masked_section, prefix="section")
         data = pd.concat([data, section_dummies], axis=1)
 
+        # Define feature columns
         feature_cols = [
             "topic_importance",
             "concept_importance",
@@ -146,12 +235,29 @@ class QuestionPaperGenerator:
         return X, y, feature_cols, data
 
     def train_models(self, X_train, y_train):
+        """
+        Train ensemble of ML models.
+        
+        Parameters
+        ----------
+        X_train : pd.DataFrame
+            Training features
+        y_train : pd.Series
+            Training labels
+            
+        Returns
+        -------
+        dict
+            Dictionary of trained models
+        """
+        # Random Forest
         rf = RandomForestClassifier(
             n_estimators=100, max_depth=4, min_samples_leaf=8,
             min_samples_split=15, class_weight="balanced",
             random_state=42, n_jobs=-1,
         )
 
+        # XGBoost
         xgb = XGBClassifier(
             n_estimators=100, max_depth=4, learning_rate=0.1,
             subsample=0.7, colsample_bytree=0.7, min_child_weight=5,
@@ -161,12 +267,28 @@ class QuestionPaperGenerator:
 
         rf.fit(X_train, y_train)
         xgb.fit(X_train, y_train)
+        
         return {"RandomForest": rf, "XGBoost": xgb}
 
     def predict_probabilities(self, X):
-        proba_dict = {name: model.predict_proba(X)[:, 1] for name, model in self.models.items()}
+        """
+        Predict appearance probabilities using ensemble.
+        
+        Parameters
+        ----------
+        X : pd.DataFrame
+            Feature matrix
+            
+        Returns
+        -------
+        np.ndarray
+            Predicted probabilities for each question
+        """
+        proba_dict = {name: model.predict_proba(X)[:, 1] 
+                     for name, model in self.models.items()}
         ensemble_score = 0.5 * proba_dict["RandomForest"] + 0.5 * proba_dict["XGBoost"]
 
+        # Apply recency boost for exam questions
         if "concept_recency_decay" in X.columns and self.df_labeled is not None:
             source_mask = self.df_labeled["source"] == "exam"
             recency_boost = np.ones(len(X))
@@ -179,6 +301,14 @@ class QuestionPaperGenerator:
         return np.clip(ensemble_score, 0.0, 1.0)
 
     def fit(self):
+        """
+        Train the model and prepare for paper generation.
+        
+        Returns
+        -------
+        self
+            Returns self for method chaining
+        """
         print(f"\n{'='*80}")
         print(f"TRAINING MODEL FOR YEAR {self.target_year}")
         print(f"{'='*80}")
@@ -187,10 +317,12 @@ class QuestionPaperGenerator:
         print(f"  - Max papers allowed: {self.MAX_PAPERS}")
         print(f"{'='*80}\n")
         
+        # Load and prepare data
         df_raw = self.load_and_flatten_json()
         self.df_labeled = self.create_labels(df_raw)
         X, y, self.feature_cols, _ = self.engineer_features(self.df_labeled)
 
+        # Create training set
         textbook_mask = self.df_labeled["source"] == "textbook"
         sampled_textbook = textbook_mask & (np.random.rand(len(self.df_labeled)) < 0.2)
 
@@ -201,11 +333,13 @@ class QuestionPaperGenerator:
         )
 
         X_train, y_train = X[train_mask.values], y[train_mask.values]
+        
+        # Train models
         self.models = self.train_models(X_train, y_train)
 
+        # Predict and filter
         self.df_labeled["prediction_score"] = self.predict_probabilities(X)
         
-        # Apply quality threshold
         before_filter = len(self.df_labeled)
         self.df_labeled = self.df_labeled[
             self.df_labeled["prediction_score"] >= self.MIN_SCORE
@@ -213,11 +347,30 @@ class QuestionPaperGenerator:
         after_filter = len(self.df_labeled)
         
         print(f"\n✓ Models trained successfully")
-        print(f"✓ Filtered to high-quality questions: {after_filter}/{before_filter} (removed {before_filter - after_filter})")
+        print(f"✓ Filtered to high-quality questions: {after_filter}/{before_filter} "
+              f"(removed {before_filter - after_filter})")
         print(f"{'='*80}\n")
+        
         return self
 
     def remove_similar_questions(self, questions_df, threshold=0.75, used_ids=None):
+        """
+        Remove similar questions using cosine similarity.
+        
+        Parameters
+        ----------
+        questions_df : pd.DataFrame
+            Questions to deduplicate
+        threshold : float, optional
+            Similarity threshold (default: 0.75)
+        used_ids : set, optional
+            IDs of already used questions
+            
+        Returns
+        -------
+        pd.DataFrame
+            Deduplicated questions
+        """
         if len(questions_df) == 0:
             return questions_df
 
@@ -228,6 +381,7 @@ class QuestionPaperGenerator:
         if len(questions_df) == 0:
             return questions_df
 
+        # Remove exact duplicates
         questions_df = questions_df.drop_duplicates(subset=["raw_text"], keep="first")
 
         if "embedding" not in questions_df.columns:
@@ -237,9 +391,11 @@ class QuestionPaperGenerator:
         if len(valid) == 0:
             return questions_df
 
+        # Calculate similarity matrix
         embeddings = np.array(valid["embedding"].tolist())
         sim = cosine_similarity(embeddings)
 
+        # Remove similar questions
         to_remove = set()
         for i in range(len(sim)):
             if i in to_remove:
@@ -254,9 +410,60 @@ class QuestionPaperGenerator:
 
         keep_idx = [i for i in range(len(valid)) if i not in to_remove]
         return valid.iloc[keep_idx]
-
+    
+    def define_paper_structure(self):
+        """
+        Define the structure of question papers.
+    
+        Returns
+        ------
+        dict
+            Paper structure specification
+        
+        Notes
+        -----
+        You can customize this function to match your exam format.
+        Current structure is based on COMP.pdf format.
+        """
+        return {
+            "SECTION B": {
+                "count": 7,
+                "instruction": "Attempt Any SIX Questions",
+                "min_length": 30,
+                "max_length": 400,
+            },
+            "SECTION C": {
+                "count": 3,
+                "instruction": "Attempt Any TWO Questions",
+                "min_length": 150,
+                "priority_topics": [
+                    "structure", "struct", "file", 
+                    "storage class", "dynamic memory"
+                ],
+                "require_multipart": True,
+            },
+        }
     def generate_question_paper(self, structure, similarity_threshold=0.75,
                                 paper_number=1, exam_textbook_ratio=0.3):
+        """
+        Generate a single question paper.
+        
+        Parameters
+        ----------
+        structure : dict
+            Paper structure specification
+        similarity_threshold : float, optional
+            Similarity threshold for deduplication (default: 0.75)
+        paper_number : int, optional
+            Paper number (default: 1)
+        exam_textbook_ratio : float, optional
+            Ratio of exam to textbook questions (default: 0.3)
+            
+        Returns
+        -------
+        dict
+            Generated question paper
+        """
         if self.df_labeled is None:
             raise ValueError("Call fit() first")
 
@@ -281,12 +488,14 @@ class QuestionPaperGenerator:
         for section_name, cfg in structure.items():
             available = filtered_df[~filtered_df["id"].isin(all_used)].copy()
 
+            # Apply priority topics filter
             if cfg.get("priority_topics"):
                 pat = "|".join(cfg["priority_topics"])
                 pr = available[available["raw_text"].str.lower().str.contains(pat, na=False)]
                 if len(pr) > 0:
                     available = pr
 
+            # Apply multipart requirement
             if cfg.get("require_multipart"):
                 available = available[
                     (available["text_length"] > 150) &
@@ -298,6 +507,7 @@ class QuestionPaperGenerator:
                     )
                 ]
 
+            # Apply length constraints
             min_len = cfg.get("min_length", 0)
             max_len = cfg.get("max_length", float("inf"))
             available = available[
@@ -305,18 +515,20 @@ class QuestionPaperGenerator:
                 (available["text_length"] <= max_len)
             ]
 
+            # Section matching
             sec_match = available[
                 (available["section"] == section_name) |
                 (available["section"] == "UNKNOWN")
             ]
             section_questions = sec_match if len(sec_match) > 0 else available
 
+            # Remove similar questions
             section_questions = self.remove_similar_questions(
                 section_questions, threshold=similarity_threshold, used_ids=all_used
             )
 
             if len(section_questions) == 0:
-                warning = f"❌ No questions available for {section_name}"
+                warning = f" No questions available for {section_name}"
                 paper["metadata"]["warnings"].append(warning)
                 paper["sections"][section_name] = {
                     "instruction": cfg.get("instruction", ""),
@@ -338,20 +550,20 @@ class QuestionPaperGenerator:
             # Smart fallback logic
             if actual_exam_available == 0 and actual_textbook_available > 0:
                 if not self.exam_depleted:
-                    warning = f"⚠️ EXAM questions depleted! Using textbook questions only."
+                    warning = f" EXAM questions depleted! Using textbook questions only."
                     paper["metadata"]["warnings"].append(warning)
                     self.exam_depleted = True
                 target_exam = 0
                 target_textbook = target_count
             elif actual_textbook_available == 0 and actual_exam_available > 0:
                 if not self.textbook_depleted:
-                    warning = f"⚠️ TEXTBOOK questions depleted! Using exam questions only."
+                    warning = f" TEXTBOOK questions depleted! Using exam questions only."
                     paper["metadata"]["warnings"].append(warning)
                     self.textbook_depleted = True
                 target_exam = target_count
                 target_textbook = 0
             elif actual_exam_available == 0 and actual_textbook_available == 0:
-                warning = f"❌ CRITICAL: All questions depleted for {section_name}!"
+                warning = f" CRITICAL: All questions depleted for {section_name}!"
                 paper["metadata"]["warnings"].append(warning)
                 paper["sections"][section_name] = {
                     "instruction": cfg.get("instruction", ""),
@@ -359,7 +571,7 @@ class QuestionPaperGenerator:
                 }
                 continue
             else:
-                # Partial depletion
+                # Handle partial depletion
                 if actual_exam_available < target_exam:
                     shortage = target_exam - actual_exam_available
                     target_exam = actual_exam_available
@@ -397,14 +609,13 @@ class QuestionPaperGenerator:
                     topic_count[tid] = topic_count.get(tid, 0) + 1
                     textbook_count += 1
 
-            # Fill remaining with ANY available questions
+            # Fill remaining slots
             while len(selected_dicts) < target_count:
                 selected_ids = {q['id'] for q in selected_dicts}
                 remaining_textbook = textbook_q[~textbook_q["id"].isin(selected_ids)]
                 remaining_exam = exam_q[~exam_q["id"].isin(selected_ids)]
 
                 found = False
-                # Try both sources
                 for source_df in [remaining_textbook, remaining_exam]:
                     if len(source_df) == 0:
                         continue
@@ -458,19 +669,37 @@ class QuestionPaperGenerator:
 
         return paper
 
-    def generate_multiple_papers(self, num_papers, structure, exam_textbook_ratio=0.3):
-        """Generate multiple papers with validation"""
+    def generate_multiple_papers(self, num_papers, structure=None, exam_textbook_ratio=0.3):
+        """
+        Generate multiple question papers.
         
+        Parameters
+        ----------
+        num_papers : int
+            Number of papers to generate
+        structure : dict
+            Paper structure specification
+        exam_textbook_ratio : float, optional
+            Ratio of exam to textbook questions (default: 0.3)
+            
+        Returns
+        -------
+        list
+            List of generated papers
+        """
+
+        if structure is None:
+            structure = self.define_paper_structure()
         # Validate number of papers
         if num_papers > self.MAX_PAPERS:
-            print(f"\n❌ ERROR: Cannot generate more than {self.MAX_PAPERS} papers!")
+            print(f"\n ERROR: Cannot generate more than {self.MAX_PAPERS} papers!")
             print(f"   Requested: {num_papers}")
             print(f"   Maximum allowed: {self.MAX_PAPERS}")
-            print(f"\n💡 Tip: Question sets more than {self.MAX_PAPERS} are not available.\n")
+            print(f"\n Tip: Question sets more than {self.MAX_PAPERS} are not available.\n")
             return []
         
         if num_papers < 1:
-            print("\n❌ ERROR: Need at least 1 paper!\n")
+            print("\n ERROR: Need at least 1 paper!\n")
             return []
 
         print(f"\n{'='*80}")
@@ -503,17 +732,25 @@ class QuestionPaperGenerator:
                       f"{textbook_qs} textbook ({textbook_qs/total_qs*100:.1f}%)")
 
                 if paper["metadata"]["warnings"]:
-                    print(f"  ⚠️  {len(paper['metadata']['warnings'])} warning(s)")
+                    print(f" {len(paper['metadata']['warnings'])} warning(s)")
             else:
-                print(f"  ❌ No questions generated!")
+                print(f" No questions generated!")
 
         print(f"\n{'='*80}")
-        print(f"✅ Successfully generated {len(papers)} paper{'s' if len(papers) > 1 else ''}")
+        print(f"Successfully generated {len(papers)} paper{'s' if len(papers) > 1 else ''}")
         print(f"{'='*80}\n")
 
         return papers
 
     def display_question_paper(self, paper):
+        """
+        Display a single question paper.
+        
+        Parameters
+        ----------
+        paper : dict
+            Paper to display
+        """
         meta = paper.get("metadata", {})
 
         print("=" * 80)
@@ -522,7 +759,7 @@ class QuestionPaperGenerator:
         print("=" * 80)
 
         if meta.get('warnings'):
-            print("\n⚠️  WARNINGS:")
+            print("\n  WARNINGS:")
             for w in meta['warnings']:
                 print(f"  - {w}")
             print()
@@ -544,26 +781,28 @@ class QuestionPaperGenerator:
         print("\n" + "=" * 80)
 
     def display_all_papers(self, papers):
+        """
+        Display all generated papers.
+        
+        Parameters
+        ----------
+        papers : list
+            List of papers to display
+        """
         for i, paper in enumerate(papers, 1):
             self.display_question_paper(paper)
             if i < len(papers):
                 print("\n" * 2)
 
-    def save_papers_to_json(self, papers, filename="generated_papers.json"):
-        output = {
-            "metadata": {
-                "target_year": self.target_year,
-                "total_papers": len(papers),
-                "generation_date": str(pd.Timestamp.now()),
-                "min_score_threshold": self.MIN_SCORE,
-            },
-            "papers": papers
-        }
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(output, f, indent=2, ensure_ascii=False)
-        print(f"\n✅ Saved {len(papers)} paper(s) to {filename}")
-
     def get_stats(self):
+        """
+        Get generation statistics.
+        
+        Returns
+        -------
+        dict
+            Statistics about generated papers
+        """
         return {
             "papers_generated": len(self.generated_papers),
             "questions_used": len(self.global_used_questions),
@@ -572,64 +811,3 @@ class QuestionPaperGenerator:
             "exam_depleted": self.exam_depleted,
             "textbook_depleted": self.textbook_depleted,
         }
-
-# User input
-print("\n" + "="*80)
-print("EXAM QUESTION PAPER GENERATOR")
-print("="*80 + "\n")
-
-target_year = int(input("Enter target year (e.g., 2025): "))
-
-# Initialize and train
-predictor = QuestionPaperGenerator("final_data.json", target_year)
-predictor.fit()
-
-
-# Paper structure (based on COMP.pdf)
-paper_structure = {
-    "SECTION B": {
-        "count": 7,
-        "instruction": "Attempt Any SIX Questions",
-        "min_length": 30,
-        "max_length": 400,
-    },
-    "SECTION C": {
-        "count": 3,
-        "instruction": "Attempt Any TWO Questions",
-        "min_length": 150,
-        "priority_topics": ["structure", "struct", "file", "storage class", "dynamic memory"],
-        "require_multipart": True,
-    },
-}
-
-# Generate papers
-num_papers = int(input("How many papers to generate (max 10): "))
-
-exam_ratio_input = input("Exam ratio (0.0-1.0, press Enter for default 0.3): ").strip()
-exam_ratio = float(exam_ratio_input) if exam_ratio_input else 0.3
-
-papers = predictor.generate_multiple_papers(
-    num_papers, 
-    paper_structure, 
-    exam_textbook_ratio=exam_ratio
-)
-
-# Display all generated papers
-if papers:
-    predictor.display_all_papers(papers)
-
-# Show statistics
-if papers:
-    stats = predictor.get_stats()
-    print(f"\n{'='*80}")
-    print("📊 FINAL STATISTICS")
-    print(f"{'='*80}")
-    print(f"Papers generated: {stats['papers_generated']}")
-    print(f"Questions used: {stats['questions_used']}")
-    print(f"Questions remaining: {stats['questions_remaining']}")
-    print(f"\nSource status:")
-    print(f"  Exam questions depleted: {'YES ❌' if stats['exam_depleted'] else 'NO ✅'}")
-    print(f"  Textbook questions depleted: {'YES ❌' if stats['textbook_depleted'] else 'NO ✅'}")
-    print(f"{'='*80}\n")
-
-
