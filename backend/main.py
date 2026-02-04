@@ -11,7 +11,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import pickle
 from typing import Dict, List, Optional
-from final_model import QuestionPaperPredictor
+from final_model import QuestionPaperGenerator
 from Checkall import get_year,check_input,check_subject,check_nset,check_pastpaper,check_textbook
 from train import train_model
 import json
@@ -93,7 +93,7 @@ async def login(user: UserLogin, db: Session = Depends(get_db)):
         "token_type": "bearer",
         "username": db_user.username
     }
-
+"""
 #LLM
 
 MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
@@ -336,7 +336,7 @@ def health_check():
 #    Fix: Use dtype instead
 #
 # ============================================================================
-
+"""
 
 #FIRST CODE DONE BY YOU SAHAJ
 

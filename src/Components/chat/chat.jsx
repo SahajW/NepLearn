@@ -1,4 +1,6 @@
+// Chat.jsx
 import React, { useState, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./chat.css";
 
 export const Chat = () => {
@@ -6,6 +8,7 @@ export const Chat = () => {
     const [loading, setLoading] = useState(false);
     const [input, setInput] = useState("");
     const messagesEndRef = useRef(null);
+    const navigate = useNavigate();
 
     const scrollToBottom = () => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -23,29 +26,11 @@ export const Chat = () => {
         }
     }, [messages]);
 
-
-    /*const handleSend = () => {
-        if (!input.trim()) return;
-
-        const userMessage = {
-            role: "user",
-            text: input,
-        };
-
-        const botMessage = {
-            role: "bot",
-            text: "This is a sample chatbot reply.",
-        };
-
-        setMessages([...messages, userMessage, botMessage]);
-        setInput("");
-    };*/
-
     const handleSend = async () => {
         if (!input.trim() || loading) return;
 
         const userMessage = { role: "user", text: input };
-        setMessages([...messages, userMessage]); // show user's message immediately
+        setMessages([...messages, userMessage]);
         setInput("");
         setLoading(true);
 
@@ -68,61 +53,75 @@ export const Chat = () => {
         }
     };
 
-        const handleKeyDown = (e) => {
-            if (e.key === "Enter" && !loading) {
-                handleSend();
-            }
-        };
+    const handleKeyDown = (e) => {
+        if (e.key === "Enter" && !loading) {
+            handleSend();
+        }
+    };
 
-        return (
-            <div className="chat-page-container">
-                {/* Nav-bar */}
-                <div className="navbar">
-                    <div className="nav-text">Nep-Learn</div>
+    return (
+        <div className="chat-page-container">
+            {/* Nav-bar with navigation links */}
+            <div className="navbar">
+                <div className="nav-text" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+                    Nep-Learn
                 </div>
-
-                {/* chat-body */}
-                <div className="chat-wrapper">
-                    <div className="chat-messages">
-                        {messages.length === 0 && (
-                            <div className="chat-placeholder">
-                                Start a conversation with Nep-Learn
-                            </div>
-                        )}
-
-                        {messages.map((msg, index) => (
-                            <div
-                                key={index}
-                                className={`chat-message ${msg.role}`}
-                            >
-                                {msg.text}
-                            </div>
-                        ))}
-                        {loading && (
-                            <div className="chat-message bot">
-                                <span className="loading-dots">Generating answer</span>
-                            </div>
-                        )}
-                        <div ref={messagesEndRef} />
-
-                    </div>
-
-                    {/* input-area */}
-                    <div className="chat-input-area">
-                        <input
-                            type="text"
-                            placeholder="Type your message..."
-                            value={input}
-                            onChange={(e) => setInput(e.target.value)}
-                            onKeyDown={handleKeyDown}
-                            disabled={loading}
-                        />
-                        {/*<button onClick={handleSend}>Send</button>*/}
-                        <button onClick={handleSend} disabled={loading}>
-                            {loading ? "Generating..." : "Generate"}</button>
-
-                    </div>
+                <div className="nav-links" style={{ display: 'flex', gap: '20px', marginLeft: 'auto' }}>
+                    <button 
+                        onClick={() => navigate('/home')} 
+                        style={{ padding: '8px 16px', cursor: 'pointer', background: 'transparent', color: 'inherit', border: '1px solid currentColor', borderRadius: '4px' }}
+                    >
+                        Home
+                    </button>
+                    <button 
+                        onClick={() => navigate('/generate')} 
+                        style={{ padding: '8px 16px', cursor: 'pointer', background: 'transparent', color: 'inherit', border: '1px solid currentColor', borderRadius: '4px' }}
+                    >
+                        Generate Question
+                    </button>
                 </div>
             </div>
-        );
-    };
+
+            {/* chat-body */}
+            <div className="chat-wrapper">
+                <div className="chat-messages">
+                    {messages.length === 0 && (
+                        <div className="chat-placeholder">
+                            Start a conversation with Nep-Learn
+                        </div>
+                    )}
+
+                    {messages.map((msg, index) => (
+                        <div
+                            key={index}
+                            className={`chat-message ${msg.role}`}
+                        >
+                            {msg.text}
+                        </div>
+                    ))}
+                    {loading && (
+                        <div className="chat-message bot">
+                            <span className="loading-dots">Generating answer</span>
+                        </div>
+                    )}
+                    <div ref={messagesEndRef} />
+                </div>
+
+                {/* input-area */}
+                <div className="chat-input-area">
+                    <input
+                        type="text"
+                        placeholder="Type your message..."
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onKeyDown={handleKeyDown}
+                        disabled={loading}
+                    />
+                    <button onClick={handleSend} disabled={loading}>
+                        {loading ? "Generating..." : "Generate"}
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};

@@ -237,7 +237,9 @@ export const Generatequestion = () => {
     </div>
   );
 };*/
+// Generatequestion.jsx
 import React, { useState, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./generatequestion.css";
 
 export const Generatequestion = () => {
@@ -245,6 +247,7 @@ export const Generatequestion = () => {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
+  const navigate = useNavigate();
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -253,7 +256,6 @@ export const Generatequestion = () => {
   useEffect(() => {
     if (messages.length === 0) {
       setMessages([
-
         {
           role: "bot",
           text: (
@@ -263,7 +265,7 @@ export const Generatequestion = () => {
               <p>Use a prompt like:</p>
               <p>
                 <strong>
-                Generate question paper of ("subject") for (year, eg. "2026") and use from textbook ..% and from past paper ..%
+                Generate question paper of ("subject") for (year, eg. "2026") and use from textbook ("0.78") and from past paper ("0.79") and number of set ("10" ; max=10)
                 </strong>
               </p>
             </>
@@ -271,219 +273,221 @@ export const Generatequestion = () => {
         },
       ]);
     }
-scrollToBottom();
+    scrollToBottom();
   }, [messages]);
-const formatPaper = (data) => {
-  if (!data) return "❌ No data available";
 
-  let formatted = "";
+  const formatPaper = (data) => {
+    if (!data) return "❌ No data available";
 
-  // Simple clean header
-  formatted += `${"═".repeat(60)}\n`;
-  formatted += `📋 QUESTION PAPER\n`;
-  formatted += `${"═".repeat(60)}\n\n`;
+    let formatted = "";
 
-  // Metadata section (if exists)
-  if (data.metadata) {
-    if (data.metadata.subject) {
-      formatted += `📚 Subject: ${data.metadata.subject}\n`;
-    }
-    if (data.metadata.year) {
-      formatted += `📅 Year: ${data.metadata.year}\n`;
-    }
-    if (data.metadata.duration) {
-      formatted += `⏱️  Duration: ${data.metadata.duration}\n`;
-    }
-    if (data.metadata.total_marks) {
-      formatted += `💯 Total Marks: ${data.metadata.total_marks}\n`;
-    }
-    if (data.metadata.score !== undefined && data.metadata.score !== null) {
-      const scoreNum = Number(data.metadata.score);
-      if (!isNaN(scoreNum)) {
-        formatted += `🎯 Prediction Score: ${scoreNum.toFixed(2)}\n`;
+    formatted += `${"═".repeat(60)}\n`;
+    formatted += `📋 QUESTION PAPER\n`;
+    formatted += `${"═".repeat(60)}\n\n`;
+
+    if (data.metadata) {
+      if (data.metadata.subject) {
+        formatted += `📚 Subject: ${data.metadata.subject}\n`;
       }
-    }
-    formatted += `\n`;
-  }
-
-  // Format sections
-  if (data.sections) {
-    Object.entries(data.sections).forEach(([sectionName, sectionData]) => {
-      // Section header
-      formatted += `${"━".repeat(60)}\n`;
-      formatted += `${sectionName}\n`;
-      formatted += `${"━".repeat(60)}\n\n`;
-
-      // Instruction
-      if (sectionData.instruction) {
-        formatted += `📌 ${sectionData.instruction}\n\n`;
+      if (data.metadata.year) {
+        formatted += `📅 Year: ${data.metadata.year}\n`;
       }
+      if (data.metadata.duration) {
+        formatted += `⏱️  Duration: ${data.metadata.duration}\n`;
+      }
+      if (data.metadata.total_marks) {
+        formatted += `💯 Total Marks: ${data.metadata.total_marks}\n`;
+      }
+      if (data.metadata.score !== undefined && data.metadata.score !== null) {
+        const scoreNum = Number(data.metadata.score);
+        if (!isNaN(scoreNum)) {
+          formatted += `🎯 Prediction Score: ${scoreNum.toFixed(2)}\n`;
+        }
+      }
+      formatted += `\n`;
+    }
 
-      // Questions
-      if (sectionData.questions && Array.isArray(sectionData.questions)) {
-        sectionData.questions.forEach((q, idx) => {
-          // Question number and text
-          formatted += `${idx + 1}. ${q.question || q.text || "Question not available"}\n`;
+    if (data.sections) {
+      Object.entries(data.sections).forEach(([sectionName, sectionData]) => {
+        formatted += `${"━".repeat(60)}\n`;
+        formatted += `${sectionName}\n`;
+        formatted += `${"━".repeat(60)}\n\n`;
 
-          // Metadata on same or next line
-          const metadata = [];
+        if (sectionData.instruction) {
+          formatted += `📌 ${sectionData.instruction}\n\n`;
+        }
 
-          if (q.source) {
-            const sourceIcon = q.source.toLowerCase() === 'exam' ? '📝' : '📖';
-            metadata.push(`Source: ${q.source}`);
-          }
+        if (sectionData.questions && Array.isArray(sectionData.questions)) {
+          sectionData.questions.forEach((q, idx) => {
+            formatted += `${idx + 1}. ${q.question || q.text || "Question not available"}\n`;
 
-          if (q.prediction_score !== undefined && q.prediction_score !== null) {
-            const scoreNum = Number(q.prediction_score);
-            if (!isNaN(scoreNum)) {
-              metadata.push(`Score: ${scoreNum.toFixed(2)}`);
-            } else {
-              console.warn("q.score is not a valid number:", q.prediction_score);
+            const metadata = [];
+
+            if (q.source) {
+              metadata.push(`Source: ${q.source}`);
             }
-          }
 
-          if (q.marks) {
-            metadata.push(`💯 ${q.marks} marks`);
-          }
+            if (q.prediction_score !== undefined && q.prediction_score !== null) {
+              const scoreNum = Number(q.prediction_score);
+              if (!isNaN(scoreNum)) {
+                metadata.push(`Score: ${scoreNum.toFixed(2)}`);
+              }
+            }
 
-          if (metadata.length > 0) {
-            formatted += `   ${metadata.join('  •  ')}\n`;
-          }
+            if (q.marks) {
+              metadata.push(`💯 ${q.marks} marks`);
+            }
 
-          formatted += `\n`;
-        });
-      }
-    });
-  }
+            if (metadata.length > 0) {
+              formatted += `   ${metadata.join('  •  ')}\n`;
+            }
 
-  // Footer
-  formatted += `${"━".repeat(60)}\n`;
-  formatted += `🎓 Generated by Nep-Learn\n`;
-  formatted += `${"━".repeat(60)}\n`;
+            formatted += `\n`;
+          });
+        }
+      });
+    }
 
-  return formatted;
-};
+    formatted += `${"━".repeat(60)}\n`;
+    formatted += `🎓 Generated by Nep-Learn\n`;
+    formatted += `${"━".repeat(60)}\n`;
 
-const handleGenerate = async () => {
-  if (!input.trim() || loading) return;
-
-  const userMessage = {
-    role: "user",
-    text: input,
+    return formatted;
   };
 
-  setMessages((prev) => [...prev, userMessage]);
-  setInput("");
-  setLoading(true);
-  const userInput = input;  // Save the input
-  setInput("");  // Clear the input box
-  setLoading(true);
+  const handleGenerate = async () => {
+    if (!input.trim() || loading) return;
 
-  try {
-    const requestbody = {
-      user_input: userInput,
-      structure: {
-        "SECTION B": {
-          "count": 7,
-          "instruction": "Attempt Any SIX Questions",
-          "min_length": 30,
-          "max_length": 400
-        },
-        "SECTION C": {
-          "count": 3,
-          "instruction": "Attempt Any TWO Questions",
-          "min_length": 150,
-        },
-      },
-      similarity_threshold: 0.85,
-      source_filter: "mixed",
+    const userMessage = {
+      role: "user",
+      text: input,
     };
 
-    const response = await fetch("http://localhost:8000/predict", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(requestbody),
-    });
+    setMessages((prev) => [...prev, userMessage]);
+    const userInput = input;
+    setInput("");
+    setLoading(true);
 
-    if (!response.ok) {
-      const errorData = await response.json();
-      throw new Error(errorData.detail || `HTTP error! status: ${response.status}`);
+    try {
+      const requestbody = {
+        user_input: userInput,
+        structure: {
+          "SECTION B": {
+            "count": 7,
+            "instruction": "Attempt Any SIX Questions",
+            "min_length": 30,
+            "max_length": 400
+          },
+          "SECTION C": {
+            "count": 3,
+            "instruction": "Attempt Any TWO Questions",
+            "min_length": 150,
+          },
+        },
+        similarity_threshold: 0.85,
+        source_filter: "mixed",
+      };
+
+      const response = await fetch("http://localhost:8000/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestbody),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.detail || `HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const formattedText = formatPaper(data.paper || data);
+
+      const botMessage = {
+        role: "bot",
+        text: formattedText
+      };
+
+      setMessages((prev) => [...prev, botMessage]);
+    } catch (err) {
+      console.error("Error sending message:", err);
+      const botMessage = {
+        role: "bot",
+        text: `❌ Error: ${err.message}`
+      };
+      setMessages((prev) => [...prev, botMessage]);
+    } finally {
+      setLoading(false);
     }
+  };
 
-    const data = await response.json();
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter" && !loading) {
+      handleGenerate();
+    }
+  };
 
-    // Format the entire response
-    const formattedText = formatPaper(data.paper || data);
-
-    const botMessage = {
-      role: "bot",
-      text: formattedText
-    };
-
-    setMessages((prev) => [...prev, botMessage]);
-  } catch (err) {
-    console.error("Error sending message:", err);
-    const botMessage = {
-      role: "bot",
-      text: `❌ Error: ${err.message}`
-    };
-    setMessages((prev) => [...prev, botMessage]);
-  } finally {
-    setLoading(false);
-  }
-};
-
-const handleKeyDown = (e) => {
-  if (e.key === "Enter" && !loading) {
-    handleGenerate();
-  }
-};
-
-return (
-  <div className="home-container">
-    <div className="navbar">
-      <div className="nav-text">Nep-Learn</div>
-    </div>
-
-    <div className="chat-container">
-      <div className="chat-messages">
-        {messages.map((msg, index) => (
-          <div
-            key={index}
-            className={`chat-message ${msg.role}`}
+  return (
+    <div className="home-container">
+      {/* Navigation Bar with links */}
+      <div className="navbar">
+        <div className="nav-text" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+          Nep-Learn
+        </div>
+        <div className="nav-links" style={{ display: 'flex', gap: '20px', marginLeft: 'auto' }}>
+          <button 
+            onClick={() => navigate('/home')} 
+            style={{ padding: '8px 16px', cursor: 'pointer', background: 'transparent', color: 'inherit', border: '1px solid currentColor', borderRadius: '4px' }}
           >
-            <pre style={{
-              whiteSpace: "pre-wrap",
-              fontFamily: "inherit",
-              margin: 0,
-              lineHeight: "1.7"
-            }}>
-              {msg.text}
-            </pre>
-          </div>
-        ))}
-        {loading && (
-          <div className="chat-message bot">
-            <span className="loading-dots">Generating your question paper</span>
-          </div>
-        )}
-        <div ref={messagesEndRef} />
+            Home
+          </button>
+          <button 
+            onClick={() => navigate('/chat')} 
+            style={{ padding: '8px 16px', cursor: 'pointer', background: 'transparent', color: 'inherit', border: '1px solid currentColor', borderRadius: '4px' }}
+          >
+            Generate Answer
+          </button>
+        </div>
       </div>
 
-      <div className="chat-input-area">
-        <input
-          type="text"
-          placeholder="Ask Nep-Learn to generate a question..."
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={handleKeyDown}
-          disabled={loading}
-        />
-        <button onClick={handleGenerate} disabled={loading}>
-          {loading ? "Generating..." : "Generate"}
-        </button>
+      <div className="chat-container">
+        <div className="chat-messages">
+          {messages.map((msg, index) => (
+            <div
+              key={index}
+              className={`chat-message ${msg.role}`}
+            >
+              <pre style={{
+                whiteSpace: "pre-wrap",
+                fontFamily: "inherit",
+                margin: 0,
+                lineHeight: "1.7"
+              }}>
+                {msg.text}
+              </pre>
+            </div>
+          ))}
+          {loading && (
+            <div className="chat-message bot">
+              <span className="loading-dots">Generating your question paper</span>
+            </div>
+          )}
+          <div ref={messagesEndRef} />
+        </div>
+
+        <div className="chat-input-area">
+          <input
+            type="text"
+            placeholder="Ask Nep-Learn to generate a question..."
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={handleKeyDown}
+            disabled={loading}
+          />
+          <button onClick={handleGenerate} disabled={loading}>
+            {loading ? "Generating..." : "Generate"}
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
 };

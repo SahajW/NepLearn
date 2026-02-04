@@ -168,3 +168,12 @@
     gap: 20px;
   }
 }
+.logout-button:hover {
+  background: #c9302c !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logout-button:active {
+  transform: translateY(0);
+}
