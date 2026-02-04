@@ -26,7 +26,7 @@ export const Homepage = () => {
     <div className="home-container">
         
           <div className="navbar">
-            <div className="nav-text" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+            <div className="nav-text" onClick={() => navigate('/home')} style={{ cursor: 'pointer' }}>
               Nep-Learn
             </div>
           
