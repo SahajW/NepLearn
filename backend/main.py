@@ -95,7 +95,7 @@ async def login(user: UserLogin, db: Session = Depends(get_db)):
     }
 
 #LLM
-"""
+
 MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 # ============================================================================
@@ -336,7 +336,7 @@ def health_check():
 #    Fix: Use dtype instead
 #
 # ============================================================================
-"""
+
 
 #FIRST CODE DONE BY YOU SAHAJ
 

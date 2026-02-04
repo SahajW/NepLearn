@@ -1,11 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./chat.css";
 
 export const Chat = () => {
     const [messages, setMessages] = useState([]);
+    const [loading, setLoading] = useState(false);
     const [input, setInput] = useState("");
+    const messagesEndRef = useRef(null);
+
+    const scrollToBottom = () => {
+        messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    };
 
     useEffect(() => {
+        scrollToBottom();
         if (messages.length === 0) {
             setMessages([
                 {
@@ -14,7 +21,7 @@ export const Chat = () => {
                 },
             ]);
         }
-    }, []);
+    }, [messages]);
 
 
     /*const handleSend = () => {
@@ -35,11 +42,12 @@ export const Chat = () => {
     };*/
 
     const handleSend = async () => {
-        if (!input.trim()) return;
+        if (!input.trim() || loading) return;
 
         const userMessage = { role: "user", text: input };
         setMessages([...messages, userMessage]); // show user's message immediately
         setInput("");
+        setLoading(true);
 
         try {
             const response = await fetch("http://localhost:8000/ask", {
@@ -55,53 +63,66 @@ export const Chat = () => {
             console.error("Error sending message:", err);
             const botMessage = { role: "bot", text: "Oops! Something went wrong." };
             setMessages((prev) => [...prev, botMessage]);
+        } finally {
+            setLoading(false);
         }
     };
 
-    const handleKeyDown = (e) => {
-        if (e.key === "Enter") {
-            handleSend();
-        }
+        const handleKeyDown = (e) => {
+            if (e.key === "Enter" && !loading) {
+                handleSend();
+            }
+        };
+
+        return (
+            <div className="chat-page-container">
+                {/* Nav-bar */}
+                <div className="navbar">
+                    <div className="nav-text">Nep-Learn</div>
+                </div>
+
+                {/* chat-body */}
+                <div className="chat-wrapper">
+                    <div className="chat-messages">
+                        {messages.length === 0 && (
+                            <div className="chat-placeholder">
+                                Start a conversation with Nep-Learn
+                            </div>
+                        )}
+
+                        {messages.map((msg, index) => (
+                            <div
+                                key={index}
+                                className={`chat-message ${msg.role}`}
+                            >
+                                {msg.text}
+                            </div>
+                        ))}
+                        {loading && (
+                            <div className="chat-message bot">
+                                <span className="loading-dots">Generating answer</span>
+                            </div>
+                        )}
+                        <div ref={messagesEndRef} />
+
+                    </div>
+
+                    {/* input-area */}
+                    <div className="chat-input-area">
+                        <input
+                            type="text"
+                            placeholder="Type your message..."
+                            value={input}
+                            onChange={(e) => setInput(e.target.value)}
+                            onKeyDown={handleKeyDown}
+                            disabled={loading}
+                        />
+                        {/*<button onClick={handleSend}>Send</button>*/}
+                        <button onClick={handleSend} disabled={loading}>
+                            {loading ? "Generating..." : "Generate"}</button>
+
+                    </div>
+                </div>
+            </div>
+        );
     };
-
-    return (
-        <div className="chat-page-container">
-            {/* Nav-bar */}
-            <div className="navbar">
-                <div className="nav-text">Nep-Learn</div>
-            </div>
-
-            {/* chat-body */}
-            <div className="chat-wrapper">
-                <div className="chat-messages">
-                    {messages.length === 0 && (
-                        <div className="chat-placeholder">
-                            Start a conversation with Nep-Learn
-                        </div>
-                    )}
-
-                    {messages.map((msg, index) => (
-                        <div
-                            key={index}
-                            className={`chat-message ${msg.role}`}
-                        >
-                            {msg.text}
-                        </div>
-                    ))}
-                </div>
-
-                {/* input-area */}
-                <div className="chat-input-area">
-                    <input
-                        type="text"
-                        placeholder="Type your message..."
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        onKeyDown={handleKeyDown}
-                    />
-                    <button onClick={handleSend}>Send</button>
-                </div>
-            </div>
-        </div>
-    );
-};

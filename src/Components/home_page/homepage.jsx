@@ -18,7 +18,7 @@ export const Homepage = () => {
 
           {/* Box 1: Goes to Chat */}
           <div className="box" onClick={() => navigate('/chat')}>
-            <h2>Chat</h2>
+            <h2>Generate Answer</h2>
           </div>
 
           {/* Box 2: Goes to another page */}
