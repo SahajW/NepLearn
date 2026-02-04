@@ -12,7 +12,7 @@ import torch
 import pickle
 from typing import Dict, List, Optional
 from final_model import QuestionPaperPredictor
-from Checkall import get_year,check_input,check_subject
+from Checkall import get_year,check_input,check_subject,check_nset,check_pastpaper,check_textbook
 from train import train_model
 import json
 # Create tables
@@ -458,6 +458,9 @@ def read_root():
 def predict_model(req:Features):
     try:
         year = get_year(req.user_input)
+        pastpaper = check_pastpaper(req.user_input)
+        textbook = check_textbook(req.user_input)
+        sets = check_nset(req.user_input)
         print("Using year:", year)
         valid = check_input(req.user_input)
         if not valid:
@@ -477,7 +480,7 @@ def predict_model(req:Features):
                 detail="Year (20xx) not found in input text"
             )
         
-        train_model(year)
+        train_model(year,pastpaper,textbook,sets)
         with open('question_predictor.pkl','rb') as f:
             predictor = pickle.load(f)
         paper = predictor.generate_question_paper(

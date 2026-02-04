@@ -38,3 +38,29 @@ def check_subject(text):
             return subject
     
     return None
+
+def check_pastpaper(text):
+    
+    text = text.lower()
+    
+    match = re.search(r'\bpast paper\s+\(?(\d+(?:\.\d+)?)\)?%?',text)
+    if match:
+        return float(match.group(1))
+    return None
+
+def check_textbook(text):
+   
+    text = text.lower()
+    
+    match = re.search(r'\btextbook\s+\(?(\d+(?:\.\d+)?)\)?%?',text)
+    if match:
+        return float(match.group(1))
+    return None
+def check_nset(text):
+    
+    text = text.lower()
+    
+    match = re.search(r'\bnumber of sets?\s+\(?(\d+)\)?',text)
+    if match:
+        return int(match.group(1))
+    return None
